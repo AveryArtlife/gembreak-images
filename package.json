@@ -1,0 +1,12 @@
+{
+  "name": "gembreak-images",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-to-blob.mjs"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.27.0"
+  }
+}
