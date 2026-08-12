@@ -1,24 +1,19 @@
 # GemBreak Watch Images
 
-High-resolution watch images for gembreak.com inventory. Organized by SKU.
+Transparent PNG cutouts of every watch in the GemBreak mystery packs — no background, ready to composite on the site.
 
 ## Structure
-```
-watches/<SKU>/1.jpg   # primary product shot
-watches/<SKU>/2.jpg   # secondary
-watches/<SKU>/3.jpg   # tertiary
-```
-`<SKU>` matches the **SKU column** in the GemBreak inventory Sheet exactly
-(slashes/spaces replaced with `-`/`_`).
+- `watches-only/<SKU>.png` — the cutout for each watch, keyed by its SKU (197 watches, incl. the Richard Mille grail `RM1103.png`).
+- `scripts/sync-to-blob.mjs` — optional helper to mirror images to a Vercel Blob CDN.
 
-## Using in code (URL by convention — no mapping table needed)
-```js
-const CDN = "https://cdn.gembreak.com";           // or the raw GitHub base
-const img = (sku, n=1) => `${CDN}/watches/${sku.replaceAll('/','-').replaceAll(' ','_')}/${n}.jpg`;
-```
+## Integrating with the pack data
+The **"GemBreak Final Pack List"** Google Sheet is the source of truth for packs, odds, values, and distributors. Every watch row carries:
+- `SKU` — the join key
+- `Image URL` — direct link to its cutout
 
-## Production hosting: sync to Vercel Blob (recommended)
-```
-npm i @vercel/blob
-BLOB_READ_WRITE_TOKEN=xxx node scripts/sync-to-blob.mjs
-```
+Image path pattern: `watches-only/<SKU>.png`
+Raw URL: `https://raw.githubusercontent.com/AveryArtlife/gembreak-images/main/watches-only/<SKU>.png`
+(Raw URLs resolve only while this repo is **public**, or swap in Vercel Blob CDN URLs via the script.)
+
+## Pricing / odds model
+Packs priced as **Price = EV × 1.10** (~91% payout). Odds are a single global ladder by market value — the most expensive watch (RM 11-03, $330K) is the rarest pull site-wide.
