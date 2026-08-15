@@ -1,0 +1,27 @@
+# Appendix C — Every available domain found
+
+**311 domains** confirmed available across all sweeps (all hand-registerable, ~$12/yr; the curated best of each group are ranked earlier in this document). Availability shifts daily — confirm at a registrar before purchase.
+
+## Human · brand & modifier names (122)
+
+ardentpeptide, azurepeptide, bannerpeptide, bannerpeptides, bedrockpeptide, bisonpeptide, boulderpeptide, boulderpeptides, boundlesspeptide, bravopeptide, bravopeptides, canyonpeptide, cedarpeptide, cipherpeptide, citadelpeptide, cobaltpeptide, compasspeptide, coralpeptide, cypresspeptide, driftpeptide, emberlypeptide, emberlypeptides, endeavorpeptide, falconpeptide, ferrapeptide, ferrapeptides, flintpeptide, fortispeptide, foundrypeptide, fulcrumpeptide, fulcrumpeptides, futurapeptide, gallantpeptide, gallantpeptides, granitepeptide, gritpeptide, harborpeptide, helmpeptide, heronpeptide, heronpeptides, honorpeptide, imperialpeptide, indigopeptide, ironpeptides, kindredpeptide, lanternpeptide, ledgerpeptide, ledgerpeptides, lonepeptide, lonepeptides, lyricpeptide, lyricpeptides, machpeptide, machpeptides, marblepeptide, mavenpeptide, meridide, meritpeptide, mesapeptide, modernuspeptide, modernuspeptides, mountainpeptide, oakpeptide, peakpeptides, peptidesform, peptidesmethod, peptidessupply, peptovi, peptura, purelpept, pursuitlabpeptide, pursuitlabpeptides, pursuitpeptide, quartzpeptide, rallypeptide, rampartpeptide, rampartpeptides, regalpeptide, relaypeptide, reveredgepeptide, reveredgepeptides, ridgepeptide, rowanpeptide, sablepeptide, sentinelpeptide, sequoiapeptide, sequoiapeptides, slatepeptide, solsticepeptide, southpeptide, sprucepeptide, sterlingpeptides, stonepeptide, summitpeakpeptide, summitpeakpeptides, talonpeptide, tempopeptide, tetherpeptide, tetherpeptides, timberpeptide, totempeptide, totempeptides, trailpeptide, trailpeptides, tributepeptide, tributepeptides, triumphpeptide, vantagepointpeptide, vesselpeptide, virtuepeptide, vitalpept, voyagepeptide, wardenpeptide, wardenpeptides, wellspringpeptide, westpeptide, westwardpeptide, westwardpeptides, willowpeptide, willowpeptides, zephyrpeptide, zephyrpeptides
+
+## Wealthy places (104)
+
+amagansettpeptide, amagansettpeptides, aspenhighlandspeptide, aspenhighlandspeptides, aspenpeptide, athertonpeptide, athertonpeptides, belairpeptide, beverlyhillspeptides, bigskypeptide, bocapeptide, bridgehamptonpeptide, bridgehamptonpeptides, calabasaspeptide, capecodpeptide, capecodpeptides, carmelpeptide, carmelpeptides, charlestonpeptide, chathampeptide, chathampeptides, coronadopeptide, coronadopeptides, darienpeptide, darienpeptides, easthamptonpeptide, easthamptonpeptides, edgartownpeptide, edgartownpeptides, greenwichpeptide, greenwichpeptides, hamptonslabs, hamptonspeptide, healdsburgpeptide, healdsburgpeptides, hillsboroughpeptide, hillsboroughpeptides, jacksonholepeptide, jacksonholepeptides, keywestpeptide, kiawahpeptide, kiawahpeptides, lagunapeptide, lajollapeptide, lajollapeptides, laketahoepeptide, laketahoepeptides, madisonavepeptide, madisonavepeptides, malibupeptide, manhattanpeptide, marthasvineyardpeptide, marthasvineyardpeptides, montaukpeptide, montaukpeptides, nantucketpeptide, nantucketpeptides, napapeptide, ojaipeptide, ojaipeptides, pacificpalisadespeptide, pacificpalisadespeptides, palisadespeptide, palmspringspeptide, palmspringspeptides, parkcitypeptide, rodeopeptide, ryepeptide, ryepeptides, sagharborpeptide, sagharborpeptides, sanibelpeptide, sanibelpeptides, saratogapeptide, saratogapeptides, sausalitopeptide, sausalitopeptides, savannahpeptide, scottsdalepeptide, seaislandpeptide, seaislandpeptides, sohopeptide, sonomapeptide, sonomapeptides, southamptonpeptide, southamptonpeptides, staspenpeptide, staspenpeptides, stbarthspeptide, stbarthspeptides, sunvalleypeptide, sunvalleypeptides, tahoepeptide, telluridepeptide, telluridepeptides, tribecapeptide, vailpeptide, vailpeptides, wellingtonpeptide, wellingtonpeptides, westportpeptide, westportpeptides, worthavepeptide, worthavepeptides
+
+## Athletics & fitness (24)
+
+athleticpeptide, cutpeptide, cutpeptides, drivepeptide, gainspeptide, gainspeptides, gladiatorpeptide, grindpeptide, grindpeptides, hustlepeptide, hustlepeptides, jackedpeptide, liftpeptide, olympianpeptide, rippedpeptide, shreddedpeptide, shredpeptide, staminapeptide, sweatpeptide, sweatpeptides, swolepeptide, tacticalpeptide, thrustpeptide, varsitypeptide
+
+## Health modifiers (11)
+
+cognitionpeptide, healthspanpeptide, immunepeptide, immunitypeptide, luminouspeptide, memorypeptide, mentalpeptide, resiliencepeptide, vascularpeptide, visionarypeptide, visionarypeptides
+
+## Youth / age / biohacking (26)
+
+ageless2peptide, ageless2peptides, agerewindpeptide, autophagypeptide, autophagypeptides, bioagepeptide, everyoungpeptide, immortalpeptide, longevouspeptide, longevouspeptides, primeagepeptide, primeagepeptides, regeneratepeptide, reversalpeptide, reversalpeptides, reversepeptides, rewindpeptide, rewindpeptides, sirtuinpeptide, sirtuinpeptides, telomerepeptide, youthfulpeptide, youthspanpeptide, youthspanpeptides, zeroagepeptide, zeroagepeptides
+
+## Dogs (24)
+
+agelesshound, agelesspaw, barkthrive, bestboylabs, bestfriendlabs, collapaws, collapup, fetchthrive, fetchvital, goodboyvital, houndpeptides, houndthrive, houndvital, k9llagen, k9renew, pawllagen, pupcell, pupitide, pupitides, pupllagen, puprenew, snoutvital, wagpeptides, wagscience
