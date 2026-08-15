@@ -1,0 +1,235 @@
+<title>Peptide Brand Domains</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --bg:#F1F4F7; --surface:#FFFFFF; --surface-2:#F7F9FB;
+  --ink:#16222B; --muted:#5B6B78; --faint:#8A99A5;
+  --line:#E1E7EC; --line-2:#D3DBE1;
+  --human:#0F6E7A; --human-soft:#E3F0F1;
+  --dog:#B4722E; --dog-soft:#F6ECDF;
+  --ok:#2E7D53; --ok-soft:#E4F1E9;
+  --shadow:0 1px 2px rgba(20,40,55,.05),0 6px 20px rgba(20,40,55,.06);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D141A; --surface:#141D25; --surface-2:#101922;
+  --ink:#E7EDF2; --muted:#9BAAB6; --faint:#6E7E8A;
+  --line:#22303B; --line-2:#2C3B47;
+  --human:#43B7C4; --human-soft:#12303341;
+  --dog:#D79B54; --dog-soft:#2A211540;
+  --ok:#5FC088; --ok-soft:#16281f60;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 26px rgba(0,0,0,.35);
+}}
+:root[data-theme="dark"]{
+  --bg:#0D141A; --surface:#141D25; --surface-2:#101922;
+  --ink:#E7EDF2; --muted:#9BAAB6; --faint:#6E7E8A;
+  --line:#22303B; --line-2:#2C3B47;
+  --human:#43B7C4; --human-soft:#12303341;
+  --dog:#D79B54; --dog-soft:#2A211540;
+  --ok:#5FC088; --ok-soft:#16281f60;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 26px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  line-height:1.55;-webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1060px;margin:0 auto;padding:clamp(20px,4vw,56px) clamp(16px,4vw,40px) 80px}
+.serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-ligatures:none}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--human);font-weight:600;margin:0 0 10px}
+h1{font-size:clamp(30px,5.5vw,50px);line-height:1.04;margin:0 0 14px;font-weight:600;letter-spacing:-.01em;text-wrap:balance}
+.lede{font-size:clamp(16px,2vw,18px);color:var(--muted);max-width:60ch;margin:0}
+
+/* stats */
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+.stat{flex:1 1 130px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow)}
+.stat .n{font-size:26px;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.stat .l{font-size:12.5px;color:var(--muted);margin-top:2px}
+.stat.ok .n{color:var(--ok)}
+
+section{margin-top:clamp(40px,6vw,64px)}
+.sec-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line-2);padding-bottom:12px;margin-bottom:22px}
+.sec-head h2{font-size:clamp(21px,3vw,27px);margin:0;font-weight:600;letter-spacing:-.01em}
+.sec-head .sub{color:var(--faint);font-size:14px}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:0 0 auto;transform:translateY(-2px)}
+.dot.human{background:var(--human)} .dot.dog{background:var(--dog)}
+
+/* ranked cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:8px}
+.card .rank{position:absolute;top:14px;right:16px;font-size:13px;color:var(--faint);font-variant-numeric:tabular-nums}
+.card .name{font-size:19px;font-weight:600;letter-spacing:-.01em;word-break:break-word}
+.card .name .tld{color:var(--faint);font-weight:500}
+.card .why{font-size:14px;color:var(--muted);margin:0}
+.tag{align-self:flex-start;font-size:11.5px;font-weight:600;letter-spacing:.02em;padding:3px 9px;border-radius:999px;background:var(--human-soft);color:var(--human);border:1px solid color-mix(in srgb,var(--human) 30%,transparent)}
+.dog .tag{background:var(--dog-soft);color:var(--dog);border-color:color-mix(in srgb,var(--dog) 32%,transparent)}
+.pricepill{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--ok);background:var(--ok-soft);border:1px solid color-mix(in srgb,var(--ok) 30%,transparent);padding:3px 9px;border-radius:999px;font-weight:600}
+
+/* inventory chip clusters */
+.cluster{margin-bottom:20px}
+.cluster h3{font-size:13px;letter-spacing:.03em;text-transform:uppercase;color:var(--faint);margin:0 0 10px;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-size:13.5px;padding:5px 11px;border-radius:8px;background:var(--surface-2);border:1px solid var(--line);color:var(--ink)}
+.chip .tld{color:var(--faint)}
+
+/* table */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;background:var(--surface);min-width:520px}
+th,td{text-align:left;padding:12px 16px;font-size:14px;border-bottom:1px solid var(--line)}
+th{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);font-weight:600;background:var(--surface-2)}
+tr:last-child td{border-bottom:none}
+td .price{font-weight:600;font-variant-numeric:tabular-nums}
+.note{font-size:13.5px;color:var(--muted);background:var(--surface-2);border:1px solid var(--line);border-left:3px solid var(--human);border-radius:0 10px 10px 0;padding:14px 18px;margin-top:18px}
+.note strong{color:var(--ink)}
+footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--line-2);color:var(--faint);font-size:13px;line-height:1.6}
+a{color:var(--human)}
+@media (max-width:520px){.card .rank{position:static;margin-bottom:-4px}}
+</style>
+
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Competitive research &middot; Aug 2026</p>
+    <h1 class="serif">Peptide brand domains, ready to register</h1>
+    <p class="lede">A sweep of 892 candidate <span class="mono">.com</span> names for a human &amp; dog peptide brand &mdash; screened against the live registry, filtered away from the ~170 competitors already in the space, and ranked for how ownable each one is.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="n">892</div><div class="l">names checked</div></div>
+      <div class="stat ok"><div class="n">147</div><div class="l">available to register</div></div>
+      <div class="stat"><div class="n">~170</div><div class="l">competitors mapped</div></div>
+      <div class="stat"><div class="n">&lt;$15k</div><div class="l">every pick, comfortably</div></div>
+    </div>
+  </header>
+
+  <!-- HUMAN -->
+  <section>
+    <div class="sec-head">
+      <span class="dot human"></span>
+      <h2>Human peptides &mdash; top 15</h2>
+      <span class="sub">ranked on brandability &amp; distance from the saturated <span class="mono">[word] Peptides</span> pattern</span>
+    </div>
+    <div class="cards">
+      <div class="card"><span class="rank">01</span><span class="tag">Coined brand</span><div class="name mono">peptovi<span class="tld">.com</span></div><p class="why">Fully coined and ownable, trademark-friendly, none of the grey-market "peptide vendor" baggage. Sounds like a company.</p></div>
+      <div class="card"><span class="rank">02</span><span class="tag">Coined brand</span><div class="name mono">peptura<span class="tld">.com</span></div><p class="why">Premium soft "-ura" ending; reads clinical and calm, works across human + skincare lines.</p></div>
+      <div class="card"><span class="rank">03</span><span class="tag">Concrete modifier</span><div class="name mono">foundrypeptide<span class="tld">.com</span></div><p class="why">"Foundry" signals made-with-rigor &mdash; concrete and memorable where rivals are abstract.</p></div>
+      <div class="card"><span class="rank">04</span><span class="tag">Color / clean</span><div class="name mono">cobaltpeptide<span class="tld">.com</span></div><p class="why">Color-word brands read modern and clean; an easy, distinctive logo direction.</p></div>
+      <div class="card"><span class="rank">05</span><span class="tag">Warm / human</span><div class="name mono">kindredpeptide<span class="tld">.com</span></div><p class="why">Warmth and community in a category that's almost entirely cold and clinical.</p></div>
+      <div class="card"><span class="rank">06</span><span class="tag">Trust signal</span><div class="name mono">sentinelpeptide<span class="tld">.com</span></div><p class="why">"Guardian / quality-watch" answers the buyer's first question: is it legit?</p></div>
+      <div class="card"><span class="rank">07</span><span class="tag">Color / clean</span><div class="name mono">azurepeptide<span class="tld">.com</span></div><p class="why">Calm, premium, crosses well into longevity and skincare adjacencies.</p></div>
+      <div class="card"><span class="rank">08</span><span class="tag">Coined brand</span><div class="name mono">meridide<span class="tld">.com</span></div><p class="why">Coined from meridian + -ide; a house brand that can span many products.</p></div>
+      <div class="card"><span class="rank">09</span><span class="tag">Vitality</span><div class="name mono">wellspringpeptide<span class="tld">.com</span></div><p class="why">Source / vitality imagery; natural fit for a supplement or clinic angle.</p></div>
+      <div class="card"><span class="rank">10</span><span class="tag">Nature</span><div class="name mono">cedarpeptide<span class="tld">.com</span></div><p class="why">Nature word = trust + calm; short, easy to say, very brandable.</p></div>
+      <div class="card"><span class="rank">11</span><span class="tag">Premium</span><div class="name mono">imperialpeptide<span class="tld">.com</span></div><p class="why">Premium without "Royal / Prime" &mdash; both taken and grey-market-coded.</p></div>
+      <div class="card"><span class="rank">12</span><span class="tag">Guidance</span><div class="name mono">compasspeptide<span class="tld">.com</span></div><p class="why">Friendly, non-clinical &mdash; strong for a telehealth-style positioning.</p></div>
+      <div class="card"><span class="rank">13</span><span class="tag">Mechanism</span><div class="name mono">fulcrumpeptide<span class="tld">.com</span></div><p class="why">A "leverage / mechanism-of-action" story; sharp and modern.</p></div>
+      <div class="card"><span class="rank">14</span><span class="tag">Journey</span><div class="name mono">voyagepeptide<span class="tld">.com</span></div><p class="why">Longevity-journey narrative; consumer-friendly and warm.</p></div>
+      <div class="card"><span class="rank">15</span><span class="tag">Short / punchy</span><div class="name mono">vitalpept<span class="tld">.com</span></div><p class="why">Short coined stem; built for a fast, punchy DTC play.</p></div>
+    </div>
+  </section>
+
+  <!-- DOG -->
+  <section class="dog">
+    <div class="sec-head">
+      <span class="dot dog"></span>
+      <h2>Dogs &mdash; top 10</h2>
+      <span class="sub">the cute lane, steering clear of the crowded <span class="mono">paw- / pet- / -tides</span> morphemes</span>
+    </div>
+    <div class="cards">
+      <div class="card dog"><span class="rank">01</span><span class="tag">Peptide pun</span><div class="name mono">pupitide<span class="tld">.com</span></div><p class="why">The available cousin of the taken <span class="mono">puptides.com</span> &mdash; a genuine peptide pun that's open. <span class="mono">pupitides.com</span> is free too.</p></div>
+      <div class="card dog"><span class="rank">02</span><span class="tag">Clean / brandable</span><div class="name mono">pupcell<span class="tld">.com</span></div><p class="why">Ultra-clean; reads like a longevity / cell-health brand for dogs.</p></div>
+      <div class="card dog"><span class="rank">03</span><span class="tag">Collagen pun</span><div class="name mono">collapup<span class="tld">.com</span></div><p class="why">Collagen + pup &mdash; perfect for a collagen-for-dogs line.</p></div>
+      <div class="card dog"><span class="rank">04</span><span class="tag">Longevity</span><div class="name mono">puprenew<span class="tld">.com</span></div><p class="why">Renewal story; short, warm, easy to build a brand around.</p></div>
+      <div class="card dog"><span class="rank">05</span><span class="tag">Collagen pun</span><div class="name mono">pawllagen<span class="tld">.com</span></div><p class="why">A collagen pun that isn't "-tides" or plain "paw"; product-ready.</p></div>
+      <div class="card dog"><span class="rank">06</span><span class="tag">Vet-adjacent</span><div class="name mono">k9renew<span class="tld">.com</span></div><p class="why">Clinical but approachable &mdash; good for a vet-adjacent therapy brand.</p></div>
+      <div class="card dog"><span class="rank">07</span><span class="tag">Vitality</span><div class="name mono">houndthrive<span class="tld">.com</span></div><p class="why">"Thrive" vitality angle, well outside the paw-/pet- crowd.</p></div>
+      <div class="card dog"><span class="rank">08</span><span class="tag">Warm / labs</span><div class="name mono">bestboylabs<span class="tld">.com</span></div><p class="why">Warm, meme-adjacent "best boy" anchored by a science "labs" cue.</p></div>
+      <div class="card dog"><span class="rank">09</span><span class="tag">Playful</span><div class="name mono">fetchvital<span class="tld">.com</span></div><p class="why">Playful verb + vitality; easy to hang a mascot on.</p></div>
+      <div class="card dog"><span class="rank">10</span><span class="tag">Longevity</span><div class="name mono">agelesshound<span class="tld">.com</span></div><p class="why">Rides the dog-longevity trend (Loyal, Leap Years) without copying it.</p></div>
+    </div>
+  </section>
+
+  <!-- INVENTORY -->
+  <section>
+    <div class="sec-head">
+      <h2>Full available inventory</h2>
+      <span class="sub">all 147 confirmed open to register &mdash; ~$12/yr each</span>
+    </div>
+
+    <div class="cluster">
+      <h3>Human &middot; coined brands</h3>
+      <div class="chips">
+        <span class="chip mono">peptovi<span class="tld">.com</span></span><span class="chip mono">peptura<span class="tld">.com</span></span><span class="chip mono">meridide<span class="tld">.com</span></span><span class="chip mono">vitalpept<span class="tld">.com</span></span><span class="chip mono">purelpept<span class="tld">.com</span></span>
+      </div>
+    </div>
+    <div class="cluster">
+      <h3>Human &middot; color / mineral / material</h3>
+      <div class="chips">
+        <span class="chip mono">azurepeptide</span><span class="chip mono">cobaltpeptide</span><span class="chip mono">indigopeptide</span><span class="chip mono">coralpeptide</span><span class="chip mono">quartzpeptide</span><span class="chip mono">marblepeptide</span><span class="chip mono">slatepeptide</span><span class="chip mono">sablepeptide</span><span class="chip mono">stonepeptide</span><span class="chip mono">granitepeptide</span><span class="chip mono">flintpeptide</span>
+      </div>
+    </div>
+    <div class="cluster">
+      <h3>Human &middot; nature / place</h3>
+      <div class="chips">
+        <span class="chip mono">mountainpeptide</span><span class="chip mono">ridgepeptide</span><span class="chip mono">canyonpeptide</span><span class="chip mono">mesapeptide</span><span class="chip mono">boulderpeptide</span><span class="chip mono">bedrockpeptide</span><span class="chip mono">cedarpeptide</span><span class="chip mono">aspenpeptide</span><span class="chip mono">sprucepeptide</span><span class="chip mono">oakpeptide</span><span class="chip mono">rowanpeptide</span><span class="chip mono">sequoiapeptide</span><span class="chip mono">timberpeptide</span><span class="chip mono">cypresspeptide</span><span class="chip mono">harborpeptide</span>
+      </div>
+    </div>
+    <div class="cluster">
+      <h3>Human &middot; strength / guardian / trust</h3>
+      <div class="chips">
+        <span class="chip mono">imperialpeptide</span><span class="chip mono">regalpeptide</span><span class="chip mono">honorpeptide</span><span class="chip mono">meritpeptide</span><span class="chip mono">virtuepeptide</span><span class="chip mono">tributepeptide</span><span class="chip mono">triumphpeptide</span><span class="chip mono">gallantpeptide</span><span class="chip mono">ardentpeptide</span><span class="chip mono">sentinelpeptide</span><span class="chip mono">citadelpeptide</span><span class="chip mono">rampartpeptide</span><span class="chip mono">wardenpeptide</span><span class="chip mono">fortispeptide</span><span class="chip mono">bannerpeptide</span><span class="chip mono">bravopeptide</span><span class="chip mono">talonpeptide</span><span class="chip mono">falconpeptide</span><span class="chip mono">heronpeptide</span><span class="chip mono">bisonpeptide</span>
+      </div>
+    </div>
+    <div class="cluster">
+      <h3>Human &middot; journey / momentum</h3>
+      <div class="chips">
+        <span class="chip mono">voyagepeptide</span><span class="chip mono">endeavorpeptide</span><span class="chip mono">pursuitpeptide</span><span class="chip mono">compasspeptide</span><span class="chip mono">trailpeptide</span><span class="chip mono">driftpeptide</span><span class="chip mono">relaypeptide</span><span class="chip mono">tetherpeptide</span><span class="chip mono">machpeptide</span><span class="chip mono">tempopeptide</span><span class="chip mono">westwardpeptide</span>
+      </div>
+    </div>
+    <div class="cluster">
+      <h3>Human &middot; aspiration / warmth</h3>
+      <div class="chips">
+        <span class="chip mono">boundlesspeptide</span><span class="chip mono">wellspringpeptide</span><span class="chip mono">kindredpeptide</span><span class="chip mono">solsticepeptide</span><span class="chip mono">willowpeptide</span><span class="chip mono">zephyrpeptide</span><span class="chip mono">lyricpeptide</span><span class="chip mono">lanternpeptide</span><span class="chip mono">emberlypeptide</span><span class="chip mono">ledgerpeptide</span><span class="chip mono">cipherpeptide</span><span class="chip mono">vesselpeptide</span><span class="chip mono">helmpeptide</span><span class="chip mono">mavenpeptide</span><span class="chip mono">rallypeptide</span><span class="chip mono">foundrypeptide</span><span class="chip mono">fulcrumpeptide</span>
+      </div>
+    </div>
+    <div class="cluster">
+      <h3>Human &middot; modern / structured &amp; plurals</h3>
+      <div class="chips">
+        <span class="chip mono">sterlingpeptides</span><span class="chip mono">futurapeptide</span><span class="chip mono">modernuspeptide</span><span class="chip mono">reveredgepeptide</span><span class="chip mono">vantagepointpeptide</span><span class="chip mono">pursuitlabpeptide</span><span class="chip mono">summitpeakpeptide</span><span class="chip mono">ironpeptides</span><span class="chip mono">peakpeptides</span><span class="chip mono">lonepeptide</span><span class="chip mono">southpeptide</span><span class="chip mono">westpeptide</span><span class="chip mono">peptidesform</span><span class="chip mono">peptidesmethod</span><span class="chip mono">peptidessupply</span>
+      </div>
+    </div>
+    <div class="cluster">
+      <h3><span class="dot dog" style="margin-right:6px"></span>Dogs &middot; all 24</h3>
+      <div class="chips">
+        <span class="chip mono">pupitide</span><span class="chip mono">pupitides</span><span class="chip mono">pupcell</span><span class="chip mono">collapup</span><span class="chip mono">collapaws</span><span class="chip mono">pawllagen</span><span class="chip mono">pupllagen</span><span class="chip mono">k9llagen</span><span class="chip mono">puprenew</span><span class="chip mono">k9renew</span><span class="chip mono">agelesshound</span><span class="chip mono">agelesspaw</span><span class="chip mono">barkthrive</span><span class="chip mono">houndthrive</span><span class="chip mono">fetchthrive</span><span class="chip mono">houndvital</span><span class="chip mono">fetchvital</span><span class="chip mono">snoutvital</span><span class="chip mono">goodboyvital</span><span class="chip mono">bestboylabs</span><span class="chip mono">bestfriendlabs</span><span class="chip mono">wagscience</span><span class="chip mono">wagpeptides</span><span class="chip mono">houndpeptides</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- AFTERMARKET -->
+  <section>
+    <div class="sec-head">
+      <h2>If you'd rather buy an exact-match name</h2>
+      <span class="sub">real aftermarket benchmarks &mdash; the peptide market sits well under $15k</span>
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Name</th><th>Price</th><th>Status</th><th>Note</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">peptide.co</td><td class="price">$12,500</td><td>sold</td><td>Recent end-user sale &mdash; the ceiling for a clean one-word <span class="mono">.co</span>.</td></tr>
+          <tr><td class="mono">barrier.co</td><td class="price">$10,000</td><td>sold</td><td>Oral-peptide gut-health startup &mdash; comparable brandable buy.</td></tr>
+          <tr><td class="mono">americanpeptide.org</td><td class="price">$5,495</td><td>listed</td><td>The <span class="mono">.org</span>; the <span class="mono">.com</span> is a live business.</td></tr>
+          <tr><td class="mono">peptides.mom</td><td class="price">$495</td><td>listed</td><td>Cheap novelty TLD.</td></tr>
+          <tr><td class="mono">ptides.com</td><td class="price">make offer</td><td>listed</td><td>"Price in 24 hours" on Afternic &mdash; likely negotiable under $15k.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note"><strong>Recommendation:</strong> register 2&ndash;3 shortlist names now &mdash; they're ~$12 and go fast &mdash; and, in parallel, put a make-offer on <span class="mono">ptides.com</span> or a taken exact-match <span class="mono">[word]peptides.com</span> you love. The benchmarks say $15k comfortably buys a strong aftermarket name if an exact-match keyword matters more than a coined brand.</p>
+  </section>
+
+  <footer>
+    <strong style="color:var(--ink)">Method:</strong> each <span class="mono">.com</span> was queried against the authoritative Verisign registry nameservers &mdash; a not-found (NXDOMAIN) means truly unregistered, and parked/for-sale pages correctly read as taken. 26 names hit a DNS rate-limit before resolving and are excluded here (see the report appendix &mdash; recheck at a registrar before buying). Availability shifts daily; confirm at purchase.<br><br>
+    Full write-up, competitor avoid-list, and the raw 892-row dataset live alongside this page in <span class="mono">research/</span>.
+  </footer>
+
+</div>
