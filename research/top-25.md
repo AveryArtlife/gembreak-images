@@ -1,54 +1,62 @@
-# Top 25 Domains — Final Ranking After a Brutal Stress Test
+# Top 25 — Re-Ranked After Five Adversarial Screens (v3)
 
-**Updated:** August 15, 2026 · The definitive shortlist
+**Updated:** August 16, 2026 · Investor lens primary · **Alder demoted** · Vitanova **rejected**
 
-Across five generation passes, **2,890 candidate `.com` names were checked → 764 available.** The ~50 strongest were then run through a hostile trademark/collision/radio-test screen. This is the surviving top 25, ranked by defensibility × brandability. **Every one is available on `.com`, `.ai`, `.io`, `.gg`, and `.club`.**
+Across eight generation passes, **6,232 names checked → 2,003 DNS-open leads.** Five rounds of hostile trademark/collision/linguistics screening (~90 finalists individually researched) produced this ranking. The lens is now **brand equity first**: platform-ability, memorability, and collision profile outrank raw trademark whitespace. That is why Alder — legally clean but semantically empty — no longer leads, and why names containing "peptide" sit in their own lower tier (wedge brands, not platform brands).
 
-> **Accuracy note (added):** "available" across this study means **DNS-open (no nameserver delegation)** — a strong lead, not registry-confirmed. This environment can't reach RDAP/WHOIS, so a registered-but-undelegated domain (e.g. malibupeptide.com) can slip through as "available." **Verify every pick in a registrar search box before buying.**
+> **Two corrections this version bakes in:**
+> 1. **Vitanova is REJECTED with prejudice** — the deep screen found a live USPTO registration (Class 5, supplements), an operating NMN-longevity brand at getvitanova.com, an Rx product in India, a fertility chain, and a public shell all on the name. My earlier recommendation was wrong; the re-screen caught it.
+> 2. **"available" = DNS-open lead**, not registry-confirmed (the malibupeptide lesson — it is TAKEN and has been removed from this list). Verify every name in a registrar box, then run a USPTO knockout (Cl. 5/44) before building.
 
-> **Read the tiers as risk, not quality.** Tier 1 = cleanest runway (only out-of-category collisions). Tier 2 = strong but needs a formal clearance. Tier 3 = distinctive words with a real but survivable collision. **None of this is legal clearance** — run a USPTO knockout (Class 5 / 44) before you commit. Notably, this pass *killed* three earlier favorites: **Rewind** (Rewind Anti-Aging peptide clinic + Rewind Urolithin A), **Sable** (Sable Health Group markets antiaging peptides), and **Youthspan** (descriptive/generic).
+## Tier 1 — Platform-grade survivors (stress-tested KEEPs)
 
-## Tier 1 — Cleanest runway (KEEP)
+| # | Name | Domain | Why it leads |
+|---|------|--------|--------------|
+| 1 | **Spancell** | `spancell.com` | The **only unqualified KEEP** of the venture-grade screen: "lifespan + cell" means something, two crisp syllables, science-coded, TM likely clearable in Class 5, no in-category collision. Platform-scale — works for peptides today and whatever's next. |
+| 2 | **Encore Cell** | `encorecell.com` | Best narrative in the study — "your second act." Only survivor of the action-word batch. Conditional: "Encore" is crowded in med devices (Encore Medical/Vision), so a Cl. 5/10/44 knockout is required; no exact "Encore Cell" mark found. |
+| 3 | **Houndcell** | `houndcell.com` | The dog-line winner: clean screen, no bad reading, cellular-longevity story. Natural sister brand to Spancell/Pupcell. |
+| 4 | **Reeflongevity** | `reeflongevity.com` | Clean legally (Reef = footwear only), longevity-literal, self-spelling. Longer than ideal, but a real platform name. |
+| 5 | **Pupcell** | `pupcell.com` | USPTO-clear, most memorable dog name; style the wordmark to defuse the faint "pup sell" reading. |
 
-| # | Domain | Type | Why it wins | The one caveat |
-|---|--------|------|-------------|----------------|
-| 1 | **alderpeptide.com** | modifier | Cleanest name in the whole study — uncommon, distinctive, spells itself, premium-natural. | Only a small regional clinic (Alder Health) anywhere near it; "alder" can be misheard as "older." |
-| 2 | **reefpeptide.com** | modifier | Short, punchy, memorable; excellent radio test. | Sole notable collision is Reef **footwear** — different category. |
-| 3 | **houndcell.com** | dog | The clear best dog name — no collision, no bad reading, "cell" ties to cellular longevity. | None material. Natural sister to a "Pupcell" line. |
-| 4 | **reeflongevity.com** | longevity | One-syllable, clean, self-spelling; strong for the aging angle. | Reef footwear only; no health/biotech clash. |
-| 5 | **ridgepeptide.com** | modifier | Brandable, masculine, distinctive. | The Ridge Wallet owns DTC "Ridge" (different category, but prominent/litigious). |
-| 6 | **montaukpeptide.com** | place | Evocative, premium, no in-lane collision. | Occasionally misspelled (Montauk/Montague). |
+## Tier 2 — Brand bench (usable after coexistence/TM clearance)
 
-## Tier 2 — Strong, clear before building (RISKY)
+| # | Name | Domain | The knock |
+|---|------|--------|-----------|
+| 6 | **Puprenew** | `puprenew.com` | Clean screen; soft "-ew" tail — style as PupRenew. |
+| 7 | **Coredose** | `coredose.com` | Clearable; "dose" names the pill, not the platform. |
+| 8 | **Stride Vital** | `stridevital.com` | Clearable if Stride Health coexistence checks out; weak category signal. |
+| 9 | **Sculpt Cell** | `sculptcell.com` | Available and evocative, but drifts toward the litigious CoolSculpting/med-spa space. |
+| 10 | **Distill Rx** | `distillrx.com` | Purity story; knocks are the distillery reading and "Rx" regulatory bait. |
+| 11 | **Mitoevo** | `mitoevo.com` | Mitochondrial story; vowel pileup hurts the radio test. |
+| 12 | **Pepvim** | `pepvim.com` | Clean and tight, but lightweight — gummy-vitamin energy. |
+| 13 | **Summitdose** | `summitdose.com` | Clearable; "peak dose" reads psychedelics-adjacent. |
+| 14 | **Awaken Dose** | `awakendose.com` | Benefit verb; Awakn Life Sciences phonetic overlap + microdosing read. |
 
-| # | Domain | Type | Why it's here | The caveat |
-|---|--------|------|---------------|------------|
-| 7 | **peptovance.com** | coined | Best coined name — no collision found, spells cleanly by ear. | Slight supplement-marketing cadence. |
-| 8 | **peptaronix.com** | coined | Collision-clean, deep-biotech feel, fully ownable. | The "-onix" suffix leans research-chem; clear via TESS first. |
-| 9 | **peptidynebio.com** | coined/science | "Peptidyne" is a clean coined biotech root (bare `peptidyne.com` is taken; this + extensions open). | "-dyne" is a crowded biotech suffix; "bio" is filler. |
-| 10 | **harborpeptide.com** | modifier | Warm, premium, pairs with a "Harbor Bioscience" line. | Crowded health/telehealth namespace (Harbor Health). |
-| 11 | **cedarpeptide.com** | modifier | Calm, premium, effortlessly spellable. | "Cedar" is a funded healthcare fintech + Cedar Pharma. |
-| 12 | **malibupeptide.com** | place | Strong wellness aura, instantly evocative. | Minor echo of Malibu rum; place meaning dominates. |
-| 13 | **athleticpeptide.com** | fitness | The clean, broad-market fitness pick (skip the gym-slang names). | "Athletic" is somewhat descriptive. |
-| 14 | **pupcell.com** | dog | Most memorable/cute dog name; USPTO-clear. | Reads/hears faintly as "pup sell" — solve in the wordmark. |
-| 15 | **puprenew.com** | dog | Clear of collisions; "renew" is on-theme for longevity. | Soft "-ew" ending; style as **PupRenew**. |
+## Tier 3 — Coined (ownable, carries the "pep" tell)
 
-## Tier 3 — Distinctive, but clear the collision first (RISKY)
+| # | Name | Domain | Note |
+|---|------|--------|------|
+| 15 | **Peptovance** | `peptovance.com` | Best coined survivor — no collision found, spells cleanly. |
+| 16 | **Peptaronix** | `peptaronix.com` | Collision-clean, biotech feel; "-onix" leans research-chem, clear via TESS. |
+| 17 | **Peptidyne Bio** | `peptidynebio.com` | Clean coined root; "-dyne" crowded, "bio" is filler. |
 
-| # | Domain | Type | The caveat that keeps it out of Tier 2 |
-|---|--------|------|----------------------------------------|
-| 16 | **birchpeptide.com** | modifier | Birch Living (mattress) + Birchbox share the word. |
-| 17 | **fernpeptide.com** | modifier | Silver Fern Brand (gut supplements) is in-category. |
-| 18 | **lucentpeptide.com** | modifier | Lucent Biotech + famous Lucent Technologies. |
-| 19 | **regentpeptide.com** | modifier | Regent luxury hotels/cruises — famous mark. |
-| 20 | **gracepeptide.com** | modifier | W.R. Grace (chemicals) + very common word. |
-| 21 | **brookpeptide.com** | modifier | Brook Health (funded chronic-care telehealth). |
-| 22 | **meadowpeptide.com** | modifier | Several wellness "Meadow" brands + a cannabis platform. |
-| 23 | **cedarbioscience.com** | science | Cedar Pharma/Cedarlane; the science lane's cleanest of the "Cedar" set. |
-| 24 | **alderlongevity.com** | longevity | Alder BioPharmaceuticals (acquired by Lundbeck ~$2B); "alder→older." |
-| 25 | **visionarypeptide.com** | health | Lipotriad Visionary (eye vitamin) + "visionary" implies eye health. |
+## Tier 4 — `[word]peptide` compounds (wedge brands only — category-locked by design)
+
+| # | Name | Domain | Note |
+|---|------|--------|------|
+| 18 | **Montauk Peptide** | `montaukpeptide.com` | Best of the compounds: evocative, no in-lane collision. |
+| 19 | **Reef Peptide** | `reefpeptide.com` | Short, punchy; Reef footwear only. |
+| 20 | **Ridge Peptide** | `ridgepeptide.com` | Distinctive; Ridge Wallet owns DTC "Ridge" recall. |
+| 21 | **Athletic Peptide** | `athleticpeptide.com` | Clean fitness positioning; somewhat descriptive. |
+| 22 | **Harbor Peptide** | `harborpeptide.com` | Warm; "Harbor" crowded in telehealth. |
+| 23 | **Alder Peptide** | `alderpeptide.com` | **Demoted from #1.** Legally the cleanest compound, but semantically empty — no health meaning, no story, wedge-only. Keep as a defensive registration at most. |
+| 24 | **Cedar Bioscience** | `cedarbioscience.com` | The science lane's cleanest "Cedar"; Cedar Pharma crowd requires clearance. |
+| 25 | **Visionary Peptide** | `visionarypeptide.com` | The open "vision" lane; laudatory-generic + Lipotriad Visionary. |
 
 ---
 
-### If you buy just three
-**alderpeptide.com** (cleanest brandable), **houndcell.com** (dog), and **peptovance.com** (coined, most ownable) — grab the matching `.ai`/`.io` for each if you want the tech halo. Then run a USPTO knockout on your favorite before building anything.
+## Killed this round (do not resurrect)
+**Vitanova** (live USPTO mark + operating longevity brand) · **Mitoboost** (six existing MitoBoosts incl. a dog version) · **Pepzen** (marketed Rx drug, India) · **Cyclepeptide** (generic drug-class term) · **Apothecary Peptide** (descriptive med-spa service) · **Novamito** ("vomito") · **Upgrade Peptide** (operating "Upgrade" peptide distributor + Upgrade Labs) · **Hone Dose** (Hone Health = direct peptide-telehealth competitor) · **Anthem Vital** (Anthem BCBS) · **Cadence Vital** (Cadence.care vitals monitoring) · **Fortify Cell** (Nature's Way Fortify®) · **Awaken Cell** ("sleeper cell") · **Rekindle Cell** (libido brands) · **Aegis Span** (Aegis Living, radio fail) · **Thaw Cell** (repellent) · **Encore Peptide** (peptide-locked) · **malibupeptide** (registered — the false-positive lesson).
+
+## If you buy three today
+**spancell.com** (the platform brand), **encorecell.com** (the narrative brand), **houndcell.com** (the dog brand) — a coherent "-cell" family across both lines, every one a stress-test survivor. Registrar-verify all three, then USPTO knockout before building.

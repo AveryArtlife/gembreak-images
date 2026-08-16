@@ -36,14 +36,15 @@ The $15k ceiling buys a *decent* aftermarket name but not an elite one-word `.co
 
 ### 3. If self-funding under $15k, the one available name I'd actually build on:
 
-> ## 🏆 **Vitanova** — `vitanova.com` (available lead)
-> **"New life"** (Latin). It's the only name in the entire 4,900-candidate study that reads like a **real consumer-health brand** instead of a supplement SKU: two-beat, benefit-oriented, no "peptide," internationally legible, logo-able, and platform-able (a longevity company, not a peptide reseller). Grab `vitanova.ai` as the tech-halo backup.
-> *Caveat: "Vita Nova" is a common phrase — run a USPTO knockout (Class 5/44); there may be regional food/wine uses to clear. But as a hand-registerable brand, it's the class of the field.*
+> ## 🏆 **Spancell** — `spancell.com` (available lead)
+> **"Lifespan + cell."** The only name across ~90 individually screened finalists to survive the venture-grade adversarial screen as an **unqualified KEEP**: it means something, it's two crisp syllables, science-coded, platform-scale, and the trademark is likely clearable in Class 5 (nearest collision is a Japanese industrial foaming agent in an unrelated class). Grab `spancell.ai` as the tech-halo backup.
+>
+> **Retraction:** an earlier version of this verdict crowned **Vitanova**. The deep screen killed it — a live USPTO registration in the exact supplements class, an operating NMN-longevity brand at getvitanova.com, an Rx product in India, a fertility chain, and a public shell all share the name. It was the most-collided name on the list, and the re-screen is what caught it.
 
 **Runners-up (available leads), ranked by investability:**
-1. **Peptovance** (`peptovance.com`) — coined, ownable, collision-clean; only knock is the "pep" tell.
-2. **Spancell** (`spancell.com`) — "lifespan cell," short, biohacking-legible.
-3. **Reeflongevity** (`reeflongevity.com`) — evocative, but compound and longer.
+1. **Encore Cell** (`encorecell.com`) — the best narrative ("second act of life"); conditional on a Cl. 5/10/44 knockout.
+2. **Peptovance** (`peptovance.com`) — best coined; only knock is the "pep" tell.
+3. **Reeflongevity** (`reeflongevity.com`) — clean and literal, but longer.
 
 ### The honest MD bottom line
-If this were my investment, I would **not** let the founder ship a `[word]peptide.com`. I'd fund a **domain-acquisition line item** and buy a one-word `.com`, because in DTC health the brand *is* the moat and underspending on it is the classic seed-stage mistake. If capital is truly constrained, **Vitanova** is the one name here I'd greenlight without wincing.
+If this were my investment, I would **not** let the founder ship a `[word]peptide.com`. I'd fund a **domain-acquisition line item** and buy a one-word `.com`, because in DTC health the brand *is* the moat and underspending on it is the classic seed-stage mistake. If capital is truly constrained, **Spancell** is the one name here I'd greenlight without wincing — and the Vitanova retraction above is exactly why every finalist gets a deep screen before money moves.
