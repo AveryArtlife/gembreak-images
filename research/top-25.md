@@ -4,6 +4,8 @@
 
 Across five generation passes, **2,890 candidate `.com` names were checked → 764 available.** The ~50 strongest were then run through a hostile trademark/collision/radio-test screen. This is the surviving top 25, ranked by defensibility × brandability. **Every one is available on `.com`, `.ai`, `.io`, `.gg`, and `.club`.**
 
+> **Accuracy note (added):** "available" across this study means **DNS-open (no nameserver delegation)** — a strong lead, not registry-confirmed. This environment can't reach RDAP/WHOIS, so a registered-but-undelegated domain (e.g. malibupeptide.com) can slip through as "available." **Verify every pick in a registrar search box before buying.**
+
 > **Read the tiers as risk, not quality.** Tier 1 = cleanest runway (only out-of-category collisions). Tier 2 = strong but needs a formal clearance. Tier 3 = distinctive words with a real but survivable collision. **None of this is legal clearance** — run a USPTO knockout (Class 5 / 44) before you commit. Notably, this pass *killed* three earlier favorites: **Rewind** (Rewind Anti-Aging peptide clinic + Rewind Urolithin A), **Sable** (Sable Health Group markets antiaging peptides), and **Youthspan** (descriptive/generic).
 
 ## Tier 1 — Cleanest runway (KEEP)
