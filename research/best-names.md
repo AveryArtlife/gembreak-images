@@ -1,4 +1,7 @@
-# Best Names — After a Brutal Stress Test
+# Best Names — After a Brutal Stress Test (first round — superseded)
+
+> **⚠️ SUPERSEDED:** this section is the *first-round* screen kept for history. The current ranking is **Top 25 v3** (previous section): **Spancell #1**, Alder demoted to #23.
+
 
 **Updated:** August 15, 2026 · Companion to `peptide-domain-research.md`
 
