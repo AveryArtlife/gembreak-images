@@ -1,4 +1,4 @@
-# Top 25 — Re-Ranked After Five Adversarial Screens (v3)
+# Top 25 — v3 (SUPERSEDED BY TOP 30 v4, previous section)
 
 **Updated:** August 16, 2026 · Investor lens primary · **Alder demoted** · Vitanova **rejected**
 
