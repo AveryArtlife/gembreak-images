@@ -1,5 +1,10 @@
 # Top 30 — Ranking v4 (Rally-First)
 
+> **⚠️ DIRECTION PIVOT (Aug 17, 2026):** the brand brief has moved from peptide-first to a
+> **general wellness / biohacking / longevity** platform. The current ranking for that
+> direction is in **`wellness-pivot.md`** (Halo Lab #1 · Spancell #2 · Span Society #3).
+> This v4 list remains valid history for the peptide-branded lane.
+
 **Updated:** August 16, 2026 · **6,708 names checked · 2,065 leads · six adversarial screens**
 
 This ranking incorporates the founder's directive: **Rally Peptide leads.** The deep scan graded it **C− (CROWDED)** — the only survivor of the Rally/Rewind/Shred trio — and the caveats are printed with it, not hidden. Spancell remains the analyst's pick at #2. Names marked ⚠️ carry a known near-collision; names marked ◇ have not been through the adversarial agent screen.
