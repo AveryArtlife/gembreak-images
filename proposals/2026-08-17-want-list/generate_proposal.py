@@ -69,13 +69,13 @@ BOOKS = [
         "publisher": "Marvel Comics",
         "year": "August 1962",
         "grade": "CGC 9.6",
-        "grade_note": "Highest Graded (tied with three others)",
+        "grade_note": "Highest Graded · Off-White Pages",
         "significance": "The first appearance of Spider-Man — the most valuable "
         "Silver Age comic book in existence. Copies in this grade essentially "
         "never reach the open market.",
         "condition": "The single highest grade awarded by CGC for this issue, "
-        "shared with only three other copies worldwide. A generational "
-        "acquisition opportunity.",
+        "shared with only three other copies worldwide, with off-white pages. "
+        "A generational acquisition opportunity.",
         "price": "$10,000,000",
         "price_note": None,
     },
@@ -85,7 +85,7 @@ BOOKS = [
         "publisher": "Marvel Comics",
         "year": "May 1962",
         "grade": "CGC 9.2",
-        "grade_note": None,
+        "grade_note": "Off-White to White Pages",
         "significance": "The first appearance of the Hulk, by Stan Lee and Jack "
         "Kirby. Notoriously difficult to find in high grade due to its "
         "poorly-printed gray cover, which shows every flaw.",
@@ -98,9 +98,9 @@ BOOKS = [
         "key": "allstar8",
         "title": "All Star Comics #8",
         "publisher": "DC Comics",
-        "year": "December 1940",
+        "year": "December 1941",
         "grade": "CGC 9.4",
-        "grade_note": None,
+        "grade_note": "Off-White to White Pages",
         "significance": "The first appearance of Wonder Woman — the most "
         "important female character debut in comics history and a Golden Age "
         "key of the first rank.",
