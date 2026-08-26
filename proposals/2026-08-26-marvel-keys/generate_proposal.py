@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Generate the private sales proposal PDF for the Aug 2026 Marvel keys group.
+"""Generate the private sales proposal PDF for the Aug 2026 comic keys group.
 
 Cover images: drop files into ./covers/ named by each book's key
-(af15, ms5, ff1, hulk181, asm13) with a .jpg or .png extension and
-re-run this script; any book without an image gets a typographic panel.
+(af15, ms5, ff1, hulk181, asm13, action241) with a .jpg or .png extension
+and re-run this script; any book without an image gets a typographic panel.
 """
 
 import os
@@ -17,7 +17,7 @@ from reportlab.platypus import Frame, Paragraph
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 COVERS = os.path.join(HERE, "covers")
-OUT = os.path.join(HERE, "Private-Sales-Proposal-Marvel-Keys-Aug-2026.pdf")
+OUT = os.path.join(HERE, "Private-Sales-Proposal-Comic-Keys-Aug-2026.pdf")
 
 W, H = letter  # 612 x 792
 
@@ -144,9 +144,32 @@ BOOKS = [
         "price_note": None,
         "abbrev": ("AMAZING SPIDER-MAN", "No. 13"),
     },
+    {
+        "key": "action241",
+        "title": "Action Comics #241",
+        "publisher": "DC Comics",
+        "year": "June 1958",
+        "grade": "CGC 9.2",
+        "grade_note": "White Pages",
+        "table_note": "White Pages",
+        "cert": "4614192004",
+        "story": "Jerry Coleman & Otto Binder",
+        "art": "Wayne Boring, Jim Mooney & Howard Sherman",
+        "cover": "Curt Swan",
+        "significance": "The first appearance of the Fortress of Solitude "
+        "(“Fort Superman”), one of the enduring pillars of Superman mythology, "
+        "in the story “The Super-Key to Fort Superman.” Also features a Batman "
+        "appearance, behind a classic Curt Swan cover.",
+        "condition": "A superb CGC 9.2 with white pages — a genuinely scarce "
+        "state of preservation for a late-1950s DC title, and the top end of "
+        "the market for this key.",
+        "price": "$27,500",
+        "price_note": None,
+        "abbrev": ("ACTION COMICS", "No. 241"),
+    },
 ]
 
-COLLECTION_TOTAL = "$1,027,500"
+COLLECTION_TOTAL = "$1,055,000"
 
 DOC_LABEL = "PRIVATE SALES PROPOSAL"
 DOC_DATE = "August 26, 2026"
@@ -231,26 +254,28 @@ def cover_page(c):
 
     c.setFillColor(WHITE)
     c.setFont("Times-Roman", 34)
-    c.drawCentredString(W / 2, H - 300, "Five Certified")
-    c.drawCentredString(W / 2, H - 344, "Marvel Keys")
+    c.drawCentredString(W / 2, H - 300, "Six Certified")
+    c.drawCentredString(W / 2, H - 344, "Comic Book Keys")
 
-    c.setFont("Times-Italic", 13.5)
+    c.setFont("Times-Italic", 12.5)
     c.setFillColor(GOLD_LIGHT)
-    c.drawCentredString(W / 2, H - 386, "Spider-Man · Ghost Rider · The Fantastic Four · Wolverine · Mysterio")
+    c.drawCentredString(W / 2, H - 386, "Spider-Man · Ghost Rider · The Fantastic Four")
+    c.drawCentredString(W / 2, H - 404, "Wolverine · Mysterio · Superman")
 
     c.setStrokeColor(GOLD)
     c.setLineWidth(0.7)
-    c.line(W / 2 - 60, H - 425, W / 2 - 12, H - 425)
-    c.line(W / 2 + 12, H - 425, W / 2 + 60, H - 425)
-    c.circle(W / 2, H - 425, 3.2, fill=0, stroke=1)
+    c.line(W / 2 - 60, H - 440, W / 2 - 12, H - 440)
+    c.line(W / 2 + 12, H - 440, W / 2 + 60, H - 440)
+    c.circle(W / 2, H - 440, 3.2, fill=0, stroke=1)
 
-    y = 250
+    y = 268
     for line in [
         "Amazing Fantasy #15  ·  CGC 8.0  ·  QES",
         "Marvel Spotlight #5  ·  CGC 9.8",
         "Fantastic Four #1  ·  CGC 8.5",
         "The Incredible Hulk #181  ·  CGC 9.8",
         "The Amazing Spider-Man #13  ·  CGC 9.4",
+        "Action Comics #241  ·  CGC 9.2",
     ]:
         c.setFont("Times-Roman", 11.5)
         c.setFillColor(HexColor("#dcd5c4"))
@@ -274,14 +299,14 @@ def summary_page(c, page_num, total):
     c.drawString(54, H - 120, "The Offering")
 
     intro = (
-        "We are pleased to present a private opportunity to acquire five certified "
-        "Marvel keys spanning the birth of the Marvel Universe through the dawn of "
-        "the Bronze Age: the first appearances of the Fantastic Four, Spider-Man, "
-        "Mysterio, Ghost Rider, and Wolverine. Every book is professionally graded "
-        "and encapsulated by CGC, with the certification number, page quality, and "
-        "creative credits set out in the pages that follow. The group leads with an "
-        "Amazing Fantasy #15 carrying a QES sticker — independent recognition of "
-        "superior quality within its grade."
+        "We are pleased to present a private opportunity to acquire six certified "
+        "keys spanning the Silver and Bronze Ages: the first appearances of the "
+        "Fantastic Four, Spider-Man, Mysterio, Ghost Rider, and Wolverine, together "
+        "with the debut of Superman's Fortress of Solitude. Every book is "
+        "professionally graded and encapsulated by CGC, with the certification "
+        "number, page quality, and creative credits set out in the pages that "
+        "follow. The group leads with an Amazing Fantasy #15 carrying a QES "
+        "sticker — independent recognition of superior quality within its grade."
     )
     para(c, intro, 54, H - 265, W - 108, 125, BODY)
 
@@ -408,11 +433,16 @@ def book_page(c, book, idx, page_num, total):
         ("COVER", book["cover"]),
     ]
     my = 476
+    value_x = rx + 78
+    value_max = W - 54 - value_x
     for label, value in meta:
         small_caps(c, rx, my, label, 6, GRAY, 1.3)
-        c.setFont("Times-Roman", 9.5)
+        size = 9.5
+        while size > 6.5 and c.stringWidth(value, "Times-Roman", size) > value_max:
+            size -= 0.25
+        c.setFont("Times-Roman", size)
         c.setFillColor(INK)
-        c.drawString(rx + 78, my - 0.5, value)
+        c.drawString(value_x, my - 0.5, value)
         my -= 14.5
 
     small_caps(c, rx, 396, "SIGNIFICANCE", 7, GOLD, 2)
@@ -485,7 +515,7 @@ def terms_page(c, page_num, total):
 
 def main():
     c = canvas.Canvas(OUT, pagesize=letter)
-    c.setTitle("Private Sales Proposal — Five Certified Marvel Keys")
+    c.setTitle("Private Sales Proposal — Six Certified Comic Book Keys")
     c.setAuthor("Avery — ArtLife")
     total = 3 + len(BOOKS)
     cover_page(c)
