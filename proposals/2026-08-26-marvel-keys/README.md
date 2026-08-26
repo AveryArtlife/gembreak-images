@@ -28,6 +28,9 @@ re-run the script:
 | `covers/asm13.jpg` | The Amazing Spider-Man #13 |
 | `covers/action241.jpg` | Action Comics #241 |
 
-`.png` and `.jpeg` extensions also work. Any book without an image falls back
-to a typographic placeholder panel. Edit `BOOKS` in `generate_proposal.py` to
-adjust pricing, copy, or lot order.
+`.png` and `.jpeg` extensions also work, and filenames are matched loosely —
+`Amazing Fantasy 15.jpg`, `AF15.PNG`, `ghost-rider.jpg`, and `wolverine.jpg`
+all resolve to the right lot (see `ALIASES` in the script). Any book without an
+image falls back to a typographic placeholder panel.
+
+Edit `BOOKS` in `generate_proposal.py` to adjust pricing, copy, or lot order.

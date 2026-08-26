@@ -176,11 +176,43 @@ DOC_DATE = "August 26, 2026"
 CONTACT = "Avery  ·  avery@artlife.com"
 
 
+ALIASES = {
+    "af15": ["af15", "amazingfantasy15", "amazingfantasy", "spiderman1", "af"],
+    "ms5": ["ms5", "marvelspotlight5", "marvelspotlight", "ghostrider"],
+    "ff1": ["ff1", "fantasticfour1", "fantasticfour", "ff"],
+    "hulk181": ["hulk181", "incrediblehulk181", "hulk", "wolverine"],
+    "asm13": ["asm13", "amazingspiderman13", "spiderman13", "mysterio"],
+    "action241": ["action241", "actioncomics241", "action", "fortressofsolitude"],
+}
+
+
+def _norm(name):
+    return "".join(ch for ch in name.lower() if ch.isalnum())
+
+
 def find_cover(key):
-    for ext in ("jpg", "jpeg", "png"):
+    """Locate a cover image for `key`, tolerating loose filenames.
+
+    Exact `<key>.<ext>` wins; otherwise any file in covers/ whose normalized
+    stem matches one of the book's aliases is accepted, so images keep working
+    when they arrive named "Amazing Fantasy 15.jpg" or "ASM13.PNG".
+    """
+    exts = ("jpg", "jpeg", "png")
+    for ext in exts:
         p = os.path.join(COVERS, f"{key}.{ext}")
         if os.path.exists(p):
             return p
+
+    if not os.path.isdir(COVERS):
+        return None
+
+    aliases = ALIASES.get(key, [key])
+    for fname in sorted(os.listdir(COVERS)):
+        stem, dot, ext = fname.rpartition(".")
+        if not dot or ext.lower() not in exts:
+            continue
+        if _norm(stem) in aliases:
+            return os.path.join(COVERS, fname)
     return None
 
 
