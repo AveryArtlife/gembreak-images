@@ -81,7 +81,7 @@ after the shoot.
 
 > **Brief**
 >
-> GemBreak sells mystery packs with real watches inside — 197 of them in the
+> GemBreak sells mystery packs with real watches inside — over 1,700 in the
 > current pool, from everyday pieces up to a Richard Mille RM 11-03. Every pack
 > is priced off the actual expected value of what's in it.
 >

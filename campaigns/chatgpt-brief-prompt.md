@@ -15,8 +15,8 @@ GemBreak. One page means roughly 500–650 words — scannable, no preamble, no
 filler.
 
 ## About GemBreak
-GemBreak sells sealed mystery packs with real watches inside. ~197 watches in
-the current pool, from everyday pieces up to a Richard Mille RM 11-03 (~$330K),
+GemBreak sells sealed mystery packs with real watches inside. Over 1,700 watches
+in the current pool, from everyday pieces up to a Richard Mille RM 11-03 (~$330K),
 which is the rarest pull site-wide. Packs are priced off the expected value of
 what's in them. Creators open a pack on camera and keep whatever they pull.
 
