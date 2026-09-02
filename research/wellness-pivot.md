@@ -1,5 +1,11 @@
 # The Wellness Pivot — General Wellness / Biohacking / Longevity Names
 
+> **⚠️ SUPERSEDED (Sep 2, 2026):** the founder's brief moved to *clean · luxury · scientific ·
+> trustworthy* for a prescription-only telehealth + 503A brand. A brutal stress test killed
+> every name below on collisions or register (Halo Lab ×3 collisions incl. cannabis; Spancell
+> vs CellSpan Bio). The current master ranking is **`luxury-scientific.md`**
+> (Criterion Rx #1 · Criterion Clinic #2 · Reserve Clinic fallback).
+
 **Updated:** August 17, 2026 · Supersedes the peptide-centric Top 30 for the new brand direction
 
 The brief changed: **step away from "peptide" as the brand anchor** and name a broader
