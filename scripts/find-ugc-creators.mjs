@@ -1,26 +1,24 @@
-// Find street-interview UGC creators in NYC + Miami for GemBreak outreach.
+// Find US creators who can shoot pack rip / pack rip reaction videos for GemBreak.
 //
-// Produces the exact shortlist we want: creators under a follower cap, who posted
-// in the last N days, ranked by how viral their videos actually go, with the
-// GemBreak-relevant ones (watches, jewelry, gambling, mystery packs, finance,
-// crypto) pushed to the top.
+// Ranks for cost-per-conversion, not reach: comment rate and format fit lead,
+// raw views trail. See campaigns/creator-search-prompt.md for why.
 //
 // Setup (one time):
-//   1. Sign up at apify.com -> Settings -> API & Integrations -> copy the token.
-//   2. npm i            (no new deps -- this uses plain fetch)
+//   1. apify.com -> Settings -> API & Integrations -> copy the token.
+//   2. npm i            (no new deps -- plain fetch)
 //
 // Run:
 //   APIFY_TOKEN=apify_api_xxx node scripts/find-ugc-creators.mjs
 //
 // Options (env vars):
-//   MAX_FOLLOWERS=50000     follower ceiling
-//   DAYS=7                  only keep creators who posted this recently
-//   PER_QUERY=60            videos pulled per search query (cost knob)
-//   PLATFORMS=tiktok,instagram
+//   MIN_FOLLOWERS=5000       floor
+//   MAX_FOLLOWERS=500000     ceiling
+//   DAYS=30                  only creators who posted this recently
+//   PER_QUERY=50             results per query (cost knob)
+//   PLATFORMS=tiktok,instagram,youtube
 //
-// Output: out/creators-nyc.md, out/creators-miami.md, out/creators.csv
-// A run at the defaults is ~40 queries and costs a couple of dollars of Apify
-// credit -- the free tier covers a first pass.
+// Output: out/creators-<platform>.md (split by tier) and out/creators.csv
+// (every creator, best first -- the top of that file is the outreach queue).
 
 import { mkdir, writeFile } from "node:fs/promises";
 
@@ -30,65 +28,77 @@ if (!TOKEN) {
   process.exit(1);
 }
 
-const MAX_FOLLOWERS = Number(process.env.MAX_FOLLOWERS ?? 50_000);
-const DAYS = Number(process.env.DAYS ?? 7);
-const PER_QUERY = Number(process.env.PER_QUERY ?? 60);
-const PLATFORMS = (process.env.PLATFORMS ?? "tiktok,instagram").split(",").map((p) => p.trim());
+const MIN_FOLLOWERS = Number(process.env.MIN_FOLLOWERS ?? 5_000);
+const MAX_FOLLOWERS = Number(process.env.MAX_FOLLOWERS ?? 500_000);
+const DAYS = Number(process.env.DAYS ?? 30);
+const PER_QUERY = Number(process.env.PER_QUERY ?? 50);
+const PLATFORMS = (process.env.PLATFORMS ?? "tiktok,instagram,youtube").split(",").map((p) => p.trim());
 const CUTOFF = Date.now() - DAYS * 864e5;
 
 // ---------------------------------------------------------------- search plan
 
-// Street-interview format terms, crossed with each city's own vocabulary.
-// Kept broad on purpose -- filtering happens after, on real numbers.
 const FORMAT = [
-  "street interview",
-  "asking strangers",
-  "public interview",
-  "asking people on the street",
-  "how much is your outfit",
-  "how much was your watch",
-  "what do you do for a living",
+  "pack rip", "ripping packs", "pack opening", "unboxing", "mystery box",
+  "mystery pack", "case break", "box break", "whats inside", "blind box",
 ];
 
-// The niches that matter for GemBreak. A creator already asking strangers about
-// their watch is a warm intro to a mystery-pack sponsorship.
 const NICHE = [
-  "how much is your watch",
-  "watch check street",
-  "asking rich people what they do",
-  "jewelry street interview",
-  "asking people how much they make",
-  "crypto street interview",
-  "asking strangers about bitcoin",
-  "gambling street interview",
-  "mystery box street",
+  "watch unboxing", "watch collection", "jewelry unboxing", "iced out",
+  "sneaker unboxing", "card break", "sports cards", "collectibles haul",
+  "grail unboxing", "reseller haul",
 ];
 
-const CITIES = {
-  nyc: {
-    label: "New York City",
-    terms: ["nyc", "new york", "manhattan", "soho nyc", "times square", "brooklyn"],
-    hashtags: ["nycstreetinterview", "streetinterviewnyc", "nyc", "diamonddistrict"],
-    // Used to confirm a creator is actually local, not just passing through.
-    signals: ["nyc", "new york", "manhattan", "brooklyn", "queens", "bronx", "soho", "harlem", "47th"],
-  },
-  miami: {
-    label: "Miami",
-    terms: ["miami", "brickell", "wynwood", "south beach", "miami beach", "design district miami"],
-    hashtags: ["miamistreetinterview", "streetinterviewmiami", "miami", "brickell", "wynwood"],
-    signals: ["miami", "brickell", "wynwood", "south beach", "mia", "305", "doral", "coral gables"],
-  },
+const REACTION = [
+  "insane pull", "best pull", "worst pull", "pull reaction", "opening reaction",
+];
+
+const HASHTAGS = [
+  "packrip", "packopening", "mysterybox", "unboxing", "watchtok",
+  "cardbreak", "boxbreak", "hypebeast", "grail", "whatsinside",
+];
+
+// Cities are tags, not filters -- useful for clustering shoots, never a reason
+// to exclude someone.
+const CITY_TAGS = {
+  nyc: ["nyc", "new york", "manhattan", "brooklyn", "queens", "bronx"],
+  miami: ["miami", "brickell", "wynwood", "south beach", "305"],
+  la: ["los angeles", "la ", "hollywood", "socal", "dtla"],
+  atlanta: ["atlanta", "atl", "buckhead"],
+  dallas: ["dallas", "dfw", "fort worth"],
+  chicago: ["chicago", "chi town", "windy city"],
+  vegas: ["las vegas", "vegas"],
+  houston: ["houston", "htx"],
+  phoenix: ["phoenix", "scottsdale", "az"],
+  philly: ["philadelphia", "philly"],
 };
 
-// Caption/bio keywords -> GemBreak category. Drives the priority boost.
 const CATEGORIES = {
-  watch: ["watch", "rolex", "patek", "ap ", "audemars", "richard mille", "cartier", "omega", "timepiece", "watchtok"],
+  watch: ["watch", "rolex", "patek", "audemars", "richard mille", "cartier", "omega", "timepiece", "watchtok"],
   jewelry: ["jewelry", "jewellery", "chain", "diamond", "iced out", "grillz", "vvs", "bust down"],
-  gambling: ["gambling", "casino", "bet", "betting", "slots", "blackjack", "roulette", "parlay"],
-  "mystery pack": ["mystery box", "mystery pack", "unboxing", "blind box", "pack opening", "case opening"],
-  finance: ["salary", "how much do you make", "net worth", "invest", "money", "finance", "stocks", "portfolio"],
-  crypto: ["crypto", "bitcoin", "btc", "ethereum", "solana", "memecoin", "web3", "nft"],
+  sneakers: ["sneaker", "jordan", "yeezy", "kicks", "hypebeast", "stockx"],
+  cards: ["card break", "pokemon", "sports card", "psa", "topps", "panini", "slab"],
+  "mystery pack": ["mystery box", "mystery pack", "blind box", "pack opening", "pack rip", "case break"],
+  finance: ["net worth", "invest", "money", "finance", "stocks", "portfolio", "resell"],
+  crypto: ["crypto", "bitcoin", "btc", "ethereum", "solana", "web3", "nft"],
 };
+
+// Having already shot a reveal is the single strongest signal that a creator
+// can execute this brief on the first take.
+const FORMAT_FIT = [
+  "unbox", "pack rip", "pack opening", "mystery box", "mystery pack",
+  "break", "whats inside", "what's inside", "blind box", "pull",
+];
+
+// Cheap to check, expensive to miss.
+const DISQUALIFY = {
+  giveaway: ["tag 3 friends", "tag three friends", "giveaway", "enter to win", "follow to win"],
+  kids: ["kid friendly", "family channel", "toys for kids", "kids toys"],
+};
+
+const US_SIGNALS = [
+  "usa", "united states", "🇺🇸", "us based", "shipping from us",
+  ...Object.values(CITY_TAGS).flat(),
+];
 
 // ------------------------------------------------------------------ apify i/o
 
@@ -115,22 +125,23 @@ async function runActor(actorId, input) {
 // Actor output shapes drift between versions, so read every field defensively.
 const pick = (...vals) => vals.find((v) => v !== undefined && v !== null);
 const num = (v) => (typeof v === "number" ? v : Number(v)) || 0;
+const ms = (v) => (v ? new Date(v).getTime() : 0);
 
 function normalizeTikTok(item) {
   const a = item.authorMeta ?? item.author ?? {};
-  const username = pick(a.name, a.uniqueId, a.nickName, item.authorUsername);
+  const username = pick(a.name, a.uniqueId, a.nickName);
   if (!username) return null;
-  const created = pick(item.createTimeISO, item.createTime && item.createTime * 1000, item.uploadedAt);
   return {
     platform: "tiktok",
     username,
     followers: num(pick(a.fans, a.followerCount, a.followers)),
     bio: pick(a.signature, a.bio, "") ?? "",
     caption: pick(item.text, item.description, "") ?? "",
-    views: num(pick(item.playCount, item.views, item.playCountRaw)),
+    views: num(pick(item.playCount, item.views)),
     likes: num(pick(item.diggCount, item.likes)),
-    postedAt: created ? new Date(created).getTime() : 0,
-    url: pick(item.webVideoUrl, item.videoUrl, `https://www.tiktok.com/@${username}`),
+    comments: num(pick(item.commentCount, item.comments)),
+    postedAt: ms(pick(item.createTimeISO, item.createTime && item.createTime * 1000)),
+    url: pick(item.webVideoUrl, `https://www.tiktok.com/@${username}`),
   };
 }
 
@@ -140,29 +151,43 @@ function normalizeInstagram(item) {
   return {
     platform: "instagram",
     username,
-    // Hashtag results rarely carry follower counts; backfilled below.
-    followers: num(pick(item.ownerFollowersCount, item.followersCount)),
+    followers: num(pick(item.ownerFollowersCount, item.followersCount)), // backfilled below
     bio: pick(item.ownerBiography, item.biography, "") ?? "",
     caption: pick(item.caption, item.text, "") ?? "",
-    views: num(pick(item.videoViewCount, item.videoPlayCount, item.likesCount)),
+    views: num(pick(item.videoViewCount, item.videoPlayCount)),
     likes: num(pick(item.likesCount, item.likes)),
-    postedAt: item.timestamp ? new Date(item.timestamp).getTime() : 0,
+    comments: num(pick(item.commentsCount, item.comments)),
+    postedAt: ms(item.timestamp),
     url: pick(item.url, `https://www.instagram.com/${username}/`),
+  };
+}
+
+function normalizeYouTube(item) {
+  const username = pick(item.channelUsername, item.channelName, item.channelTitle);
+  if (!username) return null;
+  return {
+    platform: "youtube",
+    username: String(username).replace(/^@/, ""),
+    followers: num(pick(item.numberOfSubscribers, item.channelTotalSubscribers, item.subscriberCount)),
+    bio: pick(item.channelDescription, "") ?? "",
+    caption: `${pick(item.title, "") ?? ""} ${pick(item.text, item.description, "") ?? ""}`,
+    views: num(pick(item.viewCount, item.views)),
+    likes: num(pick(item.likes, item.likeCount)),
+    comments: num(pick(item.commentsCount, item.commentCount)),
+    postedAt: ms(pick(item.date, item.uploadDate)),
+    url: pick(item.url, item.channelUrl, ""),
   };
 }
 
 // ------------------------------------------------------------------- scraping
 
-async function scrapeTikTok(city) {
-  const queries = [
-    ...FORMAT.flatMap((f) => city.terms.slice(0, 3).map((t) => `${f} ${t}`)),
-    ...NICHE.map((n) => `${n} ${city.terms[0]}`),
-  ];
-  console.log(`  tiktok: ${queries.length} search queries + ${city.hashtags.length} hashtags`);
+const QUERIES = [...FORMAT, ...NICHE, ...REACTION];
 
+async function scrapeTikTok() {
+  console.log(`  tiktok: ${QUERIES.length} queries + ${HASHTAGS.length} hashtags`);
   const [bySearch, byTag] = await Promise.all([
     runActor("clockworks~tiktok-scraper", {
-      searchQueries: queries,
+      searchQueries: QUERIES,
       resultsPerPage: PER_QUERY,
       searchSection: "/video",
       shouldDownloadVideos: false,
@@ -171,143 +196,196 @@ async function scrapeTikTok(city) {
       proxyCountryCode: "US",
     }),
     runActor("clockworks~tiktok-hashtag-scraper", {
-      hashtags: city.hashtags,
+      hashtags: HASHTAGS,
       resultsPerPage: PER_QUERY,
       shouldDownloadVideos: false,
       shouldDownloadCovers: false,
     }),
   ]);
-
   return [...bySearch, ...byTag].map(normalizeTikTok).filter(Boolean);
 }
 
-async function scrapeInstagram(city) {
+async function scrapeInstagram() {
+  console.log(`  instagram: ${HASHTAGS.length} hashtags`);
   const posts = await runActor("apify~instagram-scraper", {
-    search: city.hashtags[0],
+    search: HASHTAGS.join(" "),
     searchType: "hashtag",
     resultsType: "posts",
-    resultsLimit: PER_QUERY * 2,
+    resultsLimit: PER_QUERY * HASHTAGS.length,
     onlyPostsNewerThan: new Date(CUTOFF).toISOString().slice(0, 10),
   });
   const rows = posts.map(normalizeInstagram).filter(Boolean);
 
-  // Backfill follower counts -- hashtag results don't include them.
-  const handles = [...new Set(rows.map((r) => r.username))].slice(0, 200);
+  // Hashtag results don't carry follower counts -- backfill from profiles.
+  const handles = [...new Set(rows.map((r) => r.username))].slice(0, 300);
   if (!handles.length) return rows;
   const profiles = await runActor("apify~instagram-profile-scraper", { usernames: handles });
-  const followersBy = new Map(
-    profiles.map((p) => [p.username, num(pick(p.followersCount, p.followers))]),
-  );
-  const bioBy = new Map(profiles.map((p) => [p.username, pick(p.biography, "") ?? ""]));
+  const byHandle = new Map(profiles.map((p) => [p.username, p]));
   for (const r of rows) {
-    r.followers = followersBy.get(r.username) ?? r.followers;
-    r.bio = bioBy.get(r.username) || r.bio;
+    const p = byHandle.get(r.username);
+    if (!p) continue;
+    r.followers = num(pick(p.followersCount, p.followers)) || r.followers;
+    r.bio = pick(p.biography, "") || r.bio;
   }
   return rows;
 }
 
+async function scrapeYouTube() {
+  console.log(`  youtube: ${QUERIES.length} queries (shorts)`);
+  const items = await runActor("streamers~youtube-scraper", {
+    searchQueries: QUERIES,
+    maxResults: PER_QUERY,
+    maxResultsShorts: PER_QUERY,
+    uploadDate: "month",
+    sortingOrder: "relevance",
+  });
+  return items.map(normalizeYouTube).filter(Boolean);
+}
+
 // ------------------------------------------------------------------ analysis
 
-function categoriesFor(text) {
+const has = (text, words) => {
   const t = text.toLowerCase();
-  return Object.entries(CATEGORIES)
-    .filter(([, words]) => words.some((w) => t.includes(w)))
-    .map(([cat]) => cat);
-}
-
-function isLocal(creator, city) {
-  const t = `${creator.bio} ${creator.samples.map((s) => s.caption).join(" ")}`.toLowerCase();
-  return city.signals.some((s) => t.includes(s));
-}
+  return words.some((w) => t.includes(w));
+};
 
 function groupCreators(rows) {
   const by = new Map();
   for (const r of rows) {
-    const key = `${r.platform}:${r.username}`;
+    const key = `${r.platform}:${r.username.toLowerCase()}`;
     if (!by.has(key)) {
-      by.set(key, {
-        platform: r.platform,
-        username: r.username,
-        followers: r.followers,
-        bio: r.bio,
-        samples: [],
-      });
+      by.set(key, { platform: r.platform, username: r.username, followers: 0, bio: "", samples: [] });
     }
     const c = by.get(key);
     c.followers = Math.max(c.followers, r.followers); // most complete reading wins
     if (!c.bio) c.bio = r.bio;
-    c.samples.push({ url: r.url, views: r.views, likes: r.likes, postedAt: r.postedAt, caption: r.caption });
+    c.samples.push(r);
   }
   return [...by.values()];
 }
 
-function score(creator) {
-  const views = creator.samples.map((s) => s.views).sort((a, b) => b - a);
-  const best = views[0] ?? 0;
-  const median = views[Math.floor(views.length / 2)] ?? 0;
-  // Videos that cleared 100k are the real signal -- a small account with three
-  // of those is worth more to us than a bigger one with none.
-  const hits = views.filter((v) => v >= 100_000).length;
-  // How far past their own audience a video travels. This is what makes a
-  // sub-50k creator a bargain.
-  const reach = creator.followers > 0 ? best / creator.followers : 0;
+function tierOf(followers) {
+  if (followers < 25_000) return "nano";
+  if (followers < 100_000) return "micro";
+  return "mid";
+}
 
-  creator.bestViews = best;
-  creator.medianViews = median;
-  creator.viralHits = hits;
-  creator.reachMultiple = Number(reach.toFixed(1));
-  creator.categories = [
-    ...new Set(creator.samples.flatMap((s) => categoriesFor(`${s.caption} ${creator.bio}`))),
-  ];
-  creator.lastPost = Math.max(...creator.samples.map((s) => s.postedAt));
+// Rough published-norm rate ladder for UGC with usage rights. An estimate for
+// ranking only -- real quotes vary wildly and land in negotiation.
+function estimateRate(followers) {
+  return Math.max(150, Math.round((followers / 10_000) * 100));
+}
 
-  return (
-    hits * 40 +
-    Math.log10(best + 1) * 12 +
-    Math.log10(median + 1) * 6 +
-    Math.min(reach, 50) * 2 +
-    creator.categories.length * 25 // GemBreak-niche creators float to the top
-  );
+const median = (arr) => {
+  if (!arr.length) return 0;
+  const s = [...arr].sort((a, b) => a - b);
+  return s[Math.floor(s.length / 2)];
+};
+
+function analyze(c) {
+  const text = `${c.bio} ${c.samples.map((s) => s.caption).join(" ")}`;
+  const views = c.samples.map((s) => s.views).filter((v) => v > 0);
+
+  c.medianViews = median(views);
+  c.bestViews = Math.max(0, ...views);
+  c.lastPost = Math.max(...c.samples.map((s) => s.postedAt));
+
+  const totalViews = views.reduce((a, b) => a + b, 0);
+  const totalComments = c.samples.reduce((a, s) => a + s.comments, 0);
+  const totalLikes = c.samples.reduce((a, s) => a + s.likes, 0);
+
+  // Comments are the cheapest proxy for purchase intent we can measure.
+  c.commentRate = totalViews ? (totalComments / totalViews) * 100 : 0;
+  c.likeRate = totalViews ? (totalLikes / totalViews) * 100 : 0;
+  c.reachMultiple = c.followers ? Number((c.medianViews / c.followers).toFixed(1)) : 0;
+
+  c.estRate = estimateRate(c.followers);
+  c.costPerK = c.medianViews ? Number((c.estRate / (c.medianViews / 1000)).toFixed(2)) : Infinity;
+
+  c.formatFit = has(text, FORMAT_FIT);
+  c.categories = Object.entries(CATEGORIES).filter(([, w]) => has(text, w)).map(([k]) => k);
+  c.cities = Object.entries(CITY_TAGS).filter(([, w]) => has(text, w)).map(([k]) => k);
+  c.usSignal = has(text, US_SIGNALS);
+
+  // Posting cadence over the window we scraped.
+  const span = Math.max(1, (Date.now() - Math.min(...c.samples.map((s) => s.postedAt))) / 6048e5);
+  c.postsPerWeek = Number((c.samples.length / span).toFixed(1));
+
+  c.flags = [];
+  if (has(text, DISQUALIFY.giveaway)) c.flags.push("giveaway-farm");
+  if (has(text, DISQUALIFY.kids)) c.flags.push("kid-facing");
+  // Engagement well outside normal band reads as a pod or bought followers.
+  if (c.likeRate > 25) c.flags.push("engagement-anomaly");
+  if (c.commentRate > 5) c.flags.push("engagement-anomaly");
+
+  return c;
+}
+
+// Weighted for cost-per-conversion. Reach is deliberately last.
+function score(c) {
+  const commentSignal = Math.min(c.commentRate, 2) * 60;   // intent, capped
+  const fit = c.formatFit ? 80 : 0;                        // already shoots reveals
+  const efficiency = Number.isFinite(c.costPerK)
+    ? Math.max(0, 40 - Math.min(c.costPerK, 40))           // cheaper per 1k = better
+    : 0;
+  const cadence = Math.min(c.postsPerWeek, 7) * 5;
+  const adjacency = c.categories.length * 20;
+  const reach = Math.log10(c.medianViews + 1) * 8;         // trails on purpose
+  const penalty = c.flags.length * 100;
+
+  return commentSignal + fit + efficiency + cadence + adjacency + reach - penalty;
 }
 
 // -------------------------------------------------------------------- reports
 
-const fmt = (n) => n.toLocaleString("en-US");
-const day = (ms) => (ms ? new Date(ms).toISOString().slice(0, 10) : "unknown");
+const fmt = (n) => (Number.isFinite(n) ? n.toLocaleString("en-US") : "n/a");
+const day = (t) => (t ? new Date(t).toISOString().slice(0, 10) : "unknown");
+const profileUrl = (c) =>
+  c.platform === "tiktok" ? `https://www.tiktok.com/@${c.username}`
+  : c.platform === "instagram" ? `https://www.instagram.com/${c.username}/`
+  : `https://www.youtube.com/@${c.username}`;
 
-function toMarkdown(cityLabel, creators) {
+function toMarkdown(platform, creators) {
   const lines = [
-    `# Street-interview UGC creators — ${cityLabel}`,
+    `# Pack-rip creators — ${platform}`,
     "",
-    `Under ${fmt(MAX_FOLLOWERS)} followers · posted within ${DAYS} days · ranked by viral reach.`,
+    `${fmt(MIN_FOLLOWERS)}–${fmt(MAX_FOLLOWERS)} followers · posted within ${DAYS} days · US.`,
+    `Ranked for cost-per-conversion: comment rate and format fit lead, reach trails.`,
     `Generated ${new Date().toISOString().slice(0, 10)}.`,
     "",
   ];
-  creators.forEach((c, i) => {
-    const handle = c.platform === "tiktok" ? `https://www.tiktok.com/@${c.username}` : `https://www.instagram.com/${c.username}/`;
-    lines.push(`## ${i + 1}. @${c.username} — ${fmt(c.followers)} followers (${c.platform})`);
-    lines.push(`- Profile: ${handle}`);
-    lines.push(`- Best video: ${fmt(c.bestViews)} views · ${c.viralHits} video(s) over 100k · ${c.reachMultiple}x their follower count`);
-    lines.push(`- Categories: ${c.categories.length ? c.categories.join(", ") : "general street interview"}`);
-    lines.push(`- Last posted: ${day(c.lastPost)}`);
-    lines.push("- Examples:");
-    for (const s of c.samples.sort((a, b) => b.views - a.views).slice(0, 3)) {
-      lines.push(`  - ${s.url} — ${fmt(s.views)} views (${day(s.postedAt)})`);
-    }
-    lines.push("");
-  });
-  if (!creators.length) lines.push("_No creators matched. Loosen MAX_FOLLOWERS or DAYS and re-run._");
+
+  for (const tier of ["nano", "micro", "mid"]) {
+    const group = creators.filter((c) => c.tier === tier);
+    lines.push(`## ${tier} (${group.length})`, "");
+    if (!group.length) { lines.push("_none matched_", ""); continue; }
+    group.forEach((c, i) => {
+      lines.push(`### ${i + 1}. @${c.username} — ${fmt(c.followers)} followers`);
+      lines.push(`- ${profileUrl(c)}`);
+      lines.push(`- Median ${fmt(c.medianViews)} views · ${c.reachMultiple}x followers · comment rate ${c.commentRate.toFixed(2)}%`);
+      lines.push(`- Est. $${fmt(c.estRate)}/video → **$${c.costPerK} per 1k views**`);
+      lines.push(`- ${c.formatFit ? "**Has shot reveal content**" : "No reveal content found"} · ${c.postsPerWeek} posts/wk · last ${day(c.lastPost)}`);
+      lines.push(`- Categories: ${c.categories.join(", ") || "none matched"}${c.cities.length ? ` · ${c.cities.join(", ")}` : ""}`);
+      if (c.flags.length) lines.push(`- ⚠️ ${c.flags.join(", ")}`);
+      for (const s of [...c.samples].sort((a, b) => b.views - a.views).slice(0, 2)) {
+        lines.push(`- ${s.url} — ${fmt(s.views)} views`);
+      }
+      lines.push("");
+    });
+  }
   return lines.join("\n");
 }
 
 function toCsv(all) {
-  const head = "city,platform,username,followers,best_views,viral_hits_100k,reach_multiple,categories,last_post,profile_url,top_video";
+  const head = "platform,tier,username,followers,median_views,reach_multiple,comment_rate_pct,est_rate_usd,cost_per_1k_views,format_fit,posts_per_week,categories,cities,flags,last_post,profile_url,top_video";
   const rows = all.map((c) => {
-    const top = c.samples.sort((a, b) => b.views - a.views)[0];
-    const profile = c.platform === "tiktok" ? `https://www.tiktok.com/@${c.username}` : `https://www.instagram.com/${c.username}/`;
+    const top = [...c.samples].sort((a, b) => b.views - a.views)[0];
     return [
-      c.city, c.platform, c.username, c.followers, c.bestViews, c.viralHits,
-      c.reachMultiple, `"${c.categories.join(" | ")}"`, day(c.lastPost), profile, top?.url ?? "",
+      c.platform, c.tier, c.username, c.followers, c.medianViews, c.reachMultiple,
+      c.commentRate.toFixed(2), c.estRate, Number.isFinite(c.costPerK) ? c.costPerK : "",
+      c.formatFit, c.postsPerWeek,
+      `"${c.categories.join(" | ")}"`, `"${c.cities.join(" | ")}"`, `"${c.flags.join(" | ")}"`,
+      day(c.lastPost), profileUrl(c), top?.url ?? "",
     ].join(",");
   });
   return [head, ...rows].join("\n");
@@ -315,31 +393,38 @@ function toCsv(all) {
 
 // ----------------------------------------------------------------------- main
 
+const SCRAPERS = { tiktok: scrapeTikTok, instagram: scrapeInstagram, youtube: scrapeYouTube };
 const all = [];
+await mkdir("out", { recursive: true });
 
-for (const [key, city] of Object.entries(CITIES)) {
-  console.log(`\n${city.label}`);
-  const rows = [];
-  if (PLATFORMS.includes("tiktok")) rows.push(...(await scrapeTikTok(city)));
-  if (PLATFORMS.includes("instagram")) rows.push(...(await scrapeInstagram(city)));
+for (const platform of PLATFORMS) {
+  const scrape = SCRAPERS[platform];
+  if (!scrape) { console.log(`\nskip ${platform} (unknown)`); continue; }
+
+  console.log(`\n${platform}`);
+  const rows = await scrape();
   console.log(`  ${rows.length} videos scraped`);
 
   const creators = groupCreators(rows)
-    .filter((c) => c.followers > 0 && c.followers <= MAX_FOLLOWERS)
+    .filter((c) => c.followers >= MIN_FOLLOWERS && c.followers <= MAX_FOLLOWERS)
     .filter((c) => c.samples.some((s) => s.postedAt >= CUTOFF))
-    .filter((c) => isLocal(c, city));
+    .map(analyze)
+    // Keep flagged creators visible but ranked down -- a human should see why
+    // they were rejected rather than wonder where they went.
+    .filter((c) => !c.flags.includes("kid-facing"));
 
   for (const c of creators) {
+    c.tier = tierOf(c.followers);
     c.rank = score(c);
-    c.city = key;
   }
   creators.sort((a, b) => b.rank - a.rank);
 
-  console.log(`  ${creators.length} creators match (<=${fmt(MAX_FOLLOWERS)} followers, posted in ${DAYS}d)`);
-  await mkdir("out", { recursive: true });
-  await writeFile(`out/creators-${key}.md`, toMarkdown(city.label, creators));
+  console.log(`  ${creators.length} creators match (${fmt(MIN_FOLLOWERS)}-${fmt(MAX_FOLLOWERS)}, posted in ${DAYS}d)`);
+  await writeFile(`out/creators-${platform}.md`, toMarkdown(platform, creators));
   all.push(...creators);
 }
 
+all.sort((a, b) => b.rank - a.rank);
 await writeFile("out/creators.csv", toCsv(all));
-console.log(`\nWrote out/creators-nyc.md, out/creators-miami.md, out/creators.csv (${all.length} creators).`);
+console.log(`\nWrote out/creators-*.md and out/creators.csv (${all.length} creators).`);
+console.log("Top of creators.csv is the outreach queue.");
