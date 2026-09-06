@@ -89,6 +89,12 @@ def main() -> None:
         default=[],
         help="Replace existing main images only for SKUs beginning with this prefix",
     )
+    parser.add_argument(
+        "--force-sku",
+        action="append",
+        default=[],
+        help="Replace the existing main image for this exact SKU (repeatable)",
+    )
     args = parser.parse_args()
 
     repo = args.repo.resolve()
@@ -103,13 +109,15 @@ def main() -> None:
 
     created = 0
     preserved = 0
+    force_skus = set(args.force_sku)
     source_entries: list[dict[str, str]] = []
     for source in sorted(cutout_root.glob("*.png"), key=lambda p: p.stem):
         sku = source.stem
         destination = product_root / sku / "main.jpg"
         existed = destination.exists()
         replace_prefix = any(sku.startswith(prefix) for prefix in args.force_prefix)
-        if args.force or replace_prefix or not existed:
+        replace_sku = sku in force_skus
+        if args.force or replace_prefix or replace_sku or not existed:
             render_main(source, destination)
             created += 1
             origin = "watches-only-derived"
