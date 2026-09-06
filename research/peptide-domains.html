@@ -1,0 +1,147 @@
+<title>Best Peptide Domains</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --bg:#F1F4F7; --surface:#FFFFFF; --surface-2:#F7F9FB;
+  --ink:#16222B; --muted:#5B6B78; --faint:#8A99A5;
+  --line:#E1E7EC; --line-2:#D3DBE1;
+  --human:#0F6E7A; --human-soft:#E3F0F1;
+  --dog:#B4722E; --dog-soft:#F6ECDF;
+  --ok:#2E7D53; --ok-soft:#E4F1E9;
+  --cut:#B23A3A; --cut-soft:#F6E5E4;
+  --shadow:0 1px 2px rgba(20,40,55,.05),0 6px 20px rgba(20,40,55,.06);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D141A; --surface:#141D25; --surface-2:#101922;
+  --ink:#E7EDF2; --muted:#9BAAB6; --faint:#6E7E8A;
+  --line:#22303B; --line-2:#2C3B47;
+  --human:#43B7C4; --human-soft:#12303341;
+  --dog:#D79B54; --dog-soft:#2A211540;
+  --ok:#5FC088; --ok-soft:#16281f60;
+  --cut:#E07A72; --cut-soft:#2a161540;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 26px rgba(0,0,0,.35);
+}}
+:root[data-theme="dark"]{
+  --bg:#0D141A; --surface:#141D25; --surface-2:#101922;
+  --ink:#E7EDF2; --muted:#9BAAB6; --faint:#6E7E8A;
+  --line:#22303B; --line-2:#2C3B47;
+  --human:#43B7C4; --human-soft:#12303341;
+  --dog:#D79B54; --dog-soft:#2A211540;
+  --ok:#5FC088; --ok-soft:#16281f60;
+  --cut:#E07A72; --cut-soft:#2a161540;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 26px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:clamp(20px,4vw,56px) clamp(16px,4vw,40px) 80px}
+.serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-ligatures:none}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--human);font-weight:600;margin:0 0 10px}
+h1{font-size:clamp(29px,5.2vw,46px);line-height:1.05;margin:0 0 14px;font-weight:600;letter-spacing:-.01em;text-wrap:balance}
+.lede{font-size:clamp(15.5px,2vw,17.5px);color:var(--muted);max-width:66ch;margin:0}
+.callout{margin:24px 0 0;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--human);border-radius:0 12px 12px 0;padding:16px 20px;box-shadow:var(--shadow);font-size:14.5px;color:var(--muted)}
+.callout b{color:var(--ink)}
+.callout ol{margin:8px 0 0;padding-left:20px}.callout li{margin:5px 0}
+section{margin-top:clamp(40px,6vw,60px)}
+.sec-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line-2);padding-bottom:12px;margin-bottom:22px}
+.sec-head h2{font-size:clamp(20px,3vw,26px);margin:0;font-weight:600;letter-spacing:-.01em}
+.sec-head .sub{color:var(--faint);font-size:14px}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:0 0 auto;transform:translateY(-2px)}
+.dot.human{background:var(--human)} .dot.dog{background:var(--dog)}
+/* name rows */
+.names{display:flex;flex-direction:column;gap:12px}
+.row{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow);display:grid;grid-template-columns:auto 1fr;gap:4px 16px;align-items:start}
+.row .rank{grid-row:1/3;font-family:Georgia,serif;font-size:26px;color:var(--faint);font-variant-numeric:tabular-nums;min-width:26px;line-height:1.1}
+.row .name{font-size:20px;font-weight:600;letter-spacing:-.01em}
+.row .name .dom{color:var(--faint);font-weight:500;font-size:15px}
+.row .caveat{font-size:14px;color:var(--muted);margin:0}
+.row .caveat b{color:var(--ink);font-weight:600}
+.tlds{grid-column:2;display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tld{font-size:12px;font-family:ui-monospace,monospace;padding:3px 9px;border-radius:999px;background:var(--ok-soft);color:var(--ok);border:1px solid color-mix(in srgb,var(--ok) 28%,transparent);font-weight:600}
+.tld::before{content:"✓ "}
+/* cut table */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+table{width:100%;border-collapse:collapse;background:var(--surface);min-width:520px}
+th,td{text-align:left;padding:11px 16px;font-size:13.5px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);font-weight:600;background:var(--surface-2)}
+tr:last-child td{border-bottom:none}
+td .x{color:var(--cut);font-weight:600}
+.pill{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.03em;padding:2px 8px;border-radius:999px;background:var(--cut-soft);color:var(--cut);border:1px solid color-mix(in srgb,var(--cut) 30%,transparent)}
+footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line-2);color:var(--faint);font-size:13px;line-height:1.6}
+a{color:var(--human)}
+@media (max-width:520px){.row{grid-template-columns:1fr}.row .rank{grid-row:auto}.tlds{grid-column:1}}
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Brutal stress test &middot; Aug 2026</p>
+    <h1 class="serif">The names that survived</h1>
+    <p class="lede">The shortlist was run through a hostile trademark, collision, and linguistics screen &mdash; every name searched for a reason to reject. Most failed. These are the survivors, each with its one remaining caveat, verified available across <span class="mono">.com &middot; .ai &middot; .io &middot; .gg &middot; .club</span>.</p>
+    <div class="callout">
+      <b>Two hard truths from the screen:</b>
+      <ol>
+        <li><b>"[Word] Peptide" is structurally weak</b> &mdash; the second word is generic and unprotectable, and the space is full of "research use only" grey-market vendors, so <i>regal / imperial / royal</i> styling reads as a research-chem storefront.</li>
+        <li><b>None of these are 100% clean</b> &mdash; each is <i>least-fatal</i>, not <i>cleared</i>. Run a formal USPTO knockout (Class 5 / 31 / 44) and a live handle check before you build. This is a screen, not legal clearance.</li>
+      </ol>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head"><span class="dot human"></span><h2>Top 5 &mdash; ranking v3</h2><span class="sub">investor lens &middot; five adversarial screens &middot; Alder demoted to #23 &middot; Vitanova retracted</span></div>
+    <div class="names">
+      <div class="row"><div class="rank">1</div><div class="name">Spancell <span class="dom mono">spancell</span></div><p class="caveat"><b>The only unqualified KEEP</b> of the venture-grade screen: "lifespan + cell" means something, two crisp syllables, science-coded, TM likely clearable in Class 5, no in-category collision. Platform-scale.</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">2</div><div class="name">Encore Cell <span class="dom mono">encorecell</span></div><p class="caveat">Best narrative in the study &mdash; "your second act." Sole survivor of the action-word batch. Conditional: "Encore" is crowded in med devices, so run a Cl. 5/10/44 knockout; no exact "Encore Cell" mark found.</p><div class="tlds"><span class="tld">com</span></div></div>
+      <div class="row"><div class="rank">3</div><div class="name">Houndcell <span class="dom mono">houndcell</span></div><p class="caveat">The dog-line winner: clean screen, no bad reading, cellular-longevity story. Natural sister brand to Spancell/Pupcell.</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">4</div><div class="name">Reeflongevity <span class="dom mono">reeflongevity</span></div><p class="caveat">Clean legally (Reef = footwear only), longevity-literal, self-spelling.</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">5</div><div class="name">Pupcell <span class="dom mono">pupcell</span></div><p class="caveat">USPTO-clear, most memorable dog name; style the wordmark to defuse the faint "pup sell" reading.</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">&mdash;</div><div class="name">Alder Peptide <span class="dom mono">alderpeptide</span></div><p class="caveat"><b>Demoted from #1 to #23.</b> Legally the cleanest compound but semantically empty &mdash; no health meaning, no story, wedge-only. Defensive registration at most. <b>Vitanova</b> was likewise retracted: live USPTO Class-5 mark + an operating NMN-longevity brand on the name.</p></div>
+    </div>
+  </section>
+
+  <section class="dog">
+    <div class="sec-head"><span class="dot dog"></span><h2>Dogs &mdash; 4 survivors</h2><span class="sub">the "-cell" names reinforce a cellular-longevity story</span></div>
+    <div class="names">
+      <div class="row"><div class="rank">1</div><div class="name">Pupcell <span class="dom mono">pupcell</span></div><p class="caveat"><b>USPTO-clear</b> &mdash; no "Pupcell"/"Pup Cell" mark. The single cleanest name in the whole study; "cell" is on-theme. Only note: style the wordmark so it doesn't read "pup-sell."</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">2</div><div class="name">Houndcell <span class="dom mono">houndcell</span></div><p class="caveat">No collision found; same cellular-longevity theme as Pupcell with a more grown-up tone. The natural sister brand.</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">3</div><div class="name">Puprenew <span class="dom mono">puprenew</span></div><p class="caveat">No collision; "renew" squarely on-theme for longevity. Style as <b>PupRenew</b> to smooth the faint "…ew" tail.</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">4</div><div class="name">Foreverhound <span class="dom mono">foreverhound</span></div><p class="caveat">No collision; a clean longevity promise, easy to say and spell, premium enough for the price point.</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Themed expansion</h2><span class="sub">wealthy places · fitness · health · biohacking — all available on all 5 TLDs</span></div>
+    <div class="names">
+      <div class="row"><div class="rank">🏔️</div><div class="name">Montauk Peptide <span class="dom mono">montaukpeptide</span></div><p class="caveat"><b>Wealthy places</b> — coolest of the set, clean collision profile. Also strong: <b>Malibu, Nantucket, Palm&nbsp;Springs, Sonoma, Tahoe</b>. Avoid <b>Aspen</b> (Aspen Pharmacare).</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">💪</div><div class="name">Athletic Peptide <span class="dom mono">athleticpeptide</span></div><p class="caveat"><b>Fitness</b> — the clean, broad-market pick. Also: <b>Drive, Stamina, Tactical</b>. Note: <span class="mono">fitpeptide</span>/<span class="mono">shredlab</span> are taken, and <b>Shred/Gains/Lift/Swole</b> read gym-slang / grey-market.</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">👁️</div><div class="name">Visionary Peptide <span class="dom mono">visionarypeptide</span></div><p class="caveat"><b>Health</b> — the open "vision" lane (both <span class="mono">visionpeptide</span> and <span class="mono">visionlabs</span> are taken). Also: <b>Luminous, Resilience, Cognition</b>.</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+      <div class="row"><div class="rank">⏳</div><div class="name">Rewind Peptide <span class="dom mono">rewindpeptide</span></div><p class="caveat"><b>Youth / biohacking</b> — the clearest, most brandable of the whole expansion. Also: <b>Youthspan, Zeroage, Everyoung, Primeage</b>. Avoid <b>Bioage</b> (BioAge Labs) &amp; <b>Healthspan</b> (real longevity co).</p><div class="tlds"><span class="tld">com</span><span class="tld">ai</span><span class="tld">io</span><span class="tld">gg</span><span class="tld">club</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>What got cut</h2><span class="sub">so you don't revisit them</span></div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Name</th><th>Killed by</th></tr></thead>
+        <tbody>
+          <tr><td class="x mono">peptovi</td><td><b>Peptivo.com</b> &mdash; existing peptide/GLP-1 telehealth brand, one letter off. Indistinguishable spoken.</td></tr>
+          <tr><td class="x mono">peptura</td><td>Already a <b>live grey-market research-peptide vendor</b> (peptura.org/.us).</td></tr>
+          <tr><td class="x mono">imperialpeptide</td><td>"Imperial Peptides" is already a cluster of grey-market vendors (US + UK).</td></tr>
+          <tr><td class="x mono">lanternpeptide</td><td><b>Lantern Pharma</b> &mdash; public oncology biotech (NASDAQ: LTRN). Direct TM exposure.</td></tr>
+          <tr><td class="x mono">cobaltpeptide</td><td>Cobalt is a <b>toxic heavy metal</b> ("cobaltism") &mdash; poison-metal name on an ingestible.</td></tr>
+          <tr><td class="x mono">meridide</td><td>Unspellable on hearing; "-ide" ending sounds like a chemical, not a brand.</td></tr>
+          <tr><td class="x mono">pupitide</td><td><span class="pill">fatal</span> <b>"Puptide" already exists</b> (takepuptide.com) &mdash; a real dog peptide + NMN longevity supplement. Same niche.</td></tr>
+          <tr><td class="x mono">collapup</td><td><span class="pill">fatal</span> Reads as <b>"COLLAPSE."</b> Catastrophic for a longevity brand.</td></tr>
+          <tr><td class="x mono">pawllagen</td><td>Radio test fails (double-L) and the paw+collagen pun is already a category cliché.</td></tr>
+          <tr><td class="x mono">bestboylabs</td><td>"Best Boy" is a film-crew title; "Good/Best Boy" is the most saturated trope in dog supplements.</td></tr>
+          <tr><td class="x mono">caninecell</td><td>Too close to the existing <b>Canine Red Cell</b> dog supplement.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <strong style="color:var(--ink)">Method:</strong> each name was queried for an <span class="mono">NS/SOA</span> record across every TLD; an authoritative not-found (NXDOMAIN) means available, re-verified with a second resolver (controls <span class="mono">claude.ai / openai.io / dan.gg / get.club</span> all correctly read taken). Collisions came from live web + trademark searches. Availability shifts daily and a screen is not clearance &mdash; confirm at a registrar and clear the trademark before you build.<br><br>
+    Full write-up in <span class="mono">research/best-names.md</span>; the original 892-name sweep and competitor avoid-list live alongside it.
+  </footer>
+</div>
