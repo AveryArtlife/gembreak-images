@@ -23,7 +23,7 @@ Each approved image was reviewed on black for product identity, dead-on front
 orientation, correct compact bracelet or strap presentation, transparency,
 visible watermarking, loose fastening hardware, opened strap tails, and obvious
 generation artifacts. Source-dial registration was used where it was visually
-safe; 9 registration artifacts were replaced with the clean Higgsfield raw
+safe; 16 registration artifacts were replaced with the clean Higgsfield raw
 render, and 23 images received targeted Higgsfield visual retries.
 
 Four visually acceptable images have a `bboxH-low` numerical warning. The
