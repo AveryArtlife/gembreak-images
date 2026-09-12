@@ -1,0 +1,5202 @@
+[
+  {
+    "index": 1,
+    "job_id": "13da410d-22d6-470f-88ee-19ca336e37a1",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004143_13da410d-22d6-470f-88ee-19ca336e37a1.png",
+    "sku": "WW101",
+    "filename": "WW101.png"
+  },
+  {
+    "index": 2,
+    "job_id": "8b5daf43-4c9b-436a-b080-2ca5317b8508",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004143_8b5daf43-4c9b-436a-b080-2ca5317b8508.png",
+    "sku": "WW68",
+    "filename": "WW68.png"
+  },
+  {
+    "index": 3,
+    "job_id": "e1e34431-2183-43f0-99dc-9e1d8befffc5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004143_e1e34431-2183-43f0-99dc-9e1d8befffc5.png",
+    "sku": "W12",
+    "filename": "W12.png"
+  },
+  {
+    "index": 4,
+    "job_id": "cbc5fb8e-ad13-4d78-b4d0-b45101178aad",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004143_cbc5fb8e-ad13-4d78-b4d0-b45101178aad.png",
+    "sku": "WW967",
+    "filename": "WW967.png"
+  },
+  {
+    "index": 5,
+    "job_id": "9bca1792-b814-424b-96ca-eea21c70601d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004143_9bca1792-b814-424b-96ca-eea21c70601d.png",
+    "sku": "WW965",
+    "filename": "WW965.png"
+  },
+  {
+    "index": 6,
+    "job_id": "9454aaa6-bd3b-4657-8e30-dbee85e70e6e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004143_9454aaa6-bd3b-4657-8e30-dbee85e70e6e.png",
+    "sku": "WW972",
+    "filename": "WW972.png"
+  },
+  {
+    "index": 7,
+    "job_id": "a9e6cdc7-e94f-45af-942c-da147551aad3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004145_a9e6cdc7-e94f-45af-942c-da147551aad3.png",
+    "sku": "WW65",
+    "filename": "WW65.png"
+  },
+  {
+    "index": 8,
+    "job_id": "aaa47fdd-059b-4174-8334-9d78cd6e79f8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004145_aaa47fdd-059b-4174-8334-9d78cd6e79f8.png",
+    "sku": "WW66",
+    "filename": "WW66.png"
+  },
+  {
+    "index": 9,
+    "job_id": "774db3f7-71d9-4c6e-8aad-b9ab961a859a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004145_774db3f7-71d9-4c6e-8aad-b9ab961a859a.png",
+    "sku": "WW721",
+    "filename": "WW721.png"
+  },
+  {
+    "index": 10,
+    "job_id": "53705131-cdf3-4858-8d2c-2e4d89d699a7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004145_53705131-cdf3-4858-8d2c-2e4d89d699a7.png",
+    "sku": "WW195",
+    "filename": "WW195.png"
+  },
+  {
+    "index": 11,
+    "job_id": "52a621f1-43b5-4f40-a828-5d519fecaa69",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004145_52a621f1-43b5-4f40-a828-5d519fecaa69.png",
+    "sku": "WL14",
+    "filename": "WL14.png"
+  },
+  {
+    "index": 12,
+    "job_id": "5a9da73d-0c1f-4425-9af2-70ac26f95c2c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004145_5a9da73d-0c1f-4425-9af2-70ac26f95c2c.png",
+    "sku": "WW715",
+    "filename": "WW715.png"
+  },
+  {
+    "index": 13,
+    "job_id": "b487ba31-bac9-400e-8979-2ea750c89c51",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004147_b487ba31-bac9-400e-8979-2ea750c89c51.png",
+    "sku": "WW69",
+    "filename": "WW69.png"
+  },
+  {
+    "index": 14,
+    "job_id": "fad87136-84c2-4f68-a45d-b0cd96c4f345",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004147_fad87136-84c2-4f68-a45d-b0cd96c4f345.png",
+    "sku": "WW720",
+    "filename": "WW720.png"
+  },
+  {
+    "index": 15,
+    "job_id": "7e9e9b84-caac-424d-a3ea-4b1b2f6f227d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004148_7e9e9b84-caac-424d-a3ea-4b1b2f6f227d.png",
+    "sku": "WW719",
+    "filename": "WW719.png"
+  },
+  {
+    "index": 16,
+    "job_id": "afa91e4b-ec7a-4173-a534-80bd85c9d5eb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004148_afa91e4b-ec7a-4173-a534-80bd85c9d5eb.png",
+    "sku": "WW595",
+    "filename": "WW595.png"
+  },
+  {
+    "index": 17,
+    "job_id": "8841d64a-89a4-46a1-9965-b815122be018",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004148_8841d64a-89a4-46a1-9965-b815122be018.png",
+    "sku": "WW67",
+    "filename": "WW67.png"
+  },
+  {
+    "index": 18,
+    "job_id": "e173b201-3107-4731-a185-9ba632e63827",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004148_e173b201-3107-4731-a185-9ba632e63827.png",
+    "sku": "W1247",
+    "filename": "W1247.png"
+  },
+  {
+    "index": 19,
+    "job_id": "7d010008-bcdb-4cae-9fef-db3e14c6dea6",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004150_7d010008-bcdb-4cae-9fef-db3e14c6dea6.png",
+    "sku": "WW824",
+    "filename": "WW824.png"
+  },
+  {
+    "index": 20,
+    "job_id": "a6e261ed-f813-43e3-8627-5192e1eb9b13",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004150_a6e261ed-f813-43e3-8627-5192e1eb9b13.png",
+    "sku": "WW416",
+    "filename": "WW416.png"
+  },
+  {
+    "index": 21,
+    "job_id": "9d75a0b9-f96b-4c58-8c2b-b9887b2457cf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004150_9d75a0b9-f96b-4c58-8c2b-b9887b2457cf.png",
+    "sku": "W118",
+    "filename": "W118.png"
+  },
+  {
+    "index": 22,
+    "job_id": "35842ecb-906b-4511-b5b8-e3351ade61bc",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004150_35842ecb-906b-4511-b5b8-e3351ade61bc.png",
+    "sku": "W111",
+    "filename": "W111.png"
+  },
+  {
+    "index": 23,
+    "job_id": "f775e1f6-5b98-4cbe-9d4b-a73f7f2593f3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004150_f775e1f6-5b98-4cbe-9d4b-a73f7f2593f3.png",
+    "sku": "W1102",
+    "filename": "W1102.png"
+  },
+  {
+    "index": 24,
+    "job_id": "edb416bd-84c3-4472-a7c9-a2464941d76c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004150_edb416bd-84c3-4472-a7c9-a2464941d76c.png",
+    "sku": "WL7",
+    "filename": "WL7.png"
+  },
+  {
+    "index": 25,
+    "job_id": "bbf5e489-ba1e-4cde-b08e-dec134d990fa",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004152_bbf5e489-ba1e-4cde-b08e-dec134d990fa.png",
+    "sku": "W1240",
+    "filename": "W1240.png"
+  },
+  {
+    "index": 26,
+    "job_id": "48426027-d0ea-4893-808c-8415c2e50017",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004152_48426027-d0ea-4893-808c-8415c2e50017.png",
+    "sku": "W1223",
+    "filename": "W1223.png"
+  },
+  {
+    "index": 27,
+    "job_id": "ccefc93d-430a-43cc-a689-90718d8a6a3d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004152_ccefc93d-430a-43cc-a689-90718d8a6a3d.png",
+    "sku": "WW231",
+    "filename": "WW231.png"
+  },
+  {
+    "index": 28,
+    "job_id": "e61eea3a-fec1-4533-9f87-0387aff89993",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004152_e61eea3a-fec1-4533-9f87-0387aff89993.png",
+    "sku": "WW404",
+    "filename": "WW404.png"
+  },
+  {
+    "index": 29,
+    "job_id": "5fe88fc0-ecb2-44ae-a6ed-d16204061034",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004152_5fe88fc0-ecb2-44ae-a6ed-d16204061034.png",
+    "sku": "W1252",
+    "filename": "W1252.png"
+  },
+  {
+    "index": 30,
+    "job_id": "0d2fc144-2743-4402-ae01-17ef8bb27bc4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004152_0d2fc144-2743-4402-ae01-17ef8bb27bc4.png",
+    "sku": "WW278",
+    "filename": "WW278.png"
+  },
+  {
+    "index": 31,
+    "job_id": "442a842f-e285-4070-bccd-87e43eb88ba5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004155_442a842f-e285-4070-bccd-87e43eb88ba5.png",
+    "sku": "WWN215.92.46.21.01.001",
+    "filename": "WWN215.92.46.21.01.001.png"
+  },
+  {
+    "index": 32,
+    "job_id": "3008fe69-3432-49ca-b60b-72fadf8b41ae",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004155_3008fe69-3432-49ca-b60b-72fadf8b41ae.png",
+    "sku": "W1131",
+    "filename": "W1131.png"
+  },
+  {
+    "index": 33,
+    "job_id": "5868e5fd-8556-439b-8e00-d3476cebd011",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004155_5868e5fd-8556-439b-8e00-d3476cebd011.png",
+    "sku": "WW70",
+    "filename": "WW70.png"
+  },
+  {
+    "index": 34,
+    "job_id": "63de18ad-baf8-4c3d-baf2-e9a3bd92d3d9",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004155_63de18ad-baf8-4c3d-baf2-e9a3bd92d3d9.png",
+    "sku": "W1199",
+    "filename": "W1199.png"
+  },
+  {
+    "index": 35,
+    "job_id": "86b89f63-a0b8-4be5-b927-3ef2f807748b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004155_86b89f63-a0b8-4be5-b927-3ef2f807748b.png",
+    "sku": "W1243",
+    "filename": "W1243.png"
+  },
+  {
+    "index": 36,
+    "job_id": "d48a7648-2891-4089-b4af-fe60285c36d3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004155_d48a7648-2891-4089-b4af-fe60285c36d3.png",
+    "sku": "W136",
+    "filename": "W136.png"
+  },
+  {
+    "index": 37,
+    "job_id": "3f6db801-1c69-4fa1-9ed9-95137d23f47b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004158_3f6db801-1c69-4fa1-9ed9-95137d23f47b.png",
+    "sku": "W1206",
+    "filename": "W1206.png"
+  },
+  {
+    "index": 38,
+    "job_id": "555c5f62-43d6-4e30-a4a0-f134fc79846c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004157_555c5f62-43d6-4e30-a4a0-f134fc79846c.png",
+    "sku": "WW374",
+    "filename": "WW374.png"
+  },
+  {
+    "index": 39,
+    "job_id": "687b4576-4cef-4676-9ee3-fde7aab04e31",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004158_687b4576-4cef-4676-9ee3-fde7aab04e31.png",
+    "sku": "WL1",
+    "filename": "WL1.png"
+  },
+  {
+    "index": 40,
+    "job_id": "a4d75cf8-c882-4f35-91f3-e585dae3f0ad",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004158_a4d75cf8-c882-4f35-91f3-e585dae3f0ad.png",
+    "sku": "W159",
+    "filename": "W159.png"
+  },
+  {
+    "index": 41,
+    "job_id": "c263c3fa-c6c4-411f-b27d-5513a0f006a1",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004158_c263c3fa-c6c4-411f-b27d-5513a0f006a1.png",
+    "sku": "W128",
+    "filename": "W128.png"
+  },
+  {
+    "index": 42,
+    "job_id": "510f32f3-0ba0-4fe4-97a9-078227c99f9d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004158_510f32f3-0ba0-4fe4-97a9-078227c99f9d.png",
+    "sku": "WWNTB0134101M1X1",
+    "filename": "WWNTB0134101M1X1.png"
+  },
+  {
+    "index": 43,
+    "job_id": "83d96723-95bb-49a3-98b9-4e06201834cb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004159_83d96723-95bb-49a3-98b9-4e06201834cb.png",
+    "sku": "WL11",
+    "filename": "WL11.png"
+  },
+  {
+    "index": 44,
+    "job_id": "c01f8b2d-90ca-47f4-ae84-e2d8ba50e70a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004159_c01f8b2d-90ca-47f4-ae84-e2d8ba50e70a.png",
+    "sku": "W1204",
+    "filename": "W1204.png"
+  },
+  {
+    "index": 45,
+    "job_id": "0987afa3-b55e-49e2-8e0b-f2f5f67c131c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004159_0987afa3-b55e-49e2-8e0b-f2f5f67c131c.png",
+    "sku": "W1178",
+    "filename": "W1178.png"
+  },
+  {
+    "index": 46,
+    "job_id": "6ff475d1-fcdc-470e-9563-3a0adf38df93",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004159_6ff475d1-fcdc-470e-9563-3a0adf38df93.png",
+    "sku": "WW574",
+    "filename": "WW574.png"
+  },
+  {
+    "index": 47,
+    "job_id": "99867766-06b2-4182-9b16-1ff337a5f850",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004200_99867766-06b2-4182-9b16-1ff337a5f850.png",
+    "sku": "W1180",
+    "filename": "W1180.png"
+  },
+  {
+    "index": 48,
+    "job_id": "be3c574b-484c-40e8-9705-194c45f61fe7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004159_be3c574b-484c-40e8-9705-194c45f61fe7.png",
+    "sku": "WL8",
+    "filename": "WL8.png"
+  },
+  {
+    "index": 49,
+    "job_id": "02c0c16c-9801-4838-81eb-551066d6ee0b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004202_02c0c16c-9801-4838-81eb-551066d6ee0b.png",
+    "sku": "W1203",
+    "filename": "W1203.png"
+  },
+  {
+    "index": 50,
+    "job_id": "dd16c438-8353-47a6-ac21-1cef7d29f706",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004202_dd16c438-8353-47a6-ac21-1cef7d29f706.png",
+    "sku": "WL10",
+    "filename": "WL10.png"
+  },
+  {
+    "index": 51,
+    "job_id": "6b28b8dd-a43d-45b4-81f0-f6c4ca299e7c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004202_6b28b8dd-a43d-45b4-81f0-f6c4ca299e7c.png",
+    "sku": "W1163",
+    "filename": "W1163.png"
+  },
+  {
+    "index": 52,
+    "job_id": "54b96f89-80d4-457c-a0f2-e4c432e2a35a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004202_54b96f89-80d4-457c-a0f2-e4c432e2a35a.png",
+    "sku": "WW825",
+    "filename": "WW825.png"
+  },
+  {
+    "index": 53,
+    "job_id": "3ed01edb-ff33-4af5-9c10-1a2c7c724184",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004202_3ed01edb-ff33-4af5-9c10-1a2c7c724184.png",
+    "sku": "W1164",
+    "filename": "W1164.png"
+  },
+  {
+    "index": 54,
+    "job_id": "84cd08fb-767b-4d10-9e55-7bc8676139c3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004202_84cd08fb-767b-4d10-9e55-7bc8676139c3.png",
+    "sku": "W1150",
+    "filename": "W1150.png"
+  },
+  {
+    "index": 55,
+    "job_id": "686df585-1947-4818-bd64-cbd1442b3eff",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004204_686df585-1947-4818-bd64-cbd1442b3eff.png",
+    "sku": "W1167",
+    "filename": "W1167.png"
+  },
+  {
+    "index": 56,
+    "job_id": "ec2d078b-bd9d-4ab4-beee-5a96e2aa4e95",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004204_ec2d078b-bd9d-4ab4-beee-5a96e2aa4e95.png",
+    "sku": "WW71",
+    "filename": "WW71.png"
+  },
+  {
+    "index": 57,
+    "job_id": "6f3dc06c-9e12-4c49-a484-aa87c58b11c8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004204_6f3dc06c-9e12-4c49-a484-aa87c58b11c8.png",
+    "sku": "W1237",
+    "filename": "W1237.png"
+  },
+  {
+    "index": 58,
+    "job_id": "d2616503-4333-4ffb-a706-2794d09624e7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004204_d2616503-4333-4ffb-a706-2794d09624e7.png",
+    "sku": "W268",
+    "filename": "W268.png"
+  },
+  {
+    "index": 59,
+    "job_id": "5357e243-7d3a-43c5-bd7d-063e9619e047",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004204_5357e243-7d3a-43c5-bd7d-063e9619e047.png",
+    "sku": "W1162",
+    "filename": "W1162.png"
+  },
+  {
+    "index": 60,
+    "job_id": "252d943b-c203-47da-a120-2e87bb710173",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004204_252d943b-c203-47da-a120-2e87bb710173.png",
+    "sku": "WW917",
+    "filename": "WW917.png"
+  },
+  {
+    "index": 61,
+    "job_id": "8a031298-7cc1-4f14-87d1-a79b0fb77fe3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004206_8a031298-7cc1-4f14-87d1-a79b0fb77fe3.png",
+    "sku": "W10",
+    "filename": "W10.png"
+  },
+  {
+    "index": 62,
+    "job_id": "661e7e41-b716-4347-a952-84b8afb5c0d4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004206_661e7e41-b716-4347-a952-84b8afb5c0d4.png",
+    "sku": "W130",
+    "filename": "W130.png"
+  },
+  {
+    "index": 63,
+    "job_id": "89501f4c-b61f-4282-8309-59a232b949bf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004206_89501f4c-b61f-4282-8309-59a232b949bf.png",
+    "sku": "WW814",
+    "filename": "WW814.png"
+  },
+  {
+    "index": 64,
+    "job_id": "d6245b74-7ea4-4bbb-ba92-fa3778a39b07",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004206_d6245b74-7ea4-4bbb-ba92-fa3778a39b07.png",
+    "sku": "WW408",
+    "filename": "WW408.png"
+  },
+  {
+    "index": 65,
+    "job_id": "c676979e-b56e-4a11-bc85-5cc08aa3dcaf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004206_c676979e-b56e-4a11-bc85-5cc08aa3dcaf.png",
+    "sku": "W1245",
+    "filename": "W1245.png"
+  },
+  {
+    "index": 66,
+    "job_id": "b770a60c-0480-4ff5-a5e8-44f41ce821a8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004206_b770a60c-0480-4ff5-a5e8-44f41ce821a8.png",
+    "sku": "WW868",
+    "filename": "WW868.png"
+  },
+  {
+    "index": 67,
+    "job_id": "482bc2fa-f5a8-4a80-97f4-cc1d96655211",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004208_482bc2fa-f5a8-4a80-97f4-cc1d96655211.png",
+    "sku": "W1218",
+    "filename": "W1218.png"
+  },
+  {
+    "index": 68,
+    "job_id": "5d8eabb2-8393-4612-ba3e-93bee9ecde93",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004208_5d8eabb2-8393-4612-ba3e-93bee9ecde93.png",
+    "sku": "WWN103897",
+    "filename": "WWN103897.png"
+  },
+  {
+    "index": 69,
+    "job_id": "4889b945-5d08-48c6-a199-6805ce062e8f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004208_4889b945-5d08-48c6-a199-6805ce062e8f.png",
+    "sku": "W264",
+    "filename": "W264.png"
+  },
+  {
+    "index": 70,
+    "job_id": "01dc883e-c4c5-4737-9c38-a8769bfeea43",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004208_01dc883e-c4c5-4737-9c38-a8769bfeea43.png",
+    "sku": "W11",
+    "filename": "W11.png"
+  },
+  {
+    "index": 71,
+    "job_id": "4b1e938b-1475-451c-9e8f-542e32294bd9",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004208_4b1e938b-1475-451c-9e8f-542e32294bd9.png",
+    "sku": "W116",
+    "filename": "W116.png"
+  },
+  {
+    "index": 72,
+    "job_id": "c3402d80-7da9-4435-9fea-0412fca7ad52",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004208_c3402d80-7da9-4435-9fea-0412fca7ad52.png",
+    "sku": "WW447",
+    "filename": "WW447.png"
+  },
+  {
+    "index": 73,
+    "job_id": "893206a1-6872-40aa-bd84-8b2b6735584c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004210_893206a1-6872-40aa-bd84-8b2b6735584c.png",
+    "sku": "WW573",
+    "filename": "WW573.png"
+  },
+  {
+    "index": 74,
+    "job_id": "5bcc2c6a-1b98-43dc-82bf-84fcca996a66",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004210_5bcc2c6a-1b98-43dc-82bf-84fcca996a66.png",
+    "sku": "WW465",
+    "filename": "WW465.png"
+  },
+  {
+    "index": 75,
+    "job_id": "afb2f03d-15e0-4aae-9ec3-aab09261f9d7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004210_afb2f03d-15e0-4aae-9ec3-aab09261f9d7.png",
+    "sku": "WW624",
+    "filename": "WW624.png"
+  },
+  {
+    "index": 76,
+    "job_id": "ee7d9a68-6d4c-43df-884a-1b9c09a41f46",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004210_ee7d9a68-6d4c-43df-884a-1b9c09a41f46.png",
+    "sku": "W1207",
+    "filename": "W1207.png"
+  },
+  {
+    "index": 77,
+    "job_id": "759f964c-888b-443a-a18d-0d7009c3982e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004210_759f964c-888b-443a-a18d-0d7009c3982e.png",
+    "sku": "W1220",
+    "filename": "W1220.png"
+  },
+  {
+    "index": 78,
+    "job_id": "044e4cbf-7a90-445d-9738-443fd9513212",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004210_044e4cbf-7a90-445d-9738-443fd9513212.png",
+    "sku": "WW340",
+    "filename": "WW340.png"
+  },
+  {
+    "index": 79,
+    "job_id": "7c51724e-7a78-4413-87f3-bd67179f28ba",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004212_7c51724e-7a78-4413-87f3-bd67179f28ba.png",
+    "sku": "WWN388563-3005",
+    "filename": "WWN388563-3005.png"
+  },
+  {
+    "index": 80,
+    "job_id": "cf227a2a-e931-4281-a8af-a870144e7af0",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004212_cf227a2a-e931-4281-a8af-a870144e7af0.png",
+    "sku": "W1219",
+    "filename": "W1219.png"
+  },
+  {
+    "index": 81,
+    "job_id": "9d5bcbd1-8e67-4c7a-b684-2548c9e4d255",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004212_9d5bcbd1-8e67-4c7a-b684-2548c9e4d255.png",
+    "sku": "W1208",
+    "filename": "W1208.png"
+  },
+  {
+    "index": 82,
+    "job_id": "b1b739ac-d4fe-41dc-ba2e-28d68186fe73",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004212_b1b739ac-d4fe-41dc-ba2e-28d68186fe73.png",
+    "sku": "WWN310.32.42.50.01.001",
+    "filename": "WWN310.32.42.50.01.001.png"
+  },
+  {
+    "index": 83,
+    "job_id": "6ad32a1f-e4a4-4855-b1ec-a075260cf72f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004212_6ad32a1f-e4a4-4855-b1ec-a075260cf72f.png",
+    "sku": "W1137",
+    "filename": "W1137.png"
+  },
+  {
+    "index": 84,
+    "job_id": "c492f217-c959-4026-855c-3566ae5b6613",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004212_c492f217-c959-4026-855c-3566ae5b6613.png",
+    "sku": "WW512",
+    "filename": "WW512.png"
+  },
+  {
+    "index": 85,
+    "job_id": "6aaf195b-9af1-4a32-a6b5-4f38bfbe8b7c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004214_6aaf195b-9af1-4a32-a6b5-4f38bfbe8b7c.png",
+    "sku": "WW511",
+    "filename": "WW511.png"
+  },
+  {
+    "index": 86,
+    "job_id": "a80219b6-c4c8-47b4-ae97-5d8f550ef009",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004214_a80219b6-c4c8-47b4-ae97-5d8f550ef009.png",
+    "sku": "WW387",
+    "filename": "WW387.png"
+  },
+  {
+    "index": 87,
+    "job_id": "fe710602-78e6-4665-837c-059ed73f8394",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004214_fe710602-78e6-4665-837c-059ed73f8394.png",
+    "sku": "W262",
+    "filename": "W262.png"
+  },
+  {
+    "index": 88,
+    "job_id": "327f9e26-54be-4458-a66c-381cd4380a59",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004214_327f9e26-54be-4458-a66c-381cd4380a59.png",
+    "sku": "W1368",
+    "filename": "W1368.png"
+  },
+  {
+    "index": 89,
+    "job_id": "7c12886a-c32f-4a18-ad89-d0e416f39561",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004214_7c12886a-c32f-4a18-ad89-d0e416f39561.png",
+    "sku": "WW352",
+    "filename": "WW352.png"
+  },
+  {
+    "index": 90,
+    "job_id": "3e572549-a2c4-4d8c-9f1f-94e69a932da6",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004214_3e572549-a2c4-4d8c-9f1f-94e69a932da6.png",
+    "sku": "W1158",
+    "filename": "W1158.png"
+  },
+  {
+    "index": 91,
+    "job_id": "9adfffdb-4bd1-4933-af66-67c3b5b369bc",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004216_9adfffdb-4bd1-4933-af66-67c3b5b369bc.png",
+    "sku": "W1103",
+    "filename": "W1103.png"
+  },
+  {
+    "index": 92,
+    "job_id": "1badc24a-5a22-46b7-bf96-bbbdd29bdff7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004216_1badc24a-5a22-46b7-bf96-bbbdd29bdff7.png",
+    "sku": "WW466",
+    "filename": "WW466.png"
+  },
+  {
+    "index": 93,
+    "job_id": "e4750bb5-3beb-46e7-bf62-01c89492c490",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004216_e4750bb5-3beb-46e7-bf62-01c89492c490.png",
+    "sku": "W117",
+    "filename": "W117.png"
+  },
+  {
+    "index": 94,
+    "job_id": "09c7eda2-4fab-4248-aadf-38124e40055b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004216_09c7eda2-4fab-4248-aadf-38124e40055b.png",
+    "sku": "WL19",
+    "filename": "WL19.png"
+  },
+  {
+    "index": 95,
+    "job_id": "0d416818-60a3-43a8-94b8-5ad2b29b843d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004216_0d416818-60a3-43a8-94b8-5ad2b29b843d.png",
+    "sku": "WW61",
+    "filename": "WW61.png"
+  },
+  {
+    "index": 96,
+    "job_id": "180564f4-704f-459d-afff-bf02e3a0b30b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004216_180564f4-704f-459d-afff-bf02e3a0b30b.png",
+    "sku": "WW14",
+    "filename": "WW14.png"
+  },
+  {
+    "index": 97,
+    "job_id": "1d33d2a4-ca9f-45fe-b0f0-7e49945c8d46",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004218_1d33d2a4-ca9f-45fe-b0f0-7e49945c8d46.png",
+    "sku": "W1191",
+    "filename": "W1191.png"
+  },
+  {
+    "index": 98,
+    "job_id": "1cb9709e-aadc-4e77-af0c-af1654910da9",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004218_1cb9709e-aadc-4e77-af0c-af1654910da9.png",
+    "sku": "W280",
+    "filename": "W280.png"
+  },
+  {
+    "index": 99,
+    "job_id": "755789ca-531b-497c-bc3b-e4e81145e3dd",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004218_755789ca-531b-497c-bc3b-e4e81145e3dd.png",
+    "sku": "W1184",
+    "filename": "W1184.png"
+  },
+  {
+    "index": 100,
+    "job_id": "07727773-94af-4775-b0f2-fd52fd602462",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004218_07727773-94af-4775-b0f2-fd52fd602462.png",
+    "sku": "W1383",
+    "filename": "W1383.png"
+  },
+  {
+    "index": 101,
+    "job_id": "e0f60db5-c4a8-41ee-9ca0-a27c58fff89a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004240_e0f60db5-c4a8-41ee-9ca0-a27c58fff89a.png",
+    "sku": "W141",
+    "filename": "W141.png"
+  },
+  {
+    "index": 102,
+    "job_id": "b80438b2-ffae-4b84-9489-d9337cec83e8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004240_b80438b2-ffae-4b84-9489-d9337cec83e8.png",
+    "sku": "W286",
+    "filename": "W286.png"
+  },
+  {
+    "index": 103,
+    "job_id": "a4f47f7f-29f2-4664-8830-6cde5c9fd3a4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004240_a4f47f7f-29f2-4664-8830-6cde5c9fd3a4.png",
+    "sku": "W1484",
+    "filename": "W1484.png"
+  },
+  {
+    "index": 104,
+    "job_id": "baaee7da-845f-441b-a201-21991780b851",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004240_baaee7da-845f-441b-a201-21991780b851.png",
+    "sku": "W1114",
+    "filename": "W1114.png"
+  },
+  {
+    "index": 105,
+    "job_id": "5e8e1556-4641-4a1d-baa0-418bdec584e3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004240_5e8e1556-4641-4a1d-baa0-418bdec584e3.png",
+    "sku": "W122",
+    "filename": "W122.png"
+  },
+  {
+    "index": 106,
+    "job_id": "5457e064-d119-4e4b-917a-da4398256996",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004240_5457e064-d119-4e4b-917a-da4398256996.png",
+    "sku": "W1352",
+    "filename": "W1352.png"
+  },
+  {
+    "index": 107,
+    "job_id": "33c3df54-4829-42b5-94a7-ec6d517e2c93",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004242_33c3df54-4829-42b5-94a7-ec6d517e2c93.png",
+    "sku": "WW675",
+    "filename": "WW675.png"
+  },
+  {
+    "index": 108,
+    "job_id": "dd99db32-3d7a-48b3-a3d4-293ca0b3b11b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004242_dd99db32-3d7a-48b3-a3d4-293ca0b3b11b.png",
+    "sku": "WW341",
+    "filename": "WW341.png"
+  },
+  {
+    "index": 109,
+    "job_id": "5634df8a-c942-4ec8-bcf8-355bb023355a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004242_5634df8a-c942-4ec8-bcf8-355bb023355a.png",
+    "sku": "WWN428.17.26.60.04.009",
+    "filename": "WWN428.17.26.60.04.009.png"
+  },
+  {
+    "index": 110,
+    "job_id": "855be8e2-a795-4d57-a3db-877dd12541ad",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004242_855be8e2-a795-4d57-a3db-877dd12541ad.png",
+    "sku": "WL15",
+    "filename": "WL15.png"
+  },
+  {
+    "index": 111,
+    "job_id": "0fe72093-3d80-48b1-ba61-76adfbbcdb09",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004242_0fe72093-3d80-48b1-ba61-76adfbbcdb09.png",
+    "sku": "WW714",
+    "filename": "WW714.png"
+  },
+  {
+    "index": 112,
+    "job_id": "ca15ef2c-dbb9-43ba-9227-2a216df7b64a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004242_ca15ef2c-dbb9-43ba-9227-2a216df7b64a.png",
+    "sku": "W1104",
+    "filename": "W1104.png"
+  },
+  {
+    "index": 113,
+    "job_id": "0b32f231-8250-444f-89f3-1ff228779d88",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004244_0b32f231-8250-444f-89f3-1ff228779d88.png",
+    "sku": "W265",
+    "filename": "W265.png"
+  },
+  {
+    "index": 114,
+    "job_id": "c6dbae0a-d269-4bc4-b9d5-748ce2123330",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004244_c6dbae0a-d269-4bc4-b9d5-748ce2123330.png",
+    "sku": "W1282",
+    "filename": "W1282.png"
+  },
+  {
+    "index": 115,
+    "job_id": "2043b879-3cd3-459c-ab82-fbf1a52567b0",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004243_2043b879-3cd3-459c-ab82-fbf1a52567b0.png",
+    "sku": "WW866",
+    "filename": "WW866.png"
+  },
+  {
+    "index": 116,
+    "job_id": "33862250-7677-4e61-a673-9e8a8ee1547f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004244_33862250-7677-4e61-a673-9e8a8ee1547f.png",
+    "sku": "W295",
+    "filename": "W295.png"
+  },
+  {
+    "index": 117,
+    "job_id": "60cc1e9a-5d66-4b97-a7b0-925e1be61483",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004243_60cc1e9a-5d66-4b97-a7b0-925e1be61483.png",
+    "sku": "W1100",
+    "filename": "W1100.png"
+  },
+  {
+    "index": 118,
+    "job_id": "3f6ce9c6-28d4-46f4-b33b-25c7da2d9566",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004243_3f6ce9c6-28d4-46f4-b33b-25c7da2d9566.png",
+    "sku": "WW117",
+    "filename": "WW117.png"
+  },
+  {
+    "index": 119,
+    "job_id": "2669173e-34a8-4861-8837-048051270c78",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004246_2669173e-34a8-4861-8837-048051270c78.png",
+    "sku": "W1293",
+    "filename": "W1293.png"
+  },
+  {
+    "index": 120,
+    "job_id": "e064ef26-b8fb-4143-a8cf-fa8993d1dabb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004246_e064ef26-b8fb-4143-a8cf-fa8993d1dabb.png",
+    "sku": "W1382",
+    "filename": "W1382.png"
+  },
+  {
+    "index": 121,
+    "job_id": "5d41c2ed-e132-41ee-832f-cba06d8e815f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004246_5d41c2ed-e132-41ee-832f-cba06d8e815f.png",
+    "sku": "WWNL3.821.4.53.9",
+    "filename": "WWNL3.821.4.53.9.png"
+  },
+  {
+    "index": 122,
+    "job_id": "fdea5a0e-95d8-40a2-bbac-22b44fb50058",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004246_fdea5a0e-95d8-40a2-bbac-22b44fb50058.png",
+    "sku": "W1308",
+    "filename": "W1308.png"
+  },
+  {
+    "index": 123,
+    "job_id": "71e0e2c4-8354-4285-8dfa-3ca3854ca9a5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004246_71e0e2c4-8354-4285-8dfa-3ca3854ca9a5.png",
+    "sku": "WWN01 400 7772 4054-07 5 20 82",
+    "filename": "WWN01 400 7772 4054-07 5 20 82.png"
+  },
+  {
+    "index": 124,
+    "job_id": "acb62c95-9b4f-44c0-817b-150d814509b2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004246_acb62c95-9b4f-44c0-817b-150d814509b2.png",
+    "sku": "W235",
+    "filename": "W235.png"
+  },
+  {
+    "index": 125,
+    "job_id": "e243408e-aae0-4a1f-89c3-36262552d87d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004248_e243408e-aae0-4a1f-89c3-36262552d87d.png",
+    "sku": "W261",
+    "filename": "W261.png"
+  },
+  {
+    "index": 126,
+    "job_id": "1fbcf50a-ec8f-4cb5-aaca-078c2dbbb470",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004248_1fbcf50a-ec8f-4cb5-aaca-078c2dbbb470.png",
+    "sku": "W299",
+    "filename": "W299.png"
+  },
+  {
+    "index": 127,
+    "job_id": "b1b82319-137f-4212-bf7e-1863d5680945",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004248_b1b82319-137f-4212-bf7e-1863d5680945.png",
+    "sku": "W1269",
+    "filename": "W1269.png"
+  },
+  {
+    "index": 128,
+    "job_id": "638143c0-fe3d-4a90-aa6b-2eb1da026fa2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004248_638143c0-fe3d-4a90-aa6b-2eb1da026fa2.png",
+    "sku": "W259",
+    "filename": "W259.png"
+  },
+  {
+    "index": 129,
+    "job_id": "d6cbe30f-a2b6-4090-b604-33435e348097",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004249_d6cbe30f-a2b6-4090-b604-33435e348097.png",
+    "sku": "WW684",
+    "filename": "WW684.png"
+  },
+  {
+    "index": 130,
+    "job_id": "3630d9d7-f020-4d1e-a224-071ccd180d79",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004248_3630d9d7-f020-4d1e-a224-071ccd180d79.png",
+    "sku": "W297",
+    "filename": "W297.png"
+  },
+  {
+    "index": 131,
+    "job_id": "6556370b-31d3-41f8-b628-fce7d195cda3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004250_6556370b-31d3-41f8-b628-fce7d195cda3.png",
+    "sku": "WW746",
+    "filename": "WW746.png"
+  },
+  {
+    "index": 132,
+    "job_id": "cf5db77e-c429-4a76-92d6-3cbe05b46859",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004250_cf5db77e-c429-4a76-92d6-3cbe05b46859.png",
+    "sku": "W277",
+    "filename": "W277.png"
+  },
+  {
+    "index": 133,
+    "job_id": "34283b12-e7b5-4832-9cef-8c58b9b80031",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004251_34283b12-e7b5-4832-9cef-8c58b9b80031.png",
+    "sku": "W1528",
+    "filename": "W1528.png"
+  },
+  {
+    "index": 134,
+    "job_id": "9fa8f1c8-5827-4ce0-aec9-83fb9fabea13",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004250_9fa8f1c8-5827-4ce0-aec9-83fb9fabea13.png",
+    "sku": "W1485",
+    "filename": "W1485.png"
+  },
+  {
+    "index": 135,
+    "job_id": "5d2fc417-046b-49d2-bc10-254149867141",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004250_5d2fc417-046b-49d2-bc10-254149867141.png",
+    "sku": "WWNWAY208D.FC8221",
+    "filename": "WWNWAY208D.FC8221.png"
+  },
+  {
+    "index": 136,
+    "job_id": "63fd2a6b-9b06-47dd-b396-ff72c7c07fed",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004250_63fd2a6b-9b06-47dd-b396-ff72c7c07fed.png",
+    "sku": "W1529",
+    "filename": "W1529.png"
+  },
+  {
+    "index": 137,
+    "job_id": "69db2d31-5da9-4e3a-b203-f6d0c779b9ce",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004253_69db2d31-5da9-4e3a-b203-f6d0c779b9ce.png",
+    "sku": "WW812",
+    "filename": "WW812.png"
+  },
+  {
+    "index": 138,
+    "job_id": "51a9809d-0ec1-4bf0-98d6-7108a2c0d592",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004253_51a9809d-0ec1-4bf0-98d6-7108a2c0d592.png",
+    "sku": "WL55",
+    "filename": "WL55.png"
+  },
+  {
+    "index": 139,
+    "job_id": "5c2fc403-de53-4e43-aa34-e9cff82dcda0",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004253_5c2fc403-de53-4e43-aa34-e9cff82dcda0.png",
+    "sku": "WL40",
+    "filename": "WL40.png"
+  },
+  {
+    "index": 140,
+    "job_id": "307c38f8-f576-4b9c-88a6-ec27d90e242f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004253_307c38f8-f576-4b9c-88a6-ec27d90e242f.png",
+    "sku": "WW745",
+    "filename": "WW745.png"
+  },
+  {
+    "index": 141,
+    "job_id": "fb3428b1-8fc6-490b-b99e-99605520d96d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004253_fb3428b1-8fc6-490b-b99e-99605520d96d.png",
+    "sku": "WW572",
+    "filename": "WW572.png"
+  },
+  {
+    "index": 142,
+    "job_id": "c19de2f7-1d1c-40bb-b1ed-d6574bb8100b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004253_c19de2f7-1d1c-40bb-b1ed-d6574bb8100b.png",
+    "sku": "WL46",
+    "filename": "WL46.png"
+  },
+  {
+    "index": 143,
+    "job_id": "89a77c7b-48f5-4ee6-89b7-dd20dde3db0f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004254_89a77c7b-48f5-4ee6-89b7-dd20dde3db0f.png",
+    "sku": "WL53",
+    "filename": "WL53.png"
+  },
+  {
+    "index": 144,
+    "job_id": "36bab02c-245e-47b4-b709-c55ea1712bf4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004254_36bab02c-245e-47b4-b709-c55ea1712bf4.png",
+    "sku": "WL56",
+    "filename": "WL56.png"
+  },
+  {
+    "index": 145,
+    "job_id": "f3583dca-fdb4-420e-917f-254288d26ee0",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004254_f3583dca-fdb4-420e-917f-254288d26ee0.png",
+    "sku": "WL38",
+    "filename": "WL38.png"
+  },
+  {
+    "index": 146,
+    "job_id": "7b9d8c72-7a41-4363-9119-b20bc3976b5b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004255_7b9d8c72-7a41-4363-9119-b20bc3976b5b.png",
+    "sku": "W1295",
+    "filename": "W1295.png"
+  },
+  {
+    "index": 147,
+    "job_id": "e97a59fe-bd47-4833-b5b3-4dab1b32e356",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004255_e97a59fe-bd47-4833-b5b3-4dab1b32e356.png",
+    "sku": "CR801313BUCBUICO",
+    "filename": "CR801313BUCBUICO.png"
+  },
+  {
+    "index": 148,
+    "job_id": "62479f7c-b3e4-49f4-b570-f404abac1a01",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004255_62479f7c-b3e4-49f4-b570-f404abac1a01.png",
+    "sku": "WL54",
+    "filename": "WL54.png"
+  },
+  {
+    "index": 149,
+    "job_id": "69bfda9c-bff8-4be7-bd1f-f78a420642bf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004257_69bfda9c-bff8-4be7-bd1f-f78a420642bf.png",
+    "sku": "WW626",
+    "filename": "WW626.png"
+  },
+  {
+    "index": 150,
+    "job_id": "1d87fbef-cb92-4a16-b783-d2ff68eec239",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004257_1d87fbef-cb92-4a16-b783-d2ff68eec239.png",
+    "sku": "W1266",
+    "filename": "W1266.png"
+  },
+  {
+    "index": 151,
+    "job_id": "fb07f811-dd35-433c-b22d-025dc72e855a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004257_fb07f811-dd35-433c-b22d-025dc72e855a.png",
+    "sku": "W1265",
+    "filename": "W1265.png"
+  },
+  {
+    "index": 152,
+    "job_id": "6dc91151-0d94-486b-8651-48eedcbe7ad2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004257_6dc91151-0d94-486b-8651-48eedcbe7ad2.png",
+    "sku": "WW877",
+    "filename": "WW877.png"
+  },
+  {
+    "index": 153,
+    "job_id": "bcbdb9fd-b5fd-40ef-ba93-9d667469809f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004257_bcbdb9fd-b5fd-40ef-ba93-9d667469809f.png",
+    "sku": "WL60",
+    "filename": "WL60.png"
+  },
+  {
+    "index": 154,
+    "job_id": "4253038d-50f7-4c93-9484-99900e34b270",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004257_4253038d-50f7-4c93-9484-99900e34b270.png",
+    "sku": "WL58",
+    "filename": "WL58.png"
+  },
+  {
+    "index": 155,
+    "job_id": "613b2f61-d1bb-4035-94fb-29fbe90edd20",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004259_613b2f61-d1bb-4035-94fb-29fbe90edd20.png",
+    "sku": "W298",
+    "filename": "W298.png"
+  },
+  {
+    "index": 156,
+    "job_id": "88a30b57-7c3a-456b-a4ee-80292dc0941c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004300_88a30b57-7c3a-456b-a4ee-80292dc0941c.png",
+    "sku": "WWN01 400 7763 4135-07 8 24 09PEB",
+    "filename": "WWN01 400 7763 4135-07 8 24 09PEB.png"
+  },
+  {
+    "index": 157,
+    "job_id": "354fe107-b847-440e-83e3-a6f923387b99",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004259_354fe107-b847-440e-83e3-a6f923387b99.png",
+    "sku": "WL76",
+    "filename": "WL76.png"
+  },
+  {
+    "index": 158,
+    "job_id": "bcfefa5c-a993-4f9f-a946-8c0e413643db",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004259_bcfefa5c-a993-4f9f-a946-8c0e413643db.png",
+    "sku": "W1326",
+    "filename": "W1326.png"
+  },
+  {
+    "index": 159,
+    "job_id": "69cfcba5-60b1-4707-9e4d-c7e15741b075",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004258_69cfcba5-60b1-4707-9e4d-c7e15741b075.png",
+    "sku": "CRH77616533",
+    "filename": "CRH77616533.png"
+  },
+  {
+    "index": 160,
+    "job_id": "aaa44f03-f665-464e-8d1a-47b8bab891cb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004258_aaa44f03-f665-464e-8d1a-47b8bab891cb.png",
+    "sku": "WWNL3.374.4.40.2",
+    "filename": "WWNL3.374.4.40.2.png"
+  },
+  {
+    "index": 161,
+    "job_id": "2e21290c-782d-4325-9536-ed11c73731f7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004301_2e21290c-782d-4325-9536-ed11c73731f7.png",
+    "sku": "WL70",
+    "filename": "WL70.png"
+  },
+  {
+    "index": 162,
+    "job_id": "26cd0878-000a-4893-b50e-aa69a2a57d5e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004301_26cd0878-000a-4893-b50e-aa69a2a57d5e.png",
+    "sku": "WWNL2.828.4.53.2",
+    "filename": "WWNL2.828.4.53.2.png"
+  },
+  {
+    "index": 163,
+    "job_id": "018dc0aa-1019-4231-baba-eef8b8af0d18",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004301_018dc0aa-1019-4231-baba-eef8b8af0d18.png",
+    "sku": "W1426",
+    "filename": "W1426.png"
+  },
+  {
+    "index": 164,
+    "job_id": "f7b977ed-0885-4938-a6f4-4df8e1995fee",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004301_f7b977ed-0885-4938-a6f4-4df8e1995fee.png",
+    "sku": "W1348",
+    "filename": "W1348.png"
+  },
+  {
+    "index": 165,
+    "job_id": "ae2bc559-fe0f-4642-a9ff-e594eedbc154",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004301_ae2bc559-fe0f-4642-a9ff-e594eedbc154.png",
+    "sku": "WL72",
+    "filename": "WL72.png"
+  },
+  {
+    "index": 166,
+    "job_id": "9cc3f1dd-4e02-4857-9d4f-280213a2766f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004301_9cc3f1dd-4e02-4857-9d4f-280213a2766f.png",
+    "sku": "WWN01 751 7761 4187-SET",
+    "filename": "WWN01 751 7761 4187-SET.png"
+  },
+  {
+    "index": 167,
+    "job_id": "34081cfd-3e62-4ac1-aae5-6e10d053a82d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004303_34081cfd-3e62-4ac1-aae5-6e10d053a82d.png",
+    "sku": "WW672",
+    "filename": "WW672.png"
+  },
+  {
+    "index": 168,
+    "job_id": "f66b680e-0ee7-4c6b-a73e-245ac3467a9d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004303_f66b680e-0ee7-4c6b-a73e-245ac3467a9d.png",
+    "sku": "W1396",
+    "filename": "W1396.png"
+  },
+  {
+    "index": 169,
+    "job_id": "a7bddc09-5678-43ce-871a-d63922f6f0fb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004303_a7bddc09-5678-43ce-871a-d63922f6f0fb.png",
+    "sku": "WW483",
+    "filename": "WW483.png"
+  },
+  {
+    "index": 170,
+    "job_id": "ad9cd732-c607-42e4-948b-381ddbca6cb3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004303_ad9cd732-c607-42e4-948b-381ddbca6cb3.png",
+    "sku": "WW480",
+    "filename": "WW480.png"
+  },
+  {
+    "index": 171,
+    "job_id": "7e47ef02-152c-452b-85b4-826224611c40",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004303_7e47ef02-152c-452b-85b4-826224611c40.png",
+    "sku": "WW650",
+    "filename": "WW650.png"
+  },
+  {
+    "index": 172,
+    "job_id": "833f1282-34aa-4464-9a93-0fe991288e6e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004303_833f1282-34aa-4464-9a93-0fe991288e6e.png",
+    "sku": "WL92",
+    "filename": "WL92.png"
+  },
+  {
+    "index": 173,
+    "job_id": "d88b9dd7-2d08-483b-9405-d2ee95f1427c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004305_d88b9dd7-2d08-483b-9405-d2ee95f1427c.png",
+    "sku": "WL78",
+    "filename": "WL78.png"
+  },
+  {
+    "index": 174,
+    "job_id": "bd8d592a-0d6d-4565-830a-d6d96da6e17d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004305_bd8d592a-0d6d-4565-830a-d6d96da6e17d.png",
+    "sku": "W251",
+    "filename": "W251.png"
+  },
+  {
+    "index": 175,
+    "job_id": "d00a2656-35b8-4ffc-9b34-6286742b1db6",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004305_d00a2656-35b8-4ffc-9b34-6286742b1db6.png",
+    "sku": "WW976",
+    "filename": "WW976.png"
+  },
+  {
+    "index": 176,
+    "job_id": "d3fa57af-5b9d-4921-b01a-eb9ec70b89c7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004305_d3fa57af-5b9d-4921-b01a-eb9ec70b89c7.png",
+    "sku": "WL65",
+    "filename": "WL65.png"
+  },
+  {
+    "index": 177,
+    "job_id": "73c07147-5664-407f-ae65-cd270bea859e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004306_73c07147-5664-407f-ae65-cd270bea859e.png",
+    "sku": "WW556",
+    "filename": "WW556.png"
+  },
+  {
+    "index": 178,
+    "job_id": "7c6a9fbe-a9c3-4ca1-82d7-c90876e719cb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004305_7c6a9fbe-a9c3-4ca1-82d7-c90876e719cb.png",
+    "sku": "WL84",
+    "filename": "WL84.png"
+  },
+  {
+    "index": 179,
+    "job_id": "23d2a858-3791-49eb-b250-f47ca6fbecdb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004308_23d2a858-3791-49eb-b250-f47ca6fbecdb.png",
+    "sku": "WW312",
+    "filename": "WW312.png"
+  },
+  {
+    "index": 180,
+    "job_id": "feeae30f-5e9b-4ff9-a1af-3be4d36d7084",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004308_feeae30f-5e9b-4ff9-a1af-3be4d36d7084.png",
+    "sku": "WL71",
+    "filename": "WL71.png"
+  },
+  {
+    "index": 181,
+    "job_id": "aee03f36-f190-4d25-a272-e5cde0771320",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004308_aee03f36-f190-4d25-a272-e5cde0771320.png",
+    "sku": "W1502",
+    "filename": "W1502.png"
+  },
+  {
+    "index": 182,
+    "job_id": "e8b27a13-3577-4898-99c1-ff0cb0d68911",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004308_e8b27a13-3577-4898-99c1-ff0cb0d68911.png",
+    "sku": "WL77",
+    "filename": "WL77.png"
+  },
+  {
+    "index": 183,
+    "job_id": "176bccee-585e-49e2-b20c-95a81deb0f5d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004308_176bccee-585e-49e2-b20c-95a81deb0f5d.png",
+    "sku": "W1468",
+    "filename": "W1468.png"
+  },
+  {
+    "index": 184,
+    "job_id": "89a3e3e4-5b9b-41b9-b257-2e7fbd8e5a95",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004308_89a3e3e4-5b9b-41b9-b257-2e7fbd8e5a95.png",
+    "sku": "W20",
+    "filename": "W20.png"
+  },
+  {
+    "index": 185,
+    "job_id": "fe01e5b2-c4c9-432e-a220-8c94f7d89b02",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004310_fe01e5b2-c4c9-432e-a220-8c94f7d89b02.png",
+    "sku": "W1280",
+    "filename": "W1280.png"
+  },
+  {
+    "index": 186,
+    "job_id": "e16cd0cd-a1a9-49d9-9a89-4d9424dbabb4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004310_e16cd0cd-a1a9-49d9-9a89-4d9424dbabb4.png",
+    "sku": "W1312",
+    "filename": "W1312.png"
+  },
+  {
+    "index": 187,
+    "job_id": "1111736b-236e-41bf-8a81-e82c458b4e74",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004310_1111736b-236e-41bf-8a81-e82c458b4e74.png",
+    "sku": "WL31",
+    "filename": "WL31.png"
+  },
+  {
+    "index": 188,
+    "job_id": "107dcfc4-98eb-4af7-a7ce-cb220e8d2836",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004310_107dcfc4-98eb-4af7-a7ce-cb220e8d2836.png",
+    "sku": "W246",
+    "filename": "W246.png"
+  },
+  {
+    "index": 189,
+    "job_id": "24e77ff8-4f3d-491c-9731-069102e14291",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004310_24e77ff8-4f3d-491c-9731-069102e14291.png",
+    "sku": "W1534",
+    "filename": "W1534.png"
+  },
+  {
+    "index": 190,
+    "job_id": "330837e9-d120-4583-8a54-2b1ed9f88013",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004310_330837e9-d120-4583-8a54-2b1ed9f88013.png",
+    "sku": "WL50",
+    "filename": "WL50.png"
+  },
+  {
+    "index": 191,
+    "job_id": "73caa945-bd3d-4ea1-be48-4f152b759d59",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004312_73caa945-bd3d-4ea1-be48-4f152b759d59.png",
+    "sku": "W1543",
+    "filename": "W1543.png"
+  },
+  {
+    "index": 192,
+    "job_id": "49897f23-a39f-498d-9afa-4e2b99ba382b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004312_49897f23-a39f-498d-9afa-4e2b99ba382b.png",
+    "sku": "W239",
+    "filename": "W239.png"
+  },
+  {
+    "index": 193,
+    "job_id": "daff775c-45cd-4d75-838d-346046d842ea",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004312_daff775c-45cd-4d75-838d-346046d842ea.png",
+    "sku": "W1294",
+    "filename": "W1294.png"
+  },
+  {
+    "index": 194,
+    "job_id": "fe543793-773c-437f-8fc0-d774d2cb3c76",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004312_fe543793-773c-437f-8fc0-d774d2cb3c76.png",
+    "sku": "W1395",
+    "filename": "W1395.png"
+  },
+  {
+    "index": 195,
+    "job_id": "dce6a8ef-9d56-43cc-814a-433f6ee3002f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004312_dce6a8ef-9d56-43cc-814a-433f6ee3002f.png",
+    "sku": "WW184",
+    "filename": "WW184.png"
+  },
+  {
+    "index": 196,
+    "job_id": "f76716f4-b2d4-4291-b2a7-b7bfafe24d95",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004312_f76716f4-b2d4-4291-b2a7-b7bfafe24d95.png",
+    "sku": "WW488",
+    "filename": "WW488.png"
+  },
+  {
+    "index": 197,
+    "job_id": "4eabbc58-d26c-44b6-b900-effdaa009fff",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004314_4eabbc58-d26c-44b6-b900-effdaa009fff.png",
+    "sku": "W1263",
+    "filename": "W1263.png"
+  },
+  {
+    "index": 198,
+    "job_id": "67544863-dc3e-4540-8c02-8fde02cb6c2c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004314_67544863-dc3e-4540-8c02-8fde02cb6c2c.png",
+    "sku": "WWNH32506730",
+    "filename": "WWNH32506730.png"
+  },
+  {
+    "index": 199,
+    "job_id": "81d37b2f-34b2-4122-bcd2-dca0a236868b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004314_81d37b2f-34b2-4122-bcd2-dca0a236868b.png",
+    "sku": "WW725",
+    "filename": "WW725.png"
+  },
+  {
+    "index": 200,
+    "job_id": "0bc79df7-2e82-4374-82c7-114cce0cdaaf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004314_0bc79df7-2e82-4374-82c7-114cce0cdaaf.png",
+    "sku": "W231",
+    "filename": "W231.png"
+  },
+  {
+    "index": 201,
+    "job_id": "119f5ff9-3ecf-4323-a8e3-090dbf83e951",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004348_119f5ff9-3ecf-4323-a8e3-090dbf83e951.png",
+    "sku": "W1364",
+    "filename": "W1364.png"
+  },
+  {
+    "index": 202,
+    "job_id": "2b034bcb-2298-436d-b0d9-41c92ff72753",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004348_2b034bcb-2298-436d-b0d9-41c92ff72753.png",
+    "sku": "W1346",
+    "filename": "W1346.png"
+  },
+  {
+    "index": 203,
+    "job_id": "48017242-a7c9-4d66-b73a-ed9f54c3eb6e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004348_48017242-a7c9-4d66-b73a-ed9f54c3eb6e.png",
+    "sku": "WL90",
+    "filename": "WL90.png"
+  },
+  {
+    "index": 204,
+    "job_id": "aa54aa27-cdea-4318-885b-109d155fc9fa",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004347_aa54aa27-cdea-4318-885b-109d155fc9fa.png",
+    "sku": "WL80",
+    "filename": "WL80.png"
+  },
+  {
+    "index": 205,
+    "job_id": "355981e4-4189-4fc0-b33c-9527f6b97f6f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004348_355981e4-4189-4fc0-b33c-9527f6b97f6f.png",
+    "sku": "WL83",
+    "filename": "WL83.png"
+  },
+  {
+    "index": 206,
+    "job_id": "645fb25d-e574-4d72-90af-8e1b9cc8a934",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004348_645fb25d-e574-4d72-90af-8e1b9cc8a934.png",
+    "sku": "W1366",
+    "filename": "W1366.png"
+  },
+  {
+    "index": 207,
+    "job_id": "ab4846d9-c37c-406f-9e5a-11591ab5d783",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004350_ab4846d9-c37c-406f-9e5a-11591ab5d783.png",
+    "sku": "W1433",
+    "filename": "W1433.png"
+  },
+  {
+    "index": 208,
+    "job_id": "f5df6d9b-88ac-43df-ab9f-8e46e37f0926",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004350_f5df6d9b-88ac-43df-ab9f-8e46e37f0926.png",
+    "sku": "WL27",
+    "filename": "WL27.png"
+  },
+  {
+    "index": 209,
+    "job_id": "82106f76-39fe-4107-b65c-50724bfd8106",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004350_82106f76-39fe-4107-b65c-50724bfd8106.png",
+    "sku": "WWNH24655331",
+    "filename": "WWNH24655331.png"
+  },
+  {
+    "index": 210,
+    "job_id": "1bcd8fa7-cd13-4da0-9bcd-086c669d4b40",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004350_1bcd8fa7-cd13-4da0-9bcd-086c669d4b40.png",
+    "sku": "WW373",
+    "filename": "WW373.png"
+  },
+  {
+    "index": 211,
+    "job_id": "be1184d2-6459-4498-a9c2-9940da03d8f1",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004350_be1184d2-6459-4498-a9c2-9940da03d8f1.png",
+    "sku": "WL87",
+    "filename": "WL87.png"
+  },
+  {
+    "index": 212,
+    "job_id": "34130241-e64a-45d9-ab2f-4f47ad3b86e7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004350_34130241-e64a-45d9-ab2f-4f47ad3b86e7.png",
+    "sku": "WL52",
+    "filename": "WL52.png"
+  },
+  {
+    "index": 213,
+    "job_id": "ac6b1db1-b320-4796-b277-28bed7c8666f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004352_ac6b1db1-b320-4796-b277-28bed7c8666f.png",
+    "sku": "W1470",
+    "filename": "W1470.png"
+  },
+  {
+    "index": 214,
+    "job_id": "6a1c05fe-fa9c-4d7d-8f90-0caf910cc769",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004352_6a1c05fe-fa9c-4d7d-8f90-0caf910cc769.png",
+    "sku": "WL61",
+    "filename": "WL61.png"
+  },
+  {
+    "index": 215,
+    "job_id": "f141c3b3-a69c-4463-a8d5-afdf315d49da",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004352_f141c3b3-a69c-4463-a8d5-afdf315d49da.png",
+    "sku": "W1311",
+    "filename": "W1311.png"
+  },
+  {
+    "index": 216,
+    "job_id": "1b103824-93d1-4a20-a3fe-161eb856fa64",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004352_1b103824-93d1-4a20-a3fe-161eb856fa64.png",
+    "sku": "W1459",
+    "filename": "W1459.png"
+  },
+  {
+    "index": 217,
+    "job_id": "297b5219-fd39-4413-9bfe-7e772ec34a5e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004352_297b5219-fd39-4413-9bfe-7e772ec34a5e.png",
+    "sku": "W1372",
+    "filename": "W1372.png"
+  },
+  {
+    "index": 218,
+    "job_id": "e6f86302-dfe7-4fa0-b84b-552935c24341",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004352_e6f86302-dfe7-4fa0-b84b-552935c24341.png",
+    "sku": "W1329",
+    "filename": "W1329.png"
+  },
+  {
+    "index": 219,
+    "job_id": "54b94837-bb5d-4887-817b-a5781c1c8cad",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004354_54b94837-bb5d-4887-817b-a5781c1c8cad.png",
+    "sku": "W1339",
+    "filename": "W1339.png"
+  },
+  {
+    "index": 220,
+    "job_id": "a5005f4e-19fb-4c08-b6ff-fc572b90ee9d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004354_a5005f4e-19fb-4c08-b6ff-fc572b90ee9d.png",
+    "sku": "W1539",
+    "filename": "W1539.png"
+  },
+  {
+    "index": 221,
+    "job_id": "cfc21cbd-7b8f-4508-a780-a66272959172",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004354_cfc21cbd-7b8f-4508-a780-a66272959172.png",
+    "sku": "W1349",
+    "filename": "W1349.png"
+  },
+  {
+    "index": 222,
+    "job_id": "35403f0c-7ab6-444d-8df9-e85b00f270d5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004354_35403f0c-7ab6-444d-8df9-e85b00f270d5.png",
+    "sku": "W1301",
+    "filename": "W1301.png"
+  },
+  {
+    "index": 223,
+    "job_id": "2ba83852-4844-40eb-81b7-f3459997701a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004354_2ba83852-4844-40eb-81b7-f3459997701a.png",
+    "sku": "WW557",
+    "filename": "WW557.png"
+  },
+  {
+    "index": 224,
+    "job_id": "0e36c294-76de-4a8a-ad9b-9df3ebaf7cfb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004354_0e36c294-76de-4a8a-ad9b-9df3ebaf7cfb.png",
+    "sku": "WL64",
+    "filename": "WL64.png"
+  },
+  {
+    "index": 225,
+    "job_id": "7697a697-6f1f-4a59-b0eb-d2b385890923",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004355_7697a697-6f1f-4a59-b0eb-d2b385890923.png",
+    "sku": "W1350",
+    "filename": "W1350.png"
+  },
+  {
+    "index": 226,
+    "job_id": "43f125ec-02c3-43d9-a35c-3aa7c9356d8c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004356_43f125ec-02c3-43d9-a35c-3aa7c9356d8c.png",
+    "sku": "W1380",
+    "filename": "W1380.png"
+  },
+  {
+    "index": 227,
+    "job_id": "5d53be1c-763d-4cfe-a1bd-67e1bea889de",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004355_5d53be1c-763d-4cfe-a1bd-67e1bea889de.png",
+    "sku": "W1325",
+    "filename": "W1325.png"
+  },
+  {
+    "index": 228,
+    "job_id": "70b1d36f-aabd-4642-8256-ff882f6f767d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004356_70b1d36f-aabd-4642-8256-ff882f6f767d.png",
+    "sku": "WL51",
+    "filename": "WL51.png"
+  },
+  {
+    "index": 229,
+    "job_id": "efe9bb22-41cc-46ad-8021-e5a1e0d2dadf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004355_efe9bb22-41cc-46ad-8021-e5a1e0d2dadf.png",
+    "sku": "WW647",
+    "filename": "WW647.png"
+  },
+  {
+    "index": 230,
+    "job_id": "999cc31f-4188-4744-8df2-127fc2d456e7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004356_999cc31f-4188-4744-8df2-127fc2d456e7.png",
+    "sku": "WW588",
+    "filename": "WW588.png"
+  },
+  {
+    "index": 231,
+    "job_id": "51350782-fb57-4fe9-96a7-f906d718bcef",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004358_51350782-fb57-4fe9-96a7-f906d718bcef.png",
+    "sku": "W1277",
+    "filename": "W1277.png"
+  },
+  {
+    "index": 232,
+    "job_id": "11688184-4c3a-49f1-b200-efdcacfd0af4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004358_11688184-4c3a-49f1-b200-efdcacfd0af4.png",
+    "sku": "WWN01 733 7720 4057-07 5 21 02",
+    "filename": "WWN01 733 7720 4057-07 5 21 02.png"
+  },
+  {
+    "index": 233,
+    "job_id": "0fa69167-77f7-4133-9e3f-bec31aa0ff3d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004358_0fa69167-77f7-4133-9e3f-bec31aa0ff3d.png",
+    "sku": "W1357",
+    "filename": "W1357.png"
+  },
+  {
+    "index": 234,
+    "job_id": "c5803db1-4f32-4d1c-85bf-0ec039ebe6e8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004358_c5803db1-4f32-4d1c-85bf-0ec039ebe6e8.png",
+    "sku": "W1327",
+    "filename": "W1327.png"
+  },
+  {
+    "index": 235,
+    "job_id": "b3f7d4ac-2005-41a2-86ce-961d7a39c200",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004358_b3f7d4ac-2005-41a2-86ce-961d7a39c200.png",
+    "sku": "W1514",
+    "filename": "W1514.png"
+  },
+  {
+    "index": 236,
+    "job_id": "e3bd8c8d-e4d6-439f-bb7b-c3182b4a54b4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004358_e3bd8c8d-e4d6-439f-bb7b-c3182b4a54b4.png",
+    "sku": "W1328",
+    "filename": "W1328.png"
+  },
+  {
+    "index": 237,
+    "job_id": "8af829f6-5de8-4844-a831-ba33025bc263",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004400_8af829f6-5de8-4844-a831-ba33025bc263.png",
+    "sku": "WWN01 733 7770 4150-SET",
+    "filename": "WWN01 733 7770 4150-SET.png"
+  },
+  {
+    "index": 238,
+    "job_id": "1590d739-f2d4-408b-b9b4-897073865a3e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004400_1590d739-f2d4-408b-b9b4-897073865a3e.png",
+    "sku": "WWN01 733 7732 4135-07 5 21 10FC",
+    "filename": "WWN01 733 7732 4135-07 5 21 10FC.png"
+  },
+  {
+    "index": 239,
+    "job_id": "20b0e646-a55b-4ca7-a1dd-27fffb7c9a12",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004359_20b0e646-a55b-4ca7-a1dd-27fffb7c9a12.png",
+    "sku": "WWN01 733 7732 4157-07 5 21 10FC",
+    "filename": "WWN01 733 7732 4157-07 5 21 10FC.png"
+  },
+  {
+    "index": 240,
+    "job_id": "0c12a092-a92f-4c97-a6ba-e9bda9910856",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004400_0c12a092-a92f-4c97-a6ba-e9bda9910856.png",
+    "sku": "W1276",
+    "filename": "W1276.png"
+  },
+  {
+    "index": 241,
+    "job_id": "4f6d1da9-21b4-4fb6-abeb-0767add1307d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004400_4f6d1da9-21b4-4fb6-abeb-0767add1307d.png",
+    "sku": "WWN01 733 7707 4357-07 5 20 45",
+    "filename": "WWN01 733 7707 4357-07 5 20 45.png"
+  },
+  {
+    "index": 242,
+    "job_id": "ca381248-56de-46ee-90e0-adc1a8d17435",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004400_ca381248-56de-46ee-90e0-adc1a8d17435.png",
+    "sku": "WL23",
+    "filename": "WL23.png"
+  },
+  {
+    "index": 243,
+    "job_id": "4eab9e59-f55a-427d-ac83-08d5286b9ede",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004402_4eab9e59-f55a-427d-ac83-08d5286b9ede.png",
+    "sku": "W243",
+    "filename": "W243.png"
+  },
+  {
+    "index": 244,
+    "job_id": "b410a3c2-aea8-43e1-880e-0b77f9670705",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004402_b410a3c2-aea8-43e1-880e-0b77f9670705.png",
+    "sku": "W2281",
+    "filename": "W2281.png"
+  },
+  {
+    "index": 245,
+    "job_id": "25743dc2-4762-4e3e-9741-ebf624196f1f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004402_25743dc2-4762-4e3e-9741-ebf624196f1f.png",
+    "sku": "W248",
+    "filename": "W248.png"
+  },
+  {
+    "index": 246,
+    "job_id": "d061b599-400c-40fe-8151-8b7aac2d0288",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004402_d061b599-400c-40fe-8151-8b7aac2d0288.png",
+    "sku": "WWNH82565930",
+    "filename": "WWNH82565930.png"
+  },
+  {
+    "index": 247,
+    "job_id": "9b79cb3a-bafb-4059-8e86-484b57ed2304",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004402_9b79cb3a-bafb-4059-8e86-484b57ed2304.png",
+    "sku": "W1270",
+    "filename": "W1270.png"
+  },
+  {
+    "index": 248,
+    "job_id": "943dbc4b-ae34-472a-b9c5-6cfed39b747a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004402_943dbc4b-ae34-472a-b9c5-6cfed39b747a.png",
+    "sku": "WW701",
+    "filename": "WW701.png"
+  },
+  {
+    "index": 249,
+    "job_id": "26d24c06-4f89-4e74-a723-114ebe79353d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004404_26d24c06-4f89-4e74-a723-114ebe79353d.png",
+    "sku": "WW519",
+    "filename": "WW519.png"
+  },
+  {
+    "index": 250,
+    "job_id": "59fb6861-bdf0-4a1e-9d8c-73051293b444",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004404_59fb6861-bdf0-4a1e-9d8c-73051293b444.png",
+    "sku": "WW335",
+    "filename": "WW335.png"
+  },
+  {
+    "index": 251,
+    "job_id": "021556d3-e848-448a-9ebf-00131111136a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004404_021556d3-e848-448a-9ebf-00131111136a.png",
+    "sku": "W1379",
+    "filename": "W1379.png"
+  },
+  {
+    "index": 252,
+    "job_id": "4841d916-57bb-4a78-ac3f-e7f40f293f16",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004404_4841d916-57bb-4a78-ac3f-e7f40f293f16.png",
+    "sku": "W1279",
+    "filename": "W1279.png"
+  },
+  {
+    "index": 253,
+    "job_id": "56794ba6-7e29-4a57-8f48-d8acd7ec97cb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004404_56794ba6-7e29-4a57-8f48-d8acd7ec97cb.png",
+    "sku": "W249",
+    "filename": "W249.png"
+  },
+  {
+    "index": 254,
+    "job_id": "60d2f577-e8f0-4465-8bb2-694cf1d5b1bb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004404_60d2f577-e8f0-4465-8bb2-694cf1d5b1bb.png",
+    "sku": "W236",
+    "filename": "W236.png"
+  },
+  {
+    "index": 255,
+    "job_id": "b61701e2-8901-45f4-87c6-c907a244ab76",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004406_b61701e2-8901-45f4-87c6-c907a244ab76.png",
+    "sku": "CRH70605732",
+    "filename": "CRH70605732.png"
+  },
+  {
+    "index": 256,
+    "job_id": "04a64dfb-8025-437b-ac1c-5f02b1d9d6ae",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004406_04a64dfb-8025-437b-ac1c-5f02b1d9d6ae.png",
+    "sku": "W1281",
+    "filename": "W1281.png"
+  },
+  {
+    "index": 257,
+    "job_id": "f7fbf052-e08c-4ad9-8d22-49b458088a00",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004405_f7fbf052-e08c-4ad9-8d22-49b458088a00.png",
+    "sku": "W245",
+    "filename": "W245.png"
+  },
+  {
+    "index": 258,
+    "job_id": "360072f8-72c2-4cf9-9eb9-99cb345f5c72",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004405_360072f8-72c2-4cf9-9eb9-99cb345f5c72.png",
+    "sku": "W1527",
+    "filename": "W1527.png"
+  },
+  {
+    "index": 259,
+    "job_id": "f628bdbe-a9d5-4032-a199-d00398874661",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004406_f628bdbe-a9d5-4032-a199-d00398874661.png",
+    "sku": "W1313",
+    "filename": "W1313.png"
+  },
+  {
+    "index": 260,
+    "job_id": "928af67c-b4c3-4eb8-a48a-a24464a14394",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004405_928af67c-b4c3-4eb8-a48a-a24464a14394.png",
+    "sku": "W2283",
+    "filename": "W2283.png"
+  },
+  {
+    "index": 261,
+    "job_id": "f2e8e701-bc80-4a94-8267-ca20604a2d9a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004408_f2e8e701-bc80-4a94-8267-ca20604a2d9a.png",
+    "sku": "W1427",
+    "filename": "W1427.png"
+  },
+  {
+    "index": 262,
+    "job_id": "97edfef7-3afa-4adb-8994-141345f1cf8e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004407_97edfef7-3afa-4adb-8994-141345f1cf8e.png",
+    "sku": "WL28",
+    "filename": "WL28.png"
+  },
+  {
+    "index": 263,
+    "job_id": "5a8fac15-8add-4270-9ab6-cb81040ef8bd",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004408_5a8fac15-8add-4270-9ab6-cb81040ef8bd.png",
+    "sku": "CRH24411142",
+    "filename": "CRH24411142.png"
+  },
+  {
+    "index": 264,
+    "job_id": "4684d630-92b8-4e8f-a2eb-1e9fe9b03a98",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004407_4684d630-92b8-4e8f-a2eb-1e9fe9b03a98.png",
+    "sku": "W256",
+    "filename": "W256.png"
+  },
+  {
+    "index": 265,
+    "job_id": "3e64c73e-63d6-42a8-8966-8b6fb785afd4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004408_3e64c73e-63d6-42a8-8966-8b6fb785afd4.png",
+    "sku": "W1567",
+    "filename": "W1567.png"
+  },
+  {
+    "index": 266,
+    "job_id": "b4fbffa3-be9d-4d9d-8b84-fe24cc19853b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004407_b4fbffa3-be9d-4d9d-8b84-fe24cc19853b.png",
+    "sku": "WW783",
+    "filename": "WW783.png"
+  },
+  {
+    "index": 267,
+    "job_id": "05c963f7-7019-49aa-9975-e00ea6a91881",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004409_05c963f7-7019-49aa-9975-e00ea6a91881.png",
+    "sku": "W2311",
+    "filename": "W2311.png"
+  },
+  {
+    "index": 268,
+    "job_id": "98b6894b-b1d8-4f02-bcb8-a86fc400be94",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004409_98b6894b-b1d8-4f02-bcb8-a86fc400be94.png",
+    "sku": "W1546",
+    "filename": "W1546.png"
+  },
+  {
+    "index": 269,
+    "job_id": "9380fce9-8e91-4136-8716-8bff82d3746e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004411_9380fce9-8e91-4136-8716-8bff82d3746e.png",
+    "sku": "WW693",
+    "filename": "WW693.png"
+  },
+  {
+    "index": 270,
+    "job_id": "ef647484-ecde-4aa7-8a28-a88fde85b3d5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004409_ef647484-ecde-4aa7-8a28-a88fde85b3d5.png",
+    "sku": "W28",
+    "filename": "W28.png"
+  },
+  {
+    "index": 271,
+    "job_id": "52f328da-9539-443a-8385-6fa330efde09",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004409_52f328da-9539-443a-8385-6fa330efde09.png",
+    "sku": "WL89",
+    "filename": "WL89.png"
+  },
+  {
+    "index": 272,
+    "job_id": "720653c8-0923-4217-8562-270eb0c1be3f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004409_720653c8-0923-4217-8562-270eb0c1be3f.png",
+    "sku": "W234",
+    "filename": "W234.png"
+  },
+  {
+    "index": 273,
+    "job_id": "ba8bc0a6-d4d7-4a2e-9517-d5b5cd543924",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004413_ba8bc0a6-d4d7-4a2e-9517-d5b5cd543924.png",
+    "sku": "W2279",
+    "filename": "W2279.png"
+  },
+  {
+    "index": 274,
+    "job_id": "5063e9a5-6543-4c0a-bcc4-fbb417597976",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004413_5063e9a5-6543-4c0a-bcc4-fbb417597976.png",
+    "sku": "W2277",
+    "filename": "W2277.png"
+  },
+  {
+    "index": 275,
+    "job_id": "0e51ab9d-4eed-4262-b058-7928690558fb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004412_0e51ab9d-4eed-4262-b058-7928690558fb.png",
+    "sku": "W233",
+    "filename": "W233.png"
+  },
+  {
+    "index": 276,
+    "job_id": "86d7f4e0-53dc-4e7f-a62b-af8f1a192d28",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004412_86d7f4e0-53dc-4e7f-a62b-af8f1a192d28.png",
+    "sku": "WW826",
+    "filename": "WW826.png"
+  },
+  {
+    "index": 277,
+    "job_id": "92c5c246-196e-43fb-a781-442bdfb88af7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004413_92c5c246-196e-43fb-a781-442bdfb88af7.png",
+    "sku": "WW793",
+    "filename": "WW793.png"
+  },
+  {
+    "index": 278,
+    "job_id": "4d525fc6-6f18-4f5e-96fa-2a657b36c161",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004412_4d525fc6-6f18-4f5e-96fa-2a657b36c161.png",
+    "sku": "W2312",
+    "filename": "W2312.png"
+  },
+  {
+    "index": 279,
+    "job_id": "83178826-5a73-4097-958c-60d46b740a8d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004414_83178826-5a73-4097-958c-60d46b740a8d.png",
+    "sku": "WW285",
+    "filename": "WW285.png"
+  },
+  {
+    "index": 280,
+    "job_id": "23eb8390-4df0-4c45-ac89-95e1d50b6a61",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004414_23eb8390-4df0-4c45-ac89-95e1d50b6a61.png",
+    "sku": "W2297",
+    "filename": "W2297.png"
+  },
+  {
+    "index": 281,
+    "job_id": "8a6e9d5a-4dc6-4cfd-ad5c-1f81da55191b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004414_8a6e9d5a-4dc6-4cfd-ad5c-1f81da55191b.png",
+    "sku": "CRJY0080-62E",
+    "filename": "CRJY0080-62E.png"
+  },
+  {
+    "index": 282,
+    "job_id": "fcf4e3fd-d3ef-4067-879d-420311093bec",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004414_fcf4e3fd-d3ef-4067-879d-420311093bec.png",
+    "sku": "CRT120.410.22.051.01",
+    "filename": "CRT120.410.22.051.01.png"
+  },
+  {
+    "index": 283,
+    "job_id": "382068ce-edb4-4c44-b853-d6ce9bf39bcb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004414_382068ce-edb4-4c44-b853-d6ce9bf39bcb.png",
+    "sku": "CRH82315931",
+    "filename": "CRH82315931.png"
+  },
+  {
+    "index": 284,
+    "job_id": "4998dccf-7197-438c-8433-089494824f75",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004414_4998dccf-7197-438c-8433-089494824f75.png",
+    "sku": "CRH82305931",
+    "filename": "CRH82305931.png"
+  },
+  {
+    "index": 285,
+    "job_id": "4b524e17-7bd9-410e-b92f-92fdf4292b76",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004416_4b524e17-7bd9-410e-b92f-92fdf4292b76.png",
+    "sku": "CRH24251391",
+    "filename": "CRH24251391.png"
+  },
+  {
+    "index": 286,
+    "job_id": "044f129f-8d61-4a61-9ad0-d2c54e9c86cf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004416_044f129f-8d61-4a61-9ad0-d2c54e9c86cf.png",
+    "sku": "CRJY8149-05E",
+    "filename": "CRJY8149-05E.png"
+  },
+  {
+    "index": 287,
+    "job_id": "815baad8-36ca-441f-b8cb-5af7c7b5ea19",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004416_815baad8-36ca-441f-b8cb-5af7c7b5ea19.png",
+    "sku": "CRBN2037-11E",
+    "filename": "CRBN2037-11E.png"
+  },
+  {
+    "index": 288,
+    "job_id": "84c9c0d0-f981-4c27-8465-9435721ef4bf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004416_84c9c0d0-f981-4c27-8465-9435721ef4bf.png",
+    "sku": "CRH77612133",
+    "filename": "CRH77612133.png"
+  },
+  {
+    "index": 289,
+    "job_id": "78170e62-524b-485f-9083-df676e8f4f9b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004416_78170e62-524b-485f-9083-df676e8f4f9b.png",
+    "sku": "W240",
+    "filename": "W240.png"
+  },
+  {
+    "index": 290,
+    "job_id": "3bf7a755-4b98-4945-9d33-76ebeafe8090",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004416_3bf7a755-4b98-4945-9d33-76ebeafe8090.png",
+    "sku": "W2274",
+    "filename": "W2274.png"
+  },
+  {
+    "index": 291,
+    "job_id": "067660f5-291a-447d-b15e-829b5319839f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004418_067660f5-291a-447d-b15e-829b5319839f.png",
+    "sku": "CRBJ2105-51E",
+    "filename": "CRBJ2105-51E.png"
+  },
+  {
+    "index": 292,
+    "job_id": "2f8edb38-0250-497a-9063-d260e0e063c5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004418_2f8edb38-0250-497a-9063-d260e0e063c5.png",
+    "sku": "CRBY3006-53E",
+    "filename": "CRBY3006-53E.png"
+  },
+  {
+    "index": 293,
+    "job_id": "8290edab-8405-4436-9c84-d514741ba6fe",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004418_8290edab-8405-4436-9c84-d514741ba6fe.png",
+    "sku": "WW542",
+    "filename": "WW542.png"
+  },
+  {
+    "index": 294,
+    "job_id": "611fa4fd-f2a4-46da-8369-40042e747e7b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004418_611fa4fd-f2a4-46da-8369-40042e747e7b.png",
+    "sku": "CRRF1050SUN065P1",
+    "filename": "CRRF1050SUN065P1.png"
+  },
+  {
+    "index": 295,
+    "job_id": "2e5c5308-b912-42e2-bcc2-58a7d4f89d64",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004418_2e5c5308-b912-42e2-bcc2-58a7d4f89d64.png",
+    "sku": "CRXS.3590.NSF.SET",
+    "filename": "CRXS.3590.NSF.SET.png"
+  },
+  {
+    "index": 296,
+    "job_id": "f101e213-e3ef-44bc-950f-1c1609030aaf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004418_f101e213-e3ef-44bc-950f-1c1609030aaf.png",
+    "sku": "CR96B251",
+    "filename": "CR96B251.png"
+  },
+  {
+    "index": 297,
+    "job_id": "51eb2dbb-6c79-4dc8-bf86-e590eede458a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004420_51eb2dbb-6c79-4dc8-bf86-e590eede458a.png",
+    "sku": "CRAS4050-51E",
+    "filename": "CRAS4050-51E.png"
+  },
+  {
+    "index": 298,
+    "job_id": "d43d53ff-d3a5-438b-8d32-1296b8420887",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004420_d43d53ff-d3a5-438b-8d32-1296b8420887.png",
+    "sku": "WW268",
+    "filename": "WW268.png"
+  },
+  {
+    "index": 299,
+    "job_id": "8b79752b-2e80-4926-8f67-e0de04292034",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004420_8b79752b-2e80-4926-8f67-e0de04292034.png",
+    "sku": "CRCB5009-55E",
+    "filename": "CRCB5009-55E.png"
+  },
+  {
+    "index": 300,
+    "job_id": "d6b42ce2-c3f3-4be8-9237-5f498347d8ca",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004420_d6b42ce2-c3f3-4be8-9237-5f498347d8ca.png",
+    "sku": "CRCB5925-82X",
+    "filename": "CRCB5925-82X.png"
+  },
+  {
+    "index": 301,
+    "job_id": "50919c82-d2a0-4f8d-94af-cb0f37243de8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004447_50919c82-d2a0-4f8d-94af-cb0f37243de8.png",
+    "sku": "WW600",
+    "filename": "WW600.png"
+  },
+  {
+    "index": 302,
+    "job_id": "fcda2ef4-1474-4ce0-93ad-cc3e584b5d91",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004448_fcda2ef4-1474-4ce0-93ad-cc3e584b5d91.png",
+    "sku": "CRT120.210.22.051.01",
+    "filename": "CRT120.210.22.051.01.png"
+  },
+  {
+    "index": 303,
+    "job_id": "36b9309b-1f68-4ea6-86f4-763dc03cfe7e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004447_36b9309b-1f68-4ea6-86f4-763dc03cfe7e.png",
+    "sku": "CRH11411115",
+    "filename": "CRH11411115.png"
+  },
+  {
+    "index": 304,
+    "job_id": "5f3a1105-873d-488f-bb24-0345724987e2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004448_5f3a1105-873d-488f-bb24-0345724987e2.png",
+    "sku": "CRH64455933",
+    "filename": "CRH64455933.png"
+  },
+  {
+    "index": 305,
+    "job_id": "6aeb7061-10b7-41da-a321-b2c8fcfdc036",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004447_6aeb7061-10b7-41da-a321-b2c8fcfdc036.png",
+    "sku": "CRRF454SSA421J1",
+    "filename": "CRRF454SSA421J1.png"
+  },
+  {
+    "index": 306,
+    "job_id": "4454c2bc-f9b7-4510-b3a0-f363c9a205ec",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004447_4454c2bc-f9b7-4510-b3a0-f363c9a205ec.png",
+    "sku": "CRBN1024-01E",
+    "filename": "CRBN1024-01E.png"
+  },
+  {
+    "index": 307,
+    "job_id": "9057a10f-3d91-4821-9eb1-268ef34ba95b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004450_9057a10f-3d91-4821-9eb1-268ef34ba95b.png",
+    "sku": "CRCB5037-17X",
+    "filename": "CRCB5037-17X.png"
+  },
+  {
+    "index": 308,
+    "job_id": "0c44dcf5-21e3-4cdc-b5bb-71a489072bfb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004450_0c44dcf5-21e3-4cdc-b5bb-71a489072bfb.png",
+    "sku": "CRSEL09004W0",
+    "filename": "CRSEL09004W0.png"
+  },
+  {
+    "index": 309,
+    "job_id": "224877a5-757b-482d-9767-1b7db22d513c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004450_224877a5-757b-482d-9767-1b7db22d513c.png",
+    "sku": "CRH11221550",
+    "filename": "CRH11221550.png"
+  },
+  {
+    "index": 310,
+    "job_id": "a13db3af-61b7-4d10-8933-377979ce8bdc",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004450_a13db3af-61b7-4d10-8933-377979ce8bdc.png",
+    "sku": "CRH76512133",
+    "filename": "CRH76512133.png"
+  },
+  {
+    "index": 311,
+    "job_id": "c4ffe5e6-a497-4df7-b6f6-a96cef02a51d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004450_c4ffe5e6-a497-4df7-b6f6-a96cef02a51d.png",
+    "sku": "CRBN2036-14E",
+    "filename": "CRBN2036-14E.png"
+  },
+  {
+    "index": 312,
+    "job_id": "2c9471d5-059f-43b7-852b-3bde44616332",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004450_2c9471d5-059f-43b7-852b-3bde44616332.png",
+    "sku": "CRRA-AA0823L",
+    "filename": "CRRA-AA0823L.png"
+  },
+  {
+    "index": 313,
+    "job_id": "bb1ed66c-e9b1-4b6b-9a5b-74219795eabf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004452_bb1ed66c-e9b1-4b6b-9a5b-74219795eabf.png",
+    "sku": "CRSDK05003W",
+    "filename": "CRSDK05003W.png"
+  },
+  {
+    "index": 314,
+    "job_id": "c0f1d2e4-eac1-4a7c-bb62-7f51c10b1972",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004452_c0f1d2e4-eac1-4a7c-bb62-7f51c10b1972.png",
+    "sku": "CRXS.3581",
+    "filename": "CRXS.3581.png"
+  },
+  {
+    "index": 315,
+    "job_id": "9ebc131d-c3ca-46de-9f02-4fe463bc667a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004452_9ebc131d-c3ca-46de-9f02-4fe463bc667a.png",
+    "sku": "CRVIC241916",
+    "filename": "CRVIC241916.png"
+  },
+  {
+    "index": 316,
+    "job_id": "7a2e2d24-3c9d-4314-91af-91c9526d728d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004452_7a2e2d24-3c9d-4314-91af-91c9526d728d.png",
+    "sku": "CRJR4065-09E",
+    "filename": "CRJR4065-09E.png"
+  },
+  {
+    "index": 317,
+    "job_id": "d53627f9-2cb2-410c-9971-6be294519967",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004452_d53627f9-2cb2-410c-9971-6be294519967.png",
+    "sku": "CRBN4049-11E",
+    "filename": "CRBN4049-11E.png"
+  },
+  {
+    "index": 318,
+    "job_id": "d26d315b-49d2-4af7-847a-ed4b9b846607",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004452_d26d315b-49d2-4af7-847a-ed4b9b846607.png",
+    "sku": "CR98A304",
+    "filename": "CR98A304.png"
+  },
+  {
+    "index": 319,
+    "job_id": "86958b9c-6d51-4254-bd27-2b8da0791ead",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004454_86958b9c-6d51-4254-bd27-2b8da0791ead.png",
+    "sku": "CRBJ2127-16E",
+    "filename": "CRBJ2127-16E.png"
+  },
+  {
+    "index": 320,
+    "job_id": "514ced08-8c5e-4426-9bd2-d84544544fa2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004454_514ced08-8c5e-4426-9bd2-d84544544fa2.png",
+    "sku": "CRSRPF24K1",
+    "filename": "CRSRPF24K1.png"
+  },
+  {
+    "index": 321,
+    "job_id": "78776e21-d576-411c-9f3b-06d6cae13fa8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004454_78776e21-d576-411c-9f3b-06d6cae13fa8.png",
+    "sku": "CRSRPF67K1",
+    "filename": "CRSRPF67K1.png"
+  },
+  {
+    "index": 322,
+    "job_id": "ac813c37-a4e9-4784-8f23-b5ff2e97ec3c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004454_ac813c37-a4e9-4784-8f23-b5ff2e97ec3c.png",
+    "sku": "CR98A283",
+    "filename": "CR98A283.png"
+  },
+  {
+    "index": 323,
+    "job_id": "aacc3697-9f6c-4db2-96cb-f398fcd09d47",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004454_aacc3697-9f6c-4db2-96cb-f398fcd09d47.png",
+    "sku": "CRCB5034-91W",
+    "filename": "CRCB5034-91W.png"
+  },
+  {
+    "index": 324,
+    "job_id": "04f3a946-bd97-4174-924a-f2065b9078ce",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004454_04f3a946-bd97-4174-924a-f2065b9078ce.png",
+    "sku": "CRSDA02002W",
+    "filename": "CRSDA02002W.png"
+  },
+  {
+    "index": 325,
+    "job_id": "74e68404-2a1a-4b95-8070-91cc3b1f8772",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004456_74e68404-2a1a-4b95-8070-91cc3b1f8772.png",
+    "sku": "CRH82201931",
+    "filename": "CRH82201931.png"
+  },
+  {
+    "index": 326,
+    "job_id": "6e184a58-5f94-4d1d-9dc9-bff42af9e40a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004456_6e184a58-5f94-4d1d-9dc9-bff42af9e40a.png",
+    "sku": "W2295",
+    "filename": "W2295.png"
+  },
+  {
+    "index": 327,
+    "job_id": "a6663f0a-a4f9-43c7-b2d1-7502a3c00f3a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004456_a6663f0a-a4f9-43c7-b2d1-7502a3c00f3a.png",
+    "sku": "CRSRPK65K1",
+    "filename": "CRSRPK65K1.png"
+  },
+  {
+    "index": 328,
+    "job_id": "3131b0a4-e479-4a3c-9e76-7ea33a041c97",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004456_3131b0a4-e479-4a3c-9e76-7ea33a041c97.png",
+    "sku": "CRT129.410.16.053.00~",
+    "filename": "CRT129.410.16.053.00~.png"
+  },
+  {
+    "index": 329,
+    "job_id": "b4613d79-1c13-4c84-84ce-2b27f94bc97a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004456_b4613d79-1c13-4c84-84ce-2b27f94bc97a.png",
+    "sku": "W2294",
+    "filename": "W2294.png"
+  },
+  {
+    "index": 330,
+    "job_id": "de463123-1ce7-4271-bb02-f4de6c3a65aa",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004456_de463123-1ce7-4271-bb02-f4de6c3a65aa.png",
+    "sku": "W2287",
+    "filename": "W2287.png"
+  },
+  {
+    "index": 331,
+    "job_id": "afaac62d-a81a-45be-a671-4a89c81224fa",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004458_afaac62d-a81a-45be-a671-4a89c81224fa.png",
+    "sku": "W2293",
+    "filename": "W2293.png"
+  },
+  {
+    "index": 332,
+    "job_id": "9615f60a-0ade-4ad2-8f33-5e6e89febf89",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004458_9615f60a-0ade-4ad2-8f33-5e6e89febf89.png",
+    "sku": "CRSRPF23K1",
+    "filename": "CRSRPF23K1.png"
+  },
+  {
+    "index": 333,
+    "job_id": "782a9aba-7e0c-4fad-89ba-425dc0af36d0",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004458_782a9aba-7e0c-4fad-89ba-425dc0af36d0.png",
+    "sku": "W2296",
+    "filename": "W2296.png"
+  },
+  {
+    "index": 334,
+    "job_id": "86dc6800-8e0e-4443-8ceb-903d2be63782",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004458_86dc6800-8e0e-4443-8ceb-903d2be63782.png",
+    "sku": "W2292",
+    "filename": "W2292.png"
+  },
+  {
+    "index": 335,
+    "job_id": "bacef971-5ccc-4d3c-9a49-21bf77dcff67",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004458_bacef971-5ccc-4d3c-9a49-21bf77dcff67.png",
+    "sku": "CRT122.210.11.033.00~",
+    "filename": "CRT122.210.11.033.00~.png"
+  },
+  {
+    "index": 336,
+    "job_id": "20d4760f-6eb2-4e27-80ed-1f8e8e404ae4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004458_20d4760f-6eb2-4e27-80ed-1f8e8e404ae4.png",
+    "sku": "CRVIC241847",
+    "filename": "CRVIC241847.png"
+  },
+  {
+    "index": 337,
+    "job_id": "99d56361-f296-41ae-8765-ae0a178a8381",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004500_99d56361-f296-41ae-8765-ae0a178a8381.png",
+    "sku": "CRBJ2040-55E",
+    "filename": "CRBJ2040-55E.png"
+  },
+  {
+    "index": 338,
+    "job_id": "09c697c5-2174-4ba3-834d-61a533a98c6e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004459_09c697c5-2174-4ba3-834d-61a533a98c6e.png",
+    "sku": "CRGG-1000-1A3",
+    "filename": "CRGG-1000-1A3.png"
+  },
+  {
+    "index": 339,
+    "job_id": "70d06b4f-ba9c-49f5-88a9-5b16ff2d78f2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004500_70d06b4f-ba9c-49f5-88a9-5b16ff2d78f2.png",
+    "sku": "CRRA-AC0K05G00B",
+    "filename": "CRRA-AC0K05G00B.png"
+  },
+  {
+    "index": 340,
+    "job_id": "4eaba3b4-dbf7-4101-a613-dce6a037a79a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004459_4eaba3b4-dbf7-4101-a613-dce6a037a79a.png",
+    "sku": "CRBX1010-53E",
+    "filename": "CRBX1010-53E.png"
+  },
+  {
+    "index": 341,
+    "job_id": "6010b0ac-fa46-448e-ad23-fb9b0d4910ed",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004459_6010b0ac-fa46-448e-ad23-fb9b0d4910ed.png",
+    "sku": "CRAB4010-56E",
+    "filename": "CRAB4010-56E.png"
+  },
+  {
+    "index": 342,
+    "job_id": "9e8874e7-e213-4063-ac9c-0de30f0cd444",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004459_9e8874e7-e213-4063-ac9c-0de30f0cd444.png",
+    "sku": "CRBJ7017-09E",
+    "filename": "CRBJ7017-09E.png"
+  },
+  {
+    "index": 343,
+    "job_id": "0891c5d3-295e-4c5a-9080-f34a57e9f7e8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004501_0891c5d3-295e-4c5a-9080-f34a57e9f7e8.png",
+    "sku": "CRSSA317K1",
+    "filename": "CRSSA317K1.png"
+  },
+  {
+    "index": 344,
+    "job_id": "8adfb4b4-d890-4717-8582-aa46c760d844",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004501_8adfb4b4-d890-4717-8582-aa46c760d844.png",
+    "sku": "CRBJ7070-57E",
+    "filename": "CRBJ7070-57E.png"
+  },
+  {
+    "index": 345,
+    "job_id": "c22073a8-d932-4087-8e38-2870e61ae26f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004501_c22073a8-d932-4087-8e38-2870e61ae26f.png",
+    "sku": "CRRA-WK0006S",
+    "filename": "CRRA-WK0006S.png"
+  },
+  {
+    "index": 346,
+    "job_id": "6c42acc2-9b1d-4fa8-b4ce-0728bd7f5d43",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004501_6c42acc2-9b1d-4fa8-b4ce-0728bd7f5d43.png",
+    "sku": "CRSRP785K1",
+    "filename": "CRSRP785K1.png"
+  },
+  {
+    "index": 347,
+    "job_id": "aff2a722-c6bb-4dbb-ba1c-4cadee04d41c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004501_aff2a722-c6bb-4dbb-ba1c-4cadee04d41c.png",
+    "sku": "CRRF70-SRPG61K1",
+    "filename": "CRRF70-SRPG61K1.png"
+  },
+  {
+    "index": 348,
+    "job_id": "e799d10d-6458-434f-8aa3-39ccdd510c00",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004501_e799d10d-6458-434f-8aa3-39ccdd510c00.png",
+    "sku": "WW566",
+    "filename": "WW566.png"
+  },
+  {
+    "index": 349,
+    "job_id": "9b524141-3b03-447d-860a-8ed88d842a7e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004503_9b524141-3b03-447d-860a-8ed88d842a7e.png",
+    "sku": "CR96P245",
+    "filename": "CR96P245.png"
+  },
+  {
+    "index": 350,
+    "job_id": "64e38973-30e3-4962-b1ce-706fab84b2c0",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004503_64e38973-30e3-4962-b1ce-706fab84b2c0.png",
+    "sku": "WW953",
+    "filename": "WW953.png"
+  },
+  {
+    "index": 351,
+    "job_id": "8e97ef66-a1ee-442c-83bd-762258548951",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004503_8e97ef66-a1ee-442c-83bd-762258548951.png",
+    "sku": "WW554",
+    "filename": "WW554.png"
+  },
+  {
+    "index": 352,
+    "job_id": "4a4ae2ca-e868-4b9e-87a8-607db4d6621f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004503_4a4ae2ca-e868-4b9e-87a8-607db4d6621f.png",
+    "sku": "WW952",
+    "filename": "WW952.png"
+  },
+  {
+    "index": 353,
+    "job_id": "cc802f77-e7be-41d4-9c8e-aa8e031e380b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004503_cc802f77-e7be-41d4-9c8e-aa8e031e380b.png",
+    "sku": "WW950",
+    "filename": "WW950.png"
+  },
+  {
+    "index": 354,
+    "job_id": "e2c6dceb-2388-4110-b3c0-89a09f8b1a6a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004503_e2c6dceb-2388-4110-b3c0-89a09f8b1a6a.png",
+    "sku": "CRSRPB91K1",
+    "filename": "CRSRPB91K1.png"
+  },
+  {
+    "index": 355,
+    "job_id": "227a4d50-e8ac-4c91-8725-789cce174711",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004504_227a4d50-e8ac-4c91-8725-789cce174711.png",
+    "sku": "CRSRPB83K1",
+    "filename": "CRSRPB83K1.png"
+  },
+  {
+    "index": 356,
+    "job_id": "ed47cc61-de18-4fdf-9d22-a1294e3bbd96",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004504_ed47cc61-de18-4fdf-9d22-a1294e3bbd96.png",
+    "sku": "CRSRPB93K1",
+    "filename": "CRSRPB93K1.png"
+  },
+  {
+    "index": 357,
+    "job_id": "f9d20e26-5212-4d5c-bd05-da74f95861b1",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004504_f9d20e26-5212-4d5c-bd05-da74f95861b1.png",
+    "sku": "CRF20671-1",
+    "filename": "CRF20671-1.png"
+  },
+  {
+    "index": 358,
+    "job_id": "afe24005-927b-4e20-a12e-09e7ca6b5f24",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004504_afe24005-927b-4e20-a12e-09e7ca6b5f24.png",
+    "sku": "CRSRPB89K1",
+    "filename": "CRSRPB89K1.png"
+  },
+  {
+    "index": 359,
+    "job_id": "4aac7a91-9131-40ab-89b8-f902b0c2ba24",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004505_4aac7a91-9131-40ab-89b8-f902b0c2ba24.png",
+    "sku": "WW791",
+    "filename": "WW791.png"
+  },
+  {
+    "index": 360,
+    "job_id": "3d0a0cc8-c268-487a-9665-a5d145a312dd",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004504_3d0a0cc8-c268-487a-9665-a5d145a312dd.png",
+    "sku": "CRBN0100-42E",
+    "filename": "CRBN0100-42E.png"
+  },
+  {
+    "index": 361,
+    "job_id": "5e630016-960b-4b78-99f7-a2c5c3db4381",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004506_5e630016-960b-4b78-99f7-a2c5c3db4381.png",
+    "sku": "CRSRP219J1",
+    "filename": "CRSRP219J1.png"
+  },
+  {
+    "index": 362,
+    "job_id": "b6309920-ec60-48b0-97bb-362ba0c492ca",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004506_b6309920-ec60-48b0-97bb-362ba0c492ca.png",
+    "sku": "CRSRPB86K1.G",
+    "filename": "CRSRPB86K1.G.png"
+  },
+  {
+    "index": 363,
+    "job_id": "9f6f23b0-8af1-4fcb-9b85-b09f86ab302d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004506_9f6f23b0-8af1-4fcb-9b85-b09f86ab302d.png",
+    "sku": "CREFR-S108D-7A",
+    "filename": "CREFR-S108D-7A.png"
+  },
+  {
+    "index": 364,
+    "job_id": "69960773-8d87-4235-8cf4-e1633914b3f5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004506_69960773-8d87-4235-8cf4-e1633914b3f5.png",
+    "sku": "CRSRPB79K1",
+    "filename": "CRSRPB79K1.png"
+  },
+  {
+    "index": 365,
+    "job_id": "19d82ac7-1b1b-403f-8dc6-ad3032730484",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004506_19d82ac7-1b1b-403f-8dc6-ad3032730484.png",
+    "sku": "CRSRPB81K1",
+    "filename": "CRSRPB81K1.png"
+  },
+  {
+    "index": 366,
+    "job_id": "f5853cd0-b0c9-49bf-92e6-ff337f94bb1f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004506_f5853cd0-b0c9-49bf-92e6-ff337f94bb1f.png",
+    "sku": "CRECB-10D-2A",
+    "filename": "CRECB-10D-2A.png"
+  },
+  {
+    "index": 367,
+    "job_id": "98ec5836-3411-49f5-90c5-7e38d59b9955",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004508_98ec5836-3411-49f5-90c5-7e38d59b9955.png",
+    "sku": "CRF20463-2",
+    "filename": "CRF20463-2.png"
+  },
+  {
+    "index": 368,
+    "job_id": "00877e31-89e3-487c-bcc7-a0915730362e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004508_00877e31-89e3-487c-bcc7-a0915730362e.png",
+    "sku": "WW790",
+    "filename": "WW790.png"
+  },
+  {
+    "index": 369,
+    "job_id": "c47c61b2-f5ab-4a0b-af5a-ac8d238c2098",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004508_c47c61b2-f5ab-4a0b-af5a-ac8d238c2098.png",
+    "sku": "WW774",
+    "filename": "WW774.png"
+  },
+  {
+    "index": 370,
+    "job_id": "026c5e42-02a5-4b14-b224-b74dcd4d51df",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004507_026c5e42-02a5-4b14-b224-b74dcd4d51df.png",
+    "sku": "CREFR-S108D-1A",
+    "filename": "CREFR-S108D-1A.png"
+  },
+  {
+    "index": 371,
+    "job_id": "a12996e3-4cb7-4556-af1f-d0dfc96625e6",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004508_a12996e3-4cb7-4556-af1f-d0dfc96625e6.png",
+    "sku": "CREFR-S108D-3A",
+    "filename": "CREFR-S108D-3A.png"
+  },
+  {
+    "index": 372,
+    "job_id": "81951338-f0c2-49d2-b355-eb9ced1845e5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004508_81951338-f0c2-49d2-b355-eb9ced1845e5.png",
+    "sku": "CRCEM75001BR",
+    "filename": "CRCEM75001BR.png"
+  },
+  {
+    "index": 373,
+    "job_id": "7508424d-8cba-4d18-bee1-d439786ac7c2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004511_7508424d-8cba-4d18-bee1-d439786ac7c2.png",
+    "sku": "CRPRJ-B001-5",
+    "filename": "CRPRJ-B001-5.png"
+  },
+  {
+    "index": 374,
+    "job_id": "8ed48e69-dda0-43ce-ac06-f52244ef576e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004511_8ed48e69-dda0-43ce-ac06-f52244ef576e.png",
+    "sku": "E79767927295",
+    "filename": "E79767927295.png"
+  },
+  {
+    "index": 375,
+    "job_id": "11cf17ad-2b24-41b6-8bef-100a54c30139",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004511_11cf17ad-2b24-41b6-8bef-100a54c30139.png",
+    "sku": "CRRF600SNKK98K1",
+    "filename": "CRRF600SNKK98K1.png"
+  },
+  {
+    "index": 376,
+    "job_id": "7ae3d49e-fe4e-4de3-b4f9-7d7477a52afb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004511_7ae3d49e-fe4e-4de3-b4f9-7d7477a52afb.png",
+    "sku": "CRRF410SNKL28K1",
+    "filename": "CRRF410SNKL28K1.png"
+  },
+  {
+    "index": 377,
+    "job_id": "4ca45e1c-cd56-46a4-868c-ec3a7ea81c55",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004511_4ca45e1c-cd56-46a4-868c-ec3a7ea81c55.png",
+    "sku": "CRSRPA93J1",
+    "filename": "CRSRPA93J1.png"
+  },
+  {
+    "index": 378,
+    "job_id": "462058c5-e237-4783-90f8-646ad9a819f1",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004511_462058c5-e237-4783-90f8-646ad9a819f1.png",
+    "sku": "CRU864",
+    "filename": "CRU864.png"
+  },
+  {
+    "index": 379,
+    "job_id": "46bba84b-8944-4f76-a5ae-d0cd0b5fcf62",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004513_46bba84b-8944-4f76-a5ae-d0cd0b5fcf62.png",
+    "sku": "CRGM-5600GC-1",
+    "filename": "CRGM-5600GC-1.png"
+  },
+  {
+    "index": 380,
+    "job_id": "ce73920a-b015-47bf-b212-dc4885a031bc",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004513_ce73920a-b015-47bf-b212-dc4885a031bc.png",
+    "sku": "CRAV-4011-0C",
+    "filename": "CRAV-4011-0C.png"
+  },
+  {
+    "index": 381,
+    "job_id": "58b86ab3-49a3-4f20-8a5f-5134b5d6ebb5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004513_58b86ab3-49a3-4f20-8a5f-5134b5d6ebb5.png",
+    "sku": "CRRF1730SNZG13J1",
+    "filename": "CRRF1730SNZG13J1.png"
+  },
+  {
+    "index": 382,
+    "job_id": "6e6b9915-f09f-4b48-bb27-9c8e6a7b0bb8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004513_6e6b9915-f09f-4b48-bb27-9c8e6a7b0bb8.png",
+    "sku": "CRRF1688SNKL57K1",
+    "filename": "CRRF1688SNKL57K1.png"
+  },
+  {
+    "index": 383,
+    "job_id": "7d6bd39c-d404-43e8-9c55-f3cea2b0fe4c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004513_7d6bd39c-d404-43e8-9c55-f3cea2b0fe4c.png",
+    "sku": "CRRF1613SNXS79J1",
+    "filename": "CRRF1613SNXS79J1.png"
+  },
+  {
+    "index": 384,
+    "job_id": "f780aa6c-eb32-4465-b864-2158d38def00",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004513_f780aa6c-eb32-4465-b864-2158d38def00.png",
+    "sku": "CRRF1292SNXS80K1",
+    "filename": "CRRF1292SNXS80K1.png"
+  },
+  {
+    "index": 385,
+    "job_id": "8fc1654e-873e-4a1e-8079-219df2535211",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004515_8fc1654e-873e-4a1e-8079-219df2535211.png",
+    "sku": "CRRF1136SNKN55J1",
+    "filename": "CRRF1136SNKN55J1.png"
+  },
+  {
+    "index": 386,
+    "job_id": "6ef50a50-6786-4122-adb5-8e6053948aba",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004515_6ef50a50-6786-4122-adb5-8e6053948aba.png",
+    "sku": "CRFAC00007W0",
+    "filename": "CRFAC00007W0.png"
+  },
+  {
+    "index": 387,
+    "job_id": "2ac0d59f-ef91-4406-af64-8f39b2bc6455",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004515_2ac0d59f-ef91-4406-af64-8f39b2bc6455.png",
+    "sku": "CRSRP635K1",
+    "filename": "CRSRP635K1.png"
+  },
+  {
+    "index": 388,
+    "job_id": "be3aaec1-3316-4920-aa7f-4ebd06d2c023",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004515_be3aaec1-3316-4920-aa7f-4ebd06d2c023.png",
+    "sku": "CRRF1527SNKL86K1",
+    "filename": "CRRF1527SNKL86K1.png"
+  },
+  {
+    "index": 389,
+    "job_id": "8d1c861f-d576-4f74-96be-129e5454f6e5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004515_8d1c861f-d576-4f74-96be-129e5454f6e5.png",
+    "sku": "CRRF1122SNK366K1",
+    "filename": "CRRF1122SNK366K1.png"
+  },
+  {
+    "index": 390,
+    "job_id": "5abd3505-fd9e-4d77-98ac-527735c96d2e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004515_5abd3505-fd9e-4d77-98ac-527735c96d2e.png",
+    "sku": "CRRF209-SNKK84K1",
+    "filename": "CRRF209-SNKK84K1.png"
+  },
+  {
+    "index": 391,
+    "job_id": "cf43fd88-d2af-47c8-922b-dfb68e1d2ca6",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004516_cf43fd88-d2af-47c8-922b-dfb68e1d2ca6.png",
+    "sku": "CREQS-940NL-1A",
+    "filename": "CREQS-940NL-1A.png"
+  },
+  {
+    "index": 392,
+    "job_id": "e8feeefc-c3c4-4e63-8aae-6b7b502ec7db",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004516_e8feeefc-c3c4-4e63-8aae-6b7b502ec7db.png",
+    "sku": "CRGA-2100-7A7",
+    "filename": "CRGA-2100-7A7.png"
+  },
+  {
+    "index": 393,
+    "job_id": "c8314b6e-1869-4daa-bc97-3b3165e98f0a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004516_c8314b6e-1869-4daa-bc97-3b3165e98f0a.png",
+    "sku": "CRRF1728SNK567J1",
+    "filename": "CRRF1728SNK567J1.png"
+  },
+  {
+    "index": 394,
+    "job_id": "6733d485-e791-4fed-9d82-7835b97f0897",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004516_6733d485-e791-4fed-9d82-7835b97f0897.png",
+    "sku": "CRRF1725SNKE01K1",
+    "filename": "CRRF1725SNKE01K1.png"
+  },
+  {
+    "index": 395,
+    "job_id": "d6a05bee-adac-46c7-8c39-7b7d324d68d9",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004516_d6a05bee-adac-46c7-8c39-7b7d324d68d9.png",
+    "sku": "CRRF1670SNKC51J1",
+    "filename": "CRRF1670SNKC51J1.png"
+  },
+  {
+    "index": 396,
+    "job_id": "3537fbaa-ea02-4c77-838d-68d2b675fac5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004516_3537fbaa-ea02-4c77-838d-68d2b675fac5.png",
+    "sku": "CRRF1598SNKE57J1",
+    "filename": "CRRF1598SNKE57J1.png"
+  },
+  {
+    "index": 397,
+    "job_id": "0396d2df-ed0d-4e38-8c14-9e1876d846cf",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004518_0396d2df-ed0d-4e38-8c14-9e1876d846cf.png",
+    "sku": "CRRF1533SNKD99K1",
+    "filename": "CRRF1533SNKD99K1.png"
+  },
+  {
+    "index": 398,
+    "job_id": "10847ead-1ebe-4f1e-92f6-a3b3edb5acaa",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004518_10847ead-1ebe-4f1e-92f6-a3b3edb5acaa.png",
+    "sku": "CRRF701SNK563J1",
+    "filename": "CRRF701SNK563J1.png"
+  },
+  {
+    "index": 399,
+    "job_id": "af2b5bea-32b8-4597-940f-81c0ccc3ba2c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004518_af2b5bea-32b8-4597-940f-81c0ccc3ba2c.png",
+    "sku": "CRRF446SNK375J1",
+    "filename": "CRRF446SNK375J1.png"
+  },
+  {
+    "index": 400,
+    "job_id": "05e071f8-e35c-4259-b59f-0ce4bb4cb99e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004518_05e071f8-e35c-4259-b59f-0ce4bb4cb99e.png",
+    "sku": "CRU579",
+    "filename": "CRU579.png"
+  },
+  {
+    "index": 401,
+    "job_id": "bb78d5ac-101f-4744-baaa-9fd68338177e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004547_bb78d5ac-101f-4744-baaa-9fd68338177e.png",
+    "sku": "CRSNKC51J1",
+    "filename": "CRSNKC51J1.png"
+  },
+  {
+    "index": 402,
+    "job_id": "ab14a7ad-a004-40a1-a7c3-1f5ea496b3cc",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004547_ab14a7ad-a004-40a1-a7c3-1f5ea496b3cc.png",
+    "sku": "CRU578",
+    "filename": "CRU578.png"
+  },
+  {
+    "index": 403,
+    "job_id": "9ac4bfbb-2975-477c-b043-6923926fc525",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004547_9ac4bfbb-2975-477c-b043-6923926fc525.png",
+    "sku": "CRRF1683SNXS79K1",
+    "filename": "CRRF1683SNXS79K1.png"
+  },
+  {
+    "index": 404,
+    "job_id": "17e4018d-18e5-4ab0-9ef5-23b206267d87",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004547_17e4018d-18e5-4ab0-9ef5-23b206267d87.png",
+    "sku": "CRRF1004NR1Q003W0",
+    "filename": "CRRF1004NR1Q003W0.png"
+  },
+  {
+    "index": 405,
+    "job_id": "7e245f44-ee2e-4900-80e1-770ad2591685",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004547_7e245f44-ee2e-4900-80e1-770ad2591685.png",
+    "sku": "WW610",
+    "filename": "WW610.png"
+  },
+  {
+    "index": 406,
+    "job_id": "11db30fc-6f3a-4df9-a037-df59a6399747",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004547_11db30fc-6f3a-4df9-a037-df59a6399747.png",
+    "sku": "CRR3253518513",
+    "filename": "CRR3253518513.png"
+  },
+  {
+    "index": 407,
+    "job_id": "f1891201-fd3e-4b16-b4da-e40fe204fa9b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004549_f1891201-fd3e-4b16-b4da-e40fe204fa9b.png",
+    "sku": "CRRF1558SNKK94K1",
+    "filename": "CRRF1558SNKK94K1.png"
+  },
+  {
+    "index": 408,
+    "job_id": "a625319f-5f89-4ad5-bda0-2e612988a186",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004549_a625319f-5f89-4ad5-bda0-2e612988a186.png",
+    "sku": "CRRF1438SNKL58K1",
+    "filename": "CRRF1438SNKL58K1.png"
+  },
+  {
+    "index": 409,
+    "job_id": "00c94dc5-9b14-4e18-826a-abbb0a75c193",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004549_00c94dc5-9b14-4e18-826a-abbb0a75c193.png",
+    "sku": "CRRF378GA-700-1B",
+    "filename": "CRRF378GA-700-1B.png"
+  },
+  {
+    "index": 410,
+    "job_id": "2a16596c-46fa-45e4-9496-f2df40fb9c30",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004549_2a16596c-46fa-45e4-9496-f2df40fb9c30.png",
+    "sku": "CRRF1283GA-2000S-1",
+    "filename": "CRRF1283GA-2000S-1.png"
+  },
+  {
+    "index": 411,
+    "job_id": "392022e9-d97e-4ca8-ab9f-8a66251d84ca",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004549_392022e9-d97e-4ca8-ab9f-8a66251d84ca.png",
+    "sku": "CRRF855INV8930OB",
+    "filename": "CRRF855INV8930OB.png"
+  },
+  {
+    "index": 412,
+    "job_id": "23688adc-03af-42af-b40c-33eab84888af",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004550_23688adc-03af-42af-b40c-33eab84888af.png",
+    "sku": "CRGA-2100VB-1A",
+    "filename": "CRGA-2100VB-1A.png"
+  },
+  {
+    "index": 413,
+    "job_id": "c0b5fd73-2039-4f42-8b1a-30a80630b449",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004551_c0b5fd73-2039-4f42-8b1a-30a80630b449.png",
+    "sku": "CRRF1639SNKE54K1",
+    "filename": "CRRF1639SNKE54K1.png"
+  },
+  {
+    "index": 414,
+    "job_id": "42a93ab5-de98-4b0b-87e6-5295cf837a14",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004551_42a93ab5-de98-4b0b-87e6-5295cf837a14.png",
+    "sku": "CRF20560-5",
+    "filename": "CRF20560-5.png"
+  },
+  {
+    "index": 415,
+    "job_id": "f68ccc21-7aa5-44ab-b39f-ad7de87b7eda",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004551_f68ccc21-7aa5-44ab-b39f-ad7de87b7eda.png",
+    "sku": "CRGA-110HR-1A",
+    "filename": "CRGA-110HR-1A.png"
+  },
+  {
+    "index": 416,
+    "job_id": "c543c89f-3622-451b-8882-997e02e405f7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004551_c543c89f-3622-451b-8882-997e02e405f7.png",
+    "sku": "CREFV-620D-1A4V",
+    "filename": "CREFV-620D-1A4V.png"
+  },
+  {
+    "index": 417,
+    "job_id": "b90e8bf5-1bbd-4a4c-a3c3-cb70009b422a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004551_b90e8bf5-1bbd-4a4c-a3c3-cb70009b422a.png",
+    "sku": "CRU616",
+    "filename": "CRU616.png"
+  },
+  {
+    "index": 418,
+    "job_id": "7d399683-fd25-4243-9881-5251808a306d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004551_7d399683-fd25-4243-9881-5251808a306d.png",
+    "sku": "CRRF1597SNKL66K1",
+    "filename": "CRRF1597SNKL66K1.png"
+  },
+  {
+    "index": 419,
+    "job_id": "7f33c456-779f-409c-8f04-65e88407b24a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004553_7f33c456-779f-409c-8f04-65e88407b24a.png",
+    "sku": "CRRF1495SNK621K1",
+    "filename": "CRRF1495SNK621K1.png"
+  },
+  {
+    "index": 420,
+    "job_id": "d60b7bd3-ffa0-4e10-8285-e89b0234e200",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004552_d60b7bd3-ffa0-4e10-8285-e89b0234e200.png",
+    "sku": "CRGA-100-1A1",
+    "filename": "CRGA-100-1A1.png"
+  },
+  {
+    "index": 421,
+    "job_id": "bf051c64-1b8d-45aa-8c41-fd7c5893d807",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004553_bf051c64-1b8d-45aa-8c41-fd7c5893d807.png",
+    "sku": "CRRF1494SNKE51K1",
+    "filename": "CRRF1494SNKE51K1.png"
+  },
+  {
+    "index": 422,
+    "job_id": "6f5acb84-b7d0-4487-aec1-d91373d2cf07",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004552_6f5acb84-b7d0-4487-aec1-d91373d2cf07.png",
+    "sku": "CRRF1451SNK615K1",
+    "filename": "CRRF1451SNK615K1.png"
+  },
+  {
+    "index": 423,
+    "job_id": "fe48bcd6-9634-4a5d-b0a1-cb397c6e79ba",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004552_fe48bcd6-9634-4a5d-b0a1-cb397c6e79ba.png",
+    "sku": "CRRF1341SNK623K1",
+    "filename": "CRRF1341SNK623K1.png"
+  },
+  {
+    "index": 424,
+    "job_id": "f2f65cb4-d9da-46cb-84f0-d5aece827aba",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004552_f2f65cb4-d9da-46cb-84f0-d5aece827aba.png",
+    "sku": "CRRF1153SNKP15K1",
+    "filename": "CRRF1153SNKP15K1.png"
+  },
+  {
+    "index": 425,
+    "job_id": "4d654411-9d41-48b2-8b59-c6ca328d7601",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004554_4d654411-9d41-48b2-8b59-c6ca328d7601.png",
+    "sku": "CRF20560-1",
+    "filename": "CRF20560-1.png"
+  },
+  {
+    "index": 426,
+    "job_id": "c983ced2-55b5-4b74-9631-1098fff0e036",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004555_c983ced2-55b5-4b74-9631-1098fff0e036.png",
+    "sku": "CRGA-140-1A4",
+    "filename": "CRGA-140-1A4.png"
+  },
+  {
+    "index": 427,
+    "job_id": "9af4a5ae-546d-4d09-97bf-cd9fbf03f93b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004555_9af4a5ae-546d-4d09-97bf-cd9fbf03f93b.png",
+    "sku": "CREFR-526D-3A",
+    "filename": "CREFR-526D-3A.png"
+  },
+  {
+    "index": 428,
+    "job_id": "95bdda40-ea2c-4231-b573-55d357816f25",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004555_95bdda40-ea2c-4231-b573-55d357816f25.png",
+    "sku": "CREFR-526L-7AV",
+    "filename": "CREFR-526L-7AV.png"
+  },
+  {
+    "index": 429,
+    "job_id": "0e2b46db-7b5f-47d4-9a6a-603abb8c972d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004555_0e2b46db-7b5f-47d4-9a6a-603abb8c972d.png",
+    "sku": "CRGA-100-1A2",
+    "filename": "CRGA-100-1A2.png"
+  },
+  {
+    "index": 430,
+    "job_id": "ae6fb878-994f-4f3a-924c-ab85d9db83e3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004555_ae6fb878-994f-4f3a-924c-ab85d9db83e3.png",
+    "sku": "CRGA-100-1A4",
+    "filename": "CRGA-100-1A4.png"
+  },
+  {
+    "index": 431,
+    "job_id": "49d26206-00a6-4289-9c9c-6a9d5adac835",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004556_49d26206-00a6-4289-9c9c-6a9d5adac835.png",
+    "sku": "CRG-7900A-4C",
+    "filename": "CRG-7900A-4C.png"
+  },
+  {
+    "index": 432,
+    "job_id": "a6dfb031-c972-4ccb-a52a-95010e635767",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004556_a6dfb031-c972-4ccb-a52a-95010e635767.png",
+    "sku": "CRGA-700-4A",
+    "filename": "CRGA-700-4A.png"
+  },
+  {
+    "index": 433,
+    "job_id": "55378adf-f81d-4958-9f95-51ec59667212",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004557_55378adf-f81d-4958-9f95-51ec59667212.png",
+    "sku": "CRGA-B2100MF-1A",
+    "filename": "CRGA-B2100MF-1A.png"
+  },
+  {
+    "index": 434,
+    "job_id": "cd6f9e53-014b-4704-95f1-510a887a2ab9",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004557_cd6f9e53-014b-4704-95f1-510a887a2ab9.png",
+    "sku": "CRGA-700-1B",
+    "filename": "CRGA-700-1B.png"
+  },
+  {
+    "index": 435,
+    "job_id": "9541939a-179a-45ab-953a-18b6597a2d4d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004557_9541939a-179a-45ab-953a-18b6597a2d4d.png",
+    "sku": "CRG-7900-2D",
+    "filename": "CRG-7900-2D.png"
+  },
+  {
+    "index": 436,
+    "job_id": "64fce107-b060-4de4-b256-e07e5dad3e56",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004557_64fce107-b060-4de4-b256-e07e5dad3e56.png",
+    "sku": "CRBGA-280-1A",
+    "filename": "CRBGA-280-1A.png"
+  },
+  {
+    "index": 437,
+    "job_id": "25a6afb3-3d75-4003-a406-faf243bbbf53",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004559_25a6afb3-3d75-4003-a406-faf243bbbf53.png",
+    "sku": "CRRF1405W-217HM-7BV",
+    "filename": "CRRF1405W-217HM-7BV.png"
+  },
+  {
+    "index": 438,
+    "job_id": "1b42c693-a505-444c-ae7b-37c23b5dba16",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004559_1b42c693-a505-444c-ae7b-37c23b5dba16.png",
+    "sku": "CRRF1400GA-140-1A4",
+    "filename": "CRRF1400GA-140-1A4.png"
+  },
+  {
+    "index": 439,
+    "job_id": "c16c964a-282f-4de7-bdb8-bc3c134558b0",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004558_c16c964a-282f-4de7-bdb8-bc3c134558b0.png",
+    "sku": "CRGMA-S110VW-4A",
+    "filename": "CRGMA-S110VW-4A.png"
+  },
+  {
+    "index": 440,
+    "job_id": "839fc3b8-c48c-40c7-b5c3-509f97109a26",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004558_839fc3b8-c48c-40c7-b5c3-509f97109a26.png",
+    "sku": "CRGMA-S110VW-2A",
+    "filename": "CRGMA-S110VW-2A.png"
+  },
+  {
+    "index": 441,
+    "job_id": "fefaa021-4593-42ee-b69f-1c64bce0b5e2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004558_fefaa021-4593-42ee-b69f-1c64bce0b5e2.png",
+    "sku": "CRDW-9052-1VDR",
+    "filename": "CRDW-9052-1VDR.png"
+  },
+  {
+    "index": 442,
+    "job_id": "99e760dd-f20e-4fa5-8331-8a73e541ad8b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004558_99e760dd-f20e-4fa5-8331-8a73e541ad8b.png",
+    "sku": "CRGA-2300-1A",
+    "filename": "CRGA-2300-1A.png"
+  },
+  {
+    "index": 443,
+    "job_id": "8977916e-8192-40c1-9681-67b09e15e2c5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004600_8977916e-8192-40c1-9681-67b09e15e2c5.png",
+    "sku": "CRAMW-880D-1A",
+    "filename": "CRAMW-880D-1A.png"
+  },
+  {
+    "index": 444,
+    "job_id": "dc24bd6d-5875-41f9-b547-819d201dce52",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004600_dc24bd6d-5875-41f9-b547-819d201dce52.png",
+    "sku": "CRAMW-870D-1A",
+    "filename": "CRAMW-870D-1A.png"
+  },
+  {
+    "index": 445,
+    "job_id": "fd3d4bbb-ead8-4bf0-a515-f8596dacd5d8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004600_fd3d4bbb-ead8-4bf0-a515-f8596dacd5d8.png",
+    "sku": "CRDBC-611-1DF",
+    "filename": "CRDBC-611-1DF.png"
+  },
+  {
+    "index": 446,
+    "job_id": "8e4b4dec-2728-4c02-b413-f2085468a515",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004600_8e4b4dec-2728-4c02-b413-f2085468a515.png",
+    "sku": "CRA168WEGB-1B",
+    "filename": "CRA168WEGB-1B.png"
+  },
+  {
+    "index": 447,
+    "job_id": "b5f17d2b-c12c-4487-9d2e-36afe4aa8033",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004600_b5f17d2b-c12c-4487-9d2e-36afe4aa8033.png",
+    "sku": "CRGMD-S5600NC-9",
+    "filename": "CRGMD-S5600NC-9.png"
+  },
+  {
+    "index": 448,
+    "job_id": "e542c5fa-f40b-4b6f-bb01-7950160a86f5",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004600_e542c5fa-f40b-4b6f-bb01-7950160a86f5.png",
+    "sku": "CRGMA-S2100NC-4A",
+    "filename": "CRGMA-S2100NC-4A.png"
+  },
+  {
+    "index": 449,
+    "job_id": "db297bec-3559-45ac-9fcc-0da2d1afe015",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004602_db297bec-3559-45ac-9fcc-0da2d1afe015.png",
+    "sku": "CRRF913AMW-880D-1A",
+    "filename": "CRRF913AMW-880D-1A.png"
+  },
+  {
+    "index": 450,
+    "job_id": "87da3cd5-cbf0-48cb-ad7a-c1bd8610a819",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004602_87da3cd5-cbf0-48cb-ad7a-c1bd8610a819.png",
+    "sku": "E4971850742333",
+    "filename": "E4971850742333.png"
+  },
+  {
+    "index": 451,
+    "job_id": "f833b604-6c42-492b-8029-b5cbde8d69ed",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004602_f833b604-6c42-492b-8029-b5cbde8d69ed.png",
+    "sku": "CRRF1415LA670WGA-9DF",
+    "filename": "CRRF1415LA670WGA-9DF.png"
+  },
+  {
+    "index": 452,
+    "job_id": "72de0e18-d486-4358-87c2-9f935dabfa0e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004602_72de0e18-d486-4358-87c2-9f935dabfa0e.png",
+    "sku": "E4971850965169",
+    "filename": "E4971850965169.png"
+  },
+  {
+    "index": 453,
+    "job_id": "1c31c28c-584d-4a3f-9ff0-e020dafaf7a8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004602_1c31c28c-584d-4a3f-9ff0-e020dafaf7a8.png",
+    "sku": "CRMTP-1370D-7A2",
+    "filename": "CRMTP-1370D-7A2.png"
+  },
+  {
+    "index": 454,
+    "job_id": "16b161c3-8ebf-4fd5-8862-2bd2c8f18d7c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004602_16b161c3-8ebf-4fd5-8862-2bd2c8f18d7c.png",
+    "sku": "CRMTP-1375D-1AV",
+    "filename": "CRMTP-1375D-1AV.png"
+  },
+  {
+    "index": 455,
+    "job_id": "057ae89f-b238-4744-a73d-166b1b65a899",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004604_057ae89f-b238-4744-a73d-166b1b65a899.png",
+    "sku": "CR90250SBN903",
+    "filename": "CR90250SBN903.png"
+  },
+  {
+    "index": 456,
+    "job_id": "ebba851f-6f9b-4287-9b9f-8cea3d8e3a29",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004604_ebba851f-6f9b-4287-9b9f-8cea3d8e3a29.png",
+    "sku": "CRRF1265A700WG-9A",
+    "filename": "CRRF1265A700WG-9A.png"
+  },
+  {
+    "index": 457,
+    "job_id": "76f52472-78c4-409b-bd6b-6ef2b369dd72",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004604_76f52472-78c4-409b-bd6b-6ef2b369dd72.png",
+    "sku": "CR40210GPN107",
+    "filename": "CR40210GPN107.png"
+  },
+  {
+    "index": 458,
+    "job_id": "39ea2052-07ae-49ac-a7fc-5271615e3e5b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004604_39ea2052-07ae-49ac-a7fc-5271615e3e5b.png",
+    "sku": "E79767766085",
+    "filename": "E79767766085.png"
+  },
+  {
+    "index": 459,
+    "job_id": "4d724b95-c0d2-4b1e-ad1c-44695f304f5b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004604_4d724b95-c0d2-4b1e-ad1c-44695f304f5b.png",
+    "sku": "CRRF921A700WM-7A",
+    "filename": "CRRF921A700WM-7A.png"
+  },
+  {
+    "index": 460,
+    "job_id": "dcb06f62-f1ef-4cb2-9fc9-bf2e626f7ae2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004604_dcb06f62-f1ef-4cb2-9fc9-bf2e626f7ae2.png",
+    "sku": "EAWV-58A-1AV",
+    "filename": "EAWV-58A-1AV.png"
+  },
+  {
+    "index": 461,
+    "job_id": "86216643-007b-41c3-9fe5-1148c48192f7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004605_86216643-007b-41c3-9fe5-1148c48192f7.png",
+    "sku": "EAWV-58DA-1AV",
+    "filename": "EAWV-58DA-1AV.png"
+  },
+  {
+    "index": 462,
+    "job_id": "7b437304-c9b0-4787-a460-25b1c36c17d7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004605_7b437304-c9b0-4787-a460-25b1c36c17d7.png",
+    "sku": "EAMTP-1170N-7A",
+    "filename": "EAMTP-1170N-7A.png"
+  },
+  {
+    "index": 463,
+    "job_id": "f00de02d-0900-4363-83e0-83c2889aea83",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004605_f00de02d-0900-4363-83e0-83c2889aea83.png",
+    "sku": "EAMTP-4500D-1AV",
+    "filename": "EAMTP-4500D-1AV.png"
+  },
+  {
+    "index": 464,
+    "job_id": "7b97c7d8-0a49-40bc-b805-fc0449e607f9",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004605_7b97c7d8-0a49-40bc-b805-fc0449e607f9.png",
+    "sku": "EAMTP-1303D-1A",
+    "filename": "EAMTP-1303D-1A.png"
+  },
+  {
+    "index": 465,
+    "job_id": "4bd98ae3-c658-49f7-afbe-73bf8c4c9a56",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004605_4bd98ae3-c658-49f7-afbe-73bf8c4c9a56.png",
+    "sku": "E4971850930778",
+    "filename": "E4971850930778.png"
+  },
+  {
+    "index": 466,
+    "job_id": "4dda6415-101c-4cf6-9e19-6dfb5cff0b8d",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004605_4dda6415-101c-4cf6-9e19-6dfb5cff0b8d.png",
+    "sku": "E79767968786",
+    "filename": "E79767968786.png"
+  },
+  {
+    "index": 467,
+    "job_id": "3f57c2a9-3b76-4c0f-885f-0edae7d671e7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004607_3f57c2a9-3b76-4c0f-885f-0edae7d671e7.png",
+    "sku": "E4971850906537",
+    "filename": "E4971850906537.png"
+  },
+  {
+    "index": 468,
+    "job_id": "7898722c-203a-4f1c-a01e-e5c14f85c172",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004607_7898722c-203a-4f1c-a01e-e5c14f85c172.png",
+    "sku": "EAAE-2000WD-1AV",
+    "filename": "EAAE-2000WD-1AV.png"
+  },
+  {
+    "index": 469,
+    "job_id": "c9cb18af-e0e5-4191-9434-5fea2e8db6c0",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004607_c9cb18af-e0e5-4191-9434-5fea2e8db6c0.png",
+    "sku": "EALTP-1128A-7A",
+    "filename": "EALTP-1128A-7A.png"
+  },
+  {
+    "index": 470,
+    "job_id": "ee013b07-9711-4b86-a7ae-70bf61995450",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004607_ee013b07-9711-4b86-a7ae-70bf61995450.png",
+    "sku": "EAAW-80V-5BV",
+    "filename": "EAAW-80V-5BV.png"
+  },
+  {
+    "index": 471,
+    "job_id": "5336149f-d0f6-48b8-b810-e91ea41b2736",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004607_5336149f-d0f6-48b8-b810-e91ea41b2736.png",
+    "sku": "E4971850906506",
+    "filename": "E4971850906506.png"
+  },
+  {
+    "index": 472,
+    "job_id": "413e371b-498f-46aa-a843-29334dc09ad3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004607_413e371b-498f-46aa-a843-29334dc09ad3.png",
+    "sku": "EADB-36-1AV",
+    "filename": "EADB-36-1AV.png"
+  },
+  {
+    "index": 473,
+    "job_id": "1730160f-2d84-4fdc-9620-8c8c6aa8ed1f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004609_1730160f-2d84-4fdc-9620-8c8c6aa8ed1f.png",
+    "sku": "EALA-11WL-4A",
+    "filename": "EALA-11WL-4A.png"
+  },
+  {
+    "index": 474,
+    "job_id": "f02a1579-6687-4dfb-872a-d7b20368600b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004609_f02a1579-6687-4dfb-872a-d7b20368600b.png",
+    "sku": "EALA-11WB-1",
+    "filename": "EALA-11WB-1.png"
+  },
+  {
+    "index": 475,
+    "job_id": "4e4ccb6b-a6f3-4de7-8563-518257242fe4",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004609_4e4ccb6b-a6f3-4de7-8563-518257242fe4.png",
+    "sku": "EAFT-500WC-1BV",
+    "filename": "EAFT-500WC-1BV.png"
+  },
+  {
+    "index": 476,
+    "job_id": "0e71636f-e54c-43ab-8e0b-10ac89fe20c2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004609_0e71636f-e54c-43ab-8e0b-10ac89fe20c2.png",
+    "sku": "EAFT-500WV-3BV",
+    "filename": "EAFT-500WV-3BV.png"
+  },
+  {
+    "index": 477,
+    "job_id": "918175dc-c715-4e00-b5d9-5e0d086277fd",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004608_918175dc-c715-4e00-b5d9-5e0d086277fd.png",
+    "sku": "EADBC-32-1A",
+    "filename": "EADBC-32-1A.png"
+  },
+  {
+    "index": 478,
+    "job_id": "81207b39-7612-426f-bc28-5ec8412a0def",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004609_81207b39-7612-426f-bc28-5ec8412a0def.png",
+    "sku": "EAHDA-600B-1BV",
+    "filename": "EAHDA-600B-1BV.png"
+  },
+  {
+    "index": 479,
+    "job_id": "29728165-030d-445b-9381-b81e66b4d7d7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004610_29728165-030d-445b-9381-b81e66b4d7d7.png",
+    "sku": "EAEF-305-1AV",
+    "filename": "EAEF-305-1AV.png"
+  },
+  {
+    "index": 480,
+    "job_id": "98d12986-a286-4b70-8422-8cda6819d40e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004610_98d12986-a286-4b70-8422-8cda6819d40e.png",
+    "sku": "EALRW-200H-1BV",
+    "filename": "EALRW-200H-1BV.png"
+  },
+  {
+    "index": 481,
+    "job_id": "cfb0a980-b3ab-40a0-9b7a-f12c57ff0350",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004610_cfb0a980-b3ab-40a0-9b7a-f12c57ff0350.png",
+    "sku": "EAA-171WE-1A",
+    "filename": "EAA-171WE-1A.png"
+  },
+  {
+    "index": 482,
+    "job_id": "bc11c093-5af5-4688-a499-3032dd736df7",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004610_bc11c093-5af5-4688-a499-3032dd736df7.png",
+    "sku": "EAA-158WEA-9",
+    "filename": "EAA-158WEA-9.png"
+  },
+  {
+    "index": 483,
+    "job_id": "da26696c-b0a7-4e3d-bccd-d5e491393c89",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004610_da26696c-b0a7-4e3d-bccd-d5e491393c89.png",
+    "sku": "EALF20W-8A",
+    "filename": "EALF20W-8A.png"
+  },
+  {
+    "index": 484,
+    "job_id": "7cfa5600-9690-4237-98d0-1908705a0c3b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004611_7cfa5600-9690-4237-98d0-1908705a0c3b.png",
+    "sku": "EAA-700WE-1A",
+    "filename": "EAA-700WE-1A.png"
+  },
+  {
+    "index": 485,
+    "job_id": "b2250a89-0752-4d49-806c-92ff6cdd851b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004612_b2250a89-0752-4d49-806c-92ff6cdd851b.png",
+    "sku": "EAA-178WA-1A",
+    "filename": "EAA-178WA-1A.png"
+  },
+  {
+    "index": 486,
+    "job_id": "e7058bd3-6a0c-4d1a-a643-fb7cab25809e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004612_e7058bd3-6a0c-4d1a-a643-fb7cab25809e.png",
+    "sku": "EAA-178WGA-1A",
+    "filename": "EAA-178WGA-1A.png"
+  },
+  {
+    "index": 487,
+    "job_id": "1418379e-1df0-48f8-93b5-92e3eda604bb",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004612_1418379e-1df0-48f8-93b5-92e3eda604bb.png",
+    "sku": "EAA-168WA-1",
+    "filename": "EAA-168WA-1.png"
+  },
+  {
+    "index": 488,
+    "job_id": "366b3915-5ade-49eb-9340-6dee06702157",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004612_366b3915-5ade-49eb-9340-6dee06702157.png",
+    "sku": "EAA-168WG-9",
+    "filename": "EAA-168WG-9.png"
+  },
+  {
+    "index": 489,
+    "job_id": "6c065536-c213-4d1d-aa74-8064cd0e63b1",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004612_6c065536-c213-4d1d-aa74-8064cd0e63b1.png",
+    "sku": "EALRW-200HS-2E",
+    "filename": "EALRW-200HS-2E.png"
+  },
+  {
+    "index": 490,
+    "job_id": "cec30ca7-4769-4f6a-879f-a7eb4c2924e9",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004612_cec30ca7-4769-4f6a-879f-a7eb4c2924e9.png",
+    "sku": "E4971850965138",
+    "filename": "E4971850965138.png"
+  },
+  {
+    "index": 491,
+    "job_id": "27c86301-c87f-4200-a8cd-5398a978649f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004614_27c86301-c87f-4200-a8cd-5398a978649f.png",
+    "sku": "EALWS-2200H-1A",
+    "filename": "EALWS-2200H-1A.png"
+  },
+  {
+    "index": 492,
+    "job_id": "8382c818-adfb-4f95-b80c-fcb427c6ac3c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004614_8382c818-adfb-4f95-b80c-fcb427c6ac3c.png",
+    "sku": "EAMRW-230H-1E1",
+    "filename": "EAMRW-230H-1E1.png"
+  },
+  {
+    "index": 493,
+    "job_id": "b0601816-8d63-4d08-a2f9-6ae311c1d305",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004614_b0601816-8d63-4d08-a2f9-6ae311c1d305.png",
+    "sku": "EAMRW-210HB-5B",
+    "filename": "EAMRW-210HB-5B.png"
+  },
+  {
+    "index": 494,
+    "job_id": "88594820-05eb-4a39-9a8b-050ee3664121",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004614_88594820-05eb-4a39-9a8b-050ee3664121.png",
+    "sku": "EAWS-2000H-2AV",
+    "filename": "EAWS-2000H-2AV.png"
+  },
+  {
+    "index": 495,
+    "job_id": "b31ebb87-ebcb-4566-a1c8-395eb82d80e8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004614_b31ebb87-ebcb-4566-a1c8-395eb82d80e8.png",
+    "sku": "EAMRW-210HB-1B",
+    "filename": "EAMRW-210HB-1B.png"
+  },
+  {
+    "index": 496,
+    "job_id": "1fa76529-4a43-49f1-aa5a-57ad1ed209ac",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004614_1fa76529-4a43-49f1-aa5a-57ad1ed209ac.png",
+    "sku": "EAMRW-200HD-1B",
+    "filename": "EAMRW-200HD-1B.png"
+  },
+  {
+    "index": 497,
+    "job_id": "4d032a90-894c-4194-8306-13fc93c196c3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004616_4d032a90-894c-4194-8306-13fc93c196c3.png",
+    "sku": "EAMRW-210H-1A",
+    "filename": "EAMRW-210H-1A.png"
+  },
+  {
+    "index": 498,
+    "job_id": "05ac5150-fa48-41f3-81a0-e51ee6e3f6cc",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004615_05ac5150-fa48-41f3-81a0-e51ee6e3f6cc.png",
+    "sku": "EALQ-139E-7A",
+    "filename": "EALQ-139E-7A.png"
+  },
+  {
+    "index": 499,
+    "job_id": "98ab2a7b-ae33-4341-8ef9-809c15942d4c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004615_98ab2a7b-ae33-4341-8ef9-809c15942d4c.png",
+    "sku": "EALQ-139B-1B",
+    "filename": "EALQ-139B-1B.png"
+  },
+  {
+    "index": 500,
+    "job_id": "a3522f61-12b0-442d-b1c3-fecc557181c6",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004615_a3522f61-12b0-442d-b1c3-fecc557181c6.png",
+    "sku": "EAMRW-200H-1BV",
+    "filename": "EAMRW-200H-1BV.png"
+  },
+  {
+    "index": 501,
+    "job_id": "1c887048-47bf-482b-aab8-f882ac16a3b3",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004636_1c887048-47bf-482b-aab8-f882ac16a3b3.png",
+    "sku": "E889232368535",
+    "filename": "E889232368535.png"
+  },
+  {
+    "index": 502,
+    "job_id": "b9a690a6-ab29-4370-96cf-eb9324db4707",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004636_b9a690a6-ab29-4370-96cf-eb9324db4707.png",
+    "sku": "E889232261072",
+    "filename": "E889232261072.png"
+  },
+  {
+    "index": 503,
+    "job_id": "debdbc1e-e102-4bd8-b898-b020c814eec8",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004636_debdbc1e-e102-4bd8-b898-b020c814eec8.png",
+    "sku": "E79767759384",
+    "filename": "E79767759384.png"
+  },
+  {
+    "index": 504,
+    "job_id": "da915598-fd5a-4bcf-b19e-fd9668b89e34",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004637_da915598-fd5a-4bcf-b19e-fd9668b89e34.png",
+    "sku": "E79767541255",
+    "filename": "E79767541255.png"
+  },
+  {
+    "index": 505,
+    "job_id": "75445800-99bd-4911-8487-924a7ce0b967",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004636_75445800-99bd-4911-8487-924a7ce0b967.png",
+    "sku": "EAMW-240B-3B",
+    "filename": "EAMW-240B-3B.png"
+  },
+  {
+    "index": 506,
+    "job_id": "84a66bb1-8615-4518-ae73-194dad97712a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004637_84a66bb1-8615-4518-ae73-194dad97712a.png",
+    "sku": "EAMWD-100HD-1A",
+    "filename": "EAMWD-100HD-1A.png"
+  },
+  {
+    "index": 507,
+    "job_id": "92c2cf01-18f4-48f8-9729-d6051d42c7c2",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004638_92c2cf01-18f4-48f8-9729-d6051d42c7c2.png",
+    "sku": "EAMWA-100HD-1A",
+    "filename": "EAMWA-100HD-1A.png"
+  },
+  {
+    "index": 508,
+    "job_id": "671e5245-fdd6-4261-ab08-784a56d5e56f",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004638_671e5245-fdd6-4261-ab08-784a56d5e56f.png",
+    "sku": "EAW-201-1AV",
+    "filename": "EAW-201-1AV.png"
+  },
+  {
+    "index": 509,
+    "job_id": "5c33e50d-fc39-47fa-bc53-470e3bb1e570",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004638_5c33e50d-fc39-47fa-bc53-470e3bb1e570.png",
+    "sku": "EAW-212H-1AV",
+    "filename": "EAW-212H-1AV.png"
+  },
+  {
+    "index": 510,
+    "job_id": "d64af7f1-ed99-4c3f-bd0c-1ae8a8ae1d3b",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004638_d64af7f1-ed99-4c3f-bd0c-1ae8a8ae1d3b.png",
+    "sku": "EAW-800H-1AV",
+    "filename": "EAW-800H-1AV.png"
+  },
+  {
+    "index": 511,
+    "job_id": "b9aa1f3f-24a1-4d41-b5d0-4796ee5a4e28",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004638_b9aa1f3f-24a1-4d41-b5d0-4796ee5a4e28.png",
+    "sku": "EAW-96H-1BV",
+    "filename": "EAW-96H-1BV.png"
+  },
+  {
+    "index": 512,
+    "job_id": "fafe66bd-739f-4830-b1f2-3642ac725283",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004638_fafe66bd-739f-4830-b1f2-3642ac725283.png",
+    "sku": "EAW-218HB-3A",
+    "filename": "EAW-218HB-3A.png"
+  },
+  {
+    "index": 513,
+    "job_id": "430f31f4-4a9d-452c-95d0-c5c1ad15553a",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004640_430f31f4-4a9d-452c-95d0-c5c1ad15553a.png",
+    "sku": "EAW-219HB-3A",
+    "filename": "EAW-219HB-3A.png"
+  },
+  {
+    "index": 514,
+    "job_id": "5e2e6ac8-5850-439b-b7f4-9815c16065ba",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004640_5e2e6ac8-5850-439b-b7f4-9815c16065ba.png",
+    "sku": "E889232140810",
+    "filename": "E889232140810.png"
+  },
+  {
+    "index": 515,
+    "job_id": "e990e0d5-623b-4fa0-a132-4ad2bc21ae4e",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004640_e990e0d5-623b-4fa0-a132-4ad2bc21ae4e.png",
+    "sku": "E889232382340",
+    "filename": "E889232382340.png"
+  },
+  {
+    "index": 516,
+    "job_id": "5f654593-13e5-4efa-83f9-17f5df27dc7c",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004640_5f654593-13e5-4efa-83f9-17f5df27dc7c.png",
+    "sku": "E79767246402",
+    "filename": "E79767246402.png"
+  },
+  {
+    "index": 517,
+    "job_id": "9fb652ca-ac42-4777-8899-5f15654a1833",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004640_9fb652ca-ac42-4777-8899-5f15654a1833.png",
+    "sku": "E889232187587",
+    "filename": "E889232187587.png"
+  },
+  {
+    "index": 518,
+    "job_id": "060840b8-5cf3-4a56-bf12-21f848a92e39",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004640_060840b8-5cf3-4a56-bf12-21f848a92e39.png",
+    "sku": "E889232140780",
+    "filename": "E889232140780.png"
+  },
+  {
+    "index": 519,
+    "job_id": "51f2aabf-6e92-43a1-94be-5e22f3ff51ff",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004641_51f2aabf-6e92-43a1-94be-5e22f3ff51ff.png",
+    "sku": "E4971850798682",
+    "filename": "E4971850798682.png"
+  },
+  {
+    "index": 520,
+    "job_id": "1ca44042-99a4-4eb6-9d60-b9db804ddedc",
+    "status": "completed",
+    "type": "image",
+    "model": "gpt_image_2_5",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J9GO16KDstIKIkjQ7DJYR74hP8/hf_20260912_004641_1ca44042-99a4-4eb6-9d60-b9db804ddedc.png",
+    "sku": "E79767246280",
+    "filename": "E79767246280.png"
+  }
+]

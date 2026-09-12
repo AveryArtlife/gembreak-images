@@ -1,0 +1,25 @@
+{
+  "candidate_png_count": 520,
+  "dial_graft_status_counts": {
+    "applied": 475,
+    "registration-failed": 13,
+    "skipped-after-visual-artifact": 9,
+    "skipped-after-visual-retry": 23
+  },
+  "installed_candidate_matches": 520,
+  "inventory_total": 2456,
+  "numeric_metrics_preserved": true,
+  "numeric_warning_count": 4,
+  "protected_hashes_verified_after_install": 1936,
+  "protected_scope": 1936,
+  "repair_method_counts": {
+    "higgsfield-primary-render": 488,
+    "higgsfield-targeted-visual-retry": 23,
+    "normalize-clean-higgsfield-raw-without-dial-graft": 9
+  },
+  "repository_updated": true,
+  "rerender_scope": 520,
+  "technical_pass_count": 520,
+  "visual_failure_count": 0,
+  "visual_pass_count": 520
+}
