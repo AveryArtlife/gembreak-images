@@ -3,8 +3,8 @@
 Transparent PNG cutouts of every watch in the GemBreak mystery packs — no background, ready to composite on the site.
 
 ## Structure
-- `watches-only/<SKU>.png` — 1,746 transparent, metadata-sanitized cutouts keyed by the final inventory SKU.
-- `product-shots/<SKU>/main.jpg` — a 1,200 × 1,200 product image for every final inventory SKU. Existing supplemental `angle-*.jpg` and `box.jpg` images are retained where available.
+- `watches-only/<SKU>.png` — 3,344 transparent, metadata-sanitized cutouts keyed by SKU.
+- `product-shots/<SKU>/main.jpg` — a 1,200 × 1,200 product image for every active catalog SKU. Existing compliant supplemental gallery images are retained where available.
 - `product-shots/manifest.json` — product-image coverage by SKU.
 - `product-shots/source-manifest.json` — provenance for every generated product main.
 - `audit/GemBreak_Final_Image_Audit.xlsx` — row-by-row reconciliation and QA results for the final inventory.
@@ -12,12 +12,14 @@ Transparent PNG cutouts of every watch in the GemBreak mystery packs — no back
 
 ## Final image QA
 
-- Inventory rows reconciled: **1,746 / 1,746**
-- Transparent PNG cutouts: **1,746 / 1,746**
-- PNG files with ancillary metadata removed: **1,746 / 1,746**
-- Product-main JPGs: **1,746 / 1,746**
+- Active catalog image pairs: **3,344 / 3,344**
+- Google Sheet `Master Inventory` rows reconciled by exact SKU: **1,555 / 1,555**
+- Transparent PNG cutouts: **3,344 / 3,344**
+- Product-main JPGs: **3,344 / 3,344**
 - Product-main dimensions: **1,200 × 1,200** for every SKU
-- Remaining exact-pixel duplicate groups: **6**, all documented legitimate model/regional duplicates in the audit workbook
+- Google Sheet identity failures: **0**
+- Google Sheet non-watch titles: **0**
+- Active catalog white-background failures: **0**
 
 ## Integrating with the pack data
 The **"GemBreak Final Pack List"** Google Sheet is the source of truth for packs, odds, values, and distributors. Every watch row carries:

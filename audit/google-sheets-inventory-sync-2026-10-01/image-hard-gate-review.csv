@@ -1,0 +1,1 @@
+sheet_row,sku,brand,model,identity_evidence,alias_source,exact_png_path,exact_product_path,expected_image_url,sheet_image_url_before_sync,identity_gate,image_gate,visual_note,title_is_wristwatch,png_sha256,png_width,png_height,png_corner_near_white,png_bbox_width_ratio,png_bbox_height_ratio,png_center_x,png_center_y,jpg_width,jpg_height,jpg_corner_near_white
