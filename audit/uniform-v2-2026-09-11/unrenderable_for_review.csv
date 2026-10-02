@@ -1,0 +1,2 @@
+sku,human_classification,caseW,bboxH,cxRatio,cyRatio,canvas,color_mode,extra_chunks,metric_warnings,notes
+EAHS-3V-1R,unrenderable,0.96119,0.982222,0.498706,0.498889,773x900,RGBA,,canvas|caseW-high|bboxH-high,"canvas,caseW-high,bboxH-high; PASS_CONTENT from legacy catalog black-background review; human full-resolution review: non-watch stopwatch image; remove from watch inventory, do not rerender"
