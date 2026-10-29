@@ -1,0 +1,170 @@
+{
+  "poll_minutes": 5,
+  "geos": [
+    "US",
+    "GB",
+    "CA",
+    "AU"
+  ],
+  "google_alert_feeds": [],
+  "apify": {
+    "token_env": "APIFY_TOKEN",
+    "note": "Move entries from actors_suggested into actors once APIFY_TOKEN is set (apidojo actors need the Apify Starter plan). {q} is replaced with the story phrase.",
+    "actors": [],
+    "actors_suggested": [
+      {
+        "actor": "xquik/x-tweet-scraper",
+        "input": {
+          "searchTerms": [
+            "\"{q}\" lang:en -filter:nativeretweets"
+          ],
+          "queryType": "Latest",
+          "maxItems": 200,
+          "time": {
+            "withinTime": "6h"
+          }
+        },
+        "likes_key": "likeCount",
+        "comments_key": "replyCount",
+        "ts_key": "createdAt"
+      },
+      {
+        "actor": "apidojo/tiktok-scraper",
+        "input": {
+          "keywords": [
+            "{q}"
+          ],
+          "sortType": "DATE_POSTED",
+          "dateRange": "YESTERDAY",
+          "maxItems": 100
+        },
+        "likes_key": "likes",
+        "comments_key": "comments",
+        "ts_key": "uploadedAtFormatted"
+      },
+      {
+        "actor": "apidojo/instagram-scraper-api",
+        "input": {
+          "keywords": [
+            "{q}"
+          ],
+          "getReels": true,
+          "maxItems": 100
+        },
+        "likes_key": "likeCount",
+        "comments_key": "commentCount",
+        "ts_key": "createdAt"
+      },
+      {
+        "actor": "automation-lab/reddit-scraper",
+        "input": {
+          "searchQuery": "{q}",
+          "sort": "new",
+          "timeFilter": "day",
+          "maxPostsPerSource": 50
+        },
+        "likes_key": "score",
+        "comments_key": "numComments",
+        "ts_key": "createdAt"
+      }
+    ]
+  },
+  "memeability": {
+    "character_words": [
+      "dog",
+      "pug",
+      "cat",
+      "squirrel",
+      "raccoon",
+      "hippo",
+      "otter",
+      "capybara",
+      "penguin",
+      "goat",
+      "pig",
+      "cow",
+      "duck",
+      "owl",
+      "bear",
+      "deer",
+      "horse",
+      "parrot",
+      "rabbit",
+      "frog",
+      "monkey",
+      "seal",
+      "walrus",
+      "whale",
+      "puppy",
+      "kitten"
+    ],
+    "injustice_words": [
+      "euthanized",
+      "euthanised",
+      "seized",
+      "confiscated",
+      "killed",
+      "put down",
+      "taken",
+      "stolen",
+      "banned",
+      "fined",
+      "arrested",
+      "evicted",
+      "rescued",
+      "justice",
+      "outrage",
+      "cover-up",
+      "lied",
+      "zoo",
+      "shelter",
+      "vet",
+      "clinic",
+      "police"
+    ],
+    "fun_words": [
+      "dance",
+      "dancing",
+      "song",
+      "sings",
+      "slide",
+      "viral",
+      "video",
+      "tiktok",
+      "meme",
+      "costume",
+      "hat",
+      "sweater",
+      "escaped",
+      "loose",
+      "stole"
+    ],
+    "no_go_words": [
+      "shooting",
+      "murder",
+      "suicide",
+      "child",
+      "children",
+      "minor",
+      "terror",
+      "bomb",
+      "hurricane",
+      "earthquake",
+      "flood",
+      "crash victims",
+      "missing girl",
+      "missing boy",
+      "abuse",
+      "rape",
+      "overdose",
+      "hostage",
+      "war"
+    ]
+  },
+  "thresholds": {
+    "watch": 40,
+    "candidate": 60,
+    "launch": 75
+  },
+  "trending_limit": 15
+}
