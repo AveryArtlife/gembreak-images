@@ -16,17 +16,22 @@ This repo is the complete launch kit for the $CHA memecoin: research, brand, tok
 | [`docs/04-LAUNCH-PLAN.md`](docs/04-LAUNCH-PLAN.md) | T-24h checklist, the scripted first 60 minutes, amplifier targets, 30-day content engine |
 | [`docs/05-STRUCTURE.md`](docs/05-STRUCTURE.md) | Team seats, wallets, tools, handles and domains to secure, how to split this folder into its own repo |
 | [`docs/06-CONTENT-KIT.md`](docs/06-CONTENT-KIT.md) | Pinned tweet, story thread, TG pins, reply templates, FAQ, meme captions, TikTok scripts |
+| [`docs/07-IMAGERY-AUDIT.md`](docs/07-IMAGERY-AUDIT.md) | Real photo vs cartoon across 29 memecoins, and why $CHA uses both: a cartoon drawn from her real photos as the token image, the real photos credited on the site |
 | [`prompts/HIGGSFIELD-PROMPT-PACK.md`](prompts/HIGGSFIELD-PROMPT-PACK.md) + [`prompts/CODEX-RUNBOOK.md`](prompts/CODEX-RUNBOOK.md) | Every image and video, with prompts, sizes and filenames, and the procedure for Codex to render them |
 
 ## The brand in one glance
 
 ![Cha Cha Forever lockup](brand/exports/cha-lockup-1600x480.png)
 
-Logo sources are in `brand/logo/*.svg`; rendered PNGs (token image 512/1024, avatar 400/800, X banner 1500×500, OG 1200×630, favicon) in `brand/exports/`. Regenerate with:
+Cha Cha is an **all-black pug** with a pink braided leash; the character is drawn from her press photos (`brand/reference/`, likeness only). Edit `brand/logo/cha-mark.svg`, then:
 
 ```bash
-node scripts/export.mjs          # needs Playwright + Chromium (npx playwright install chromium)
+python3 scripts/build-logos.py   # rebuilds coin, avatar, lockup, banner, OG from the mark
+node scripts/export.mjs          # SVG → PNG (needs Playwright + Chromium: npx playwright install chromium)
+python3 scripts/inline-logos.py  # re-inlines the mark and coin into site/index.html
 ```
+
+Rendered PNGs (token image 512/1024, avatar 400/800, X banner 1500×500, OG 1200×630, favicon) live in `brand/exports/`.
 
 ## The website
 
@@ -48,6 +53,8 @@ Everything on the page (CA boxes, buy/chart/proof links, live DexScreener stats)
 
 Image slots the page fills automatically when Codex drops renders in: `site/assets/img/story-timeline.png`, `pledge-card.png`, `wall/chacha.png`.
 
+Real photos: `site/assets/img/real/` holds two credited family photos as published by LADbible and UNILAD. They render only when `CONFIG.SHOW_REAL_PHOTOS` is `true` (see the README in that folder); the Instagram embed of Complex's post is on by default.
+
 ## Repo map
 
 ```
@@ -60,4 +67,4 @@ scripts/     export.mjs (SVG → PNG)
 
 ## Guardrails (read before posting anything)
 
-Not affiliated with Cha Cha's family or Senoia Animal Hospital. No real photos of Cha Cha. No naming or targeting clinic staff. No promises of returns. Full list in `docs/02-BRAND.md`.
+Not affiliated with Cha Cha's family or Senoia Animal Hospital. Real photos only credited, never memed, never the one with their son. No naming or targeting clinic staff. No promises of returns. Full list in `docs/02-BRAND.md`.

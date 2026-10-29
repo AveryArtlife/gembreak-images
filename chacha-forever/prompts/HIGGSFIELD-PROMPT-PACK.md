@@ -7,15 +7,15 @@ For Codex to run through Higgsfield (image + video). Read `CODEX-RUNBOOK.md` fir
 ## 0. Master style (prepend to every image prompt)
 
 ```
-MASTER STYLE: Cha Cha, a chubby fawn pug with a black mask and black folded ears, huge round glossy dark eyes, a small pink tongue tip, slightly worried forehead wrinkles, a red collar with a round gold star tag, and a GOLD HALO floating just above her head tilted about 12 degrees like it slipped. Stylised 3D character render, Pixar/DreamWorks quality, soft subsurface skin, short velvety fur, big-head proportions (head ≈ 45% of body), expressive and joyful. Lighting: warm key light from upper left, cool rim light, gentle gold bounce from the halo. Palette: pug fawn #E9C98F, mask black #1B1B1F, cha gold #F5B82E, heaven blue #9ED3FF, night navy #0B0F1A, cloud white #F8F7F2. Clean, premium, memecoin-ready. No text anywhere in the image.
+MASTER STYLE: Cha Cha, a real ALL-BLACK pug drawn to be recognisably her (likeness references: brand/reference/chacha-leash.jpg, brand/reference/chacha-face-crop.jpg, brand/reference/chacha-sweater.jpg). Glossy jet-black short coat with a soft charcoal sheen on the forehead and muzzle folds, small velvety black button ears folded forward, a very short muzzle, deep forehead wrinkles, big round dark-brown eyes with a sliver of white showing when she looks up (her signature pleading look-up), a slight underbite, a pink braided rope collar (her leash) with a silver clasp and a round gold star tag, and a GOLD HALO floating just above her head tilted about 12 degrees like it slipped. Stylised 3D character render, Pixar/DreamWorks quality, soft subsurface skin, short velvety fur, big-head proportions (head ≈ 45% of body), expressive and joyful. Lighting is the whole job with a black dog: warm key light from upper left, a strong cool-blue rim light from the right, gold bounce from the halo, so every fold reads and she is never a black blob. Backgrounds mid-to-light (heaven blue, cream, gold, soft clouds) so she pops. Palette: pug black #15151A, charcoal sheen #4E4E58, collar pink #F28CB1, cha gold #F5B82E, heaven blue #9ED3FF, night navy #0B0F1A, cloud white #F8F7F2. Clean, premium, memecoin-ready. No text anywhere in the image.
 ```
 
 **Negative (use on every image):**
 ```
-text, letters, watermark, logo, signature, extra limbs, deformed eyes, two halos, realistic photo of a real dog, sad expression, tears, veterinary table, syringe, needle, cage, gravestone, blood, hospital signage, human faces, cropped head, blurry, low-res, muddy colours, grey halo, silver halo
+text, letters, watermark, logo, signature, extra limbs, deformed eyes, two halos, fawn pug, tan fur, brown fur, grey dog, black mask on tan body, red collar, silhouette, underexposed, crushed blacks, face lost in shadow, sad expression, tears, veterinary table, syringe, needle, cage, gravestone, blood, hospital signage, human faces, cropped head, blurry, low-res, muddy colours, grey halo, silver halo
 ```
 
-**Character consistency:** attach `brand/exports/cha-mark-1024x1024.png` as the reference/character image on every generation (Higgsfield character / reference-image input, strength ~0.6–0.7). Keep the seed fixed per batch once a good Cha Cha appears; vary only the scene prompt.
+**Character consistency and likeness:** attach `brand/exports/cha-mark-1024x1024.png` (the drawn character) AND `brand/reference/chacha-face-crop.jpg` (the real dog) as reference images on every generation (Higgsfield character / reference-image inputs, strength ~0.6–0.7). The real photo sets the likeness (head shape, ear size, eye spacing, the look-up pose); the drawn mark sets the style (halo, collar, proportions). Never output the real photo itself. Keep the seed fixed per batch once a good Cha Cha appears; vary only the scene prompt.
 
 **Aspect ratios used:** 1:1 (1024 or 2048), 16:9 (1920×1080 / 1600×900), 3:1 (3000×1000), 9:16 (1080×1920 video), 1.91:1 (1200×630).
 
@@ -27,7 +27,7 @@ text, letters, watermark, logo, signature, extra limbs, deformed eyes, two halos
 |---|---|---|---|
 | S1 | `site/assets/img/story-timeline.png` | 1600×900 | A gentle five-panel illustrated strip, left to right, same stylised 3D world, **no text**: (1) a small cosy house at dusk with a warm window, a pug silhouette in the doorway; (2) a glowing phone screen on a kitchen table showing a blurred happy pug photo, a hand reaching toward it; (3) Cha Cha standing proud and healthy on a lawn in sunshine, halo bright; (4) the same lawn now empty under grey-blue sky, only the halo floating; (5) Cha Cha dancing on a cloud at golden hour, halo back on, confetti of gold stars. Soft vignette between panels, consistent camera height, cinematic, emotional but never graphic. |
 | S2 | `site/assets/img/pledge-card.png` | 1600×900 | Cha Cha sitting on a stack of three oversized gold coins (plain coins, no text) beside a small golden donation box with a paw-print slot; little paper hearts float up from the box; soft clouds behind, heaven-blue to navy gradient; a tiny gavel rests on the top coin. Composition leaves the left third empty for overlay copy. |
-| S3 | `site/assets/img/wall/chacha.png` | 800×800 | Memorial portrait: Cha Cha head-and-shoulders, gentle smile, eyes bright, halo glowing, looking slightly up-left, soft cloud background in heaven blue, light gold particles. Circular-crop safe (keep the halo inside the inner 80%). |
+| S3 | `site/assets/img/wall/chacha.png` | 800×800 | Memorial portrait that mirrors her leash photo: Cha Cha sitting, looking up at the camera, pink braided collar, gentle closed-mouth smile, halo glowing, soft cloud background in heaven blue, light gold particles. Circular-crop safe (keep the halo inside the inner 80%). |
 | S4 | `site/assets/img/hero-chacha.png` | 2048×2048, transparent | Hero character: full-body Cha Cha mid cha-cha step, left front paw extended, head tilted, halo slipping, tongue out, confident. Transparent background (remove bg in post), 10% padding, no floor shadow. |
 
 ---
@@ -36,7 +36,8 @@ text, letters, watermark, logo, signature, extra limbs, deformed eyes, two halos
 
 | ID | Filename | Size | Prompt |
 |---|---|---|---|
-| P1 | `brand/renders/pfp-01.png` | 1024×1024 | Close-up portrait of Cha Cha looking straight at camera, halo centred, navy radial background, gold rim light, tight crop (eyes on the upper third line). |
+| P1 | `brand/renders/pfp-01.png` | 1024×1024 | Close-up portrait of Cha Cha looking up at the camera exactly like her leash photo, halo centred, heaven-blue radial background (not navy: she is black), gold rim light, tight crop (eyes on the upper third line). |
+| P0 | `brand/renders/likeness-sheet.png` | 2048×2048 | Likeness sheet, 2×2: the same Cha Cha from front, three-quarter, profile and looking-up, flat heaven-blue background. Used to pin the character before any other render (see runbook). |
 | P2 | `brand/renders/pfp-02-wink.png` | 1024×1024 | Same framing as P1, one eye winking, tongue out, halo tilted more. |
 | P3 | `brand/renders/pfp-03-gavel.png` | 1024×1024 | Same framing, Cha Cha holding a tiny wooden gavel in her mouth like a stick, proud. |
 | P4 | `brand/renders/pfp-04-clouds.png` | 1024×1024 | Same framing, background of fluffy cumulus in heaven blue, golden-hour light. |
@@ -62,6 +63,8 @@ All 1080×1080 unless noted. Leave the top 18% and bottom 18% relatively clean f
 | M9 | `memes/m09-diamond-paws.png` | Cha Cha hugging a huge faceted diamond with both paws, eyes sparkling. | Diamond paws |
 | M10 | `memes/m10-forever-wall.png` | A warm golden wall of framed pet portraits stretching into the distance, Cha Cha placing the first frame, each portrait has a small halo. | Add yours to the wall |
 | M11 | `memes/m11-receipt.png` | Cha Cha proudly holding up a long blank paper receipt that curls to the floor, standing next to a gold donation box. | Receipts, not promises |
+| M17 | `memes/m17-hoodie.png` | Cha Cha in an oversized cream hoodie with the hood up, being hugged from behind by a plain cream hoodie sleeve (no person visible), cosy indoor light. Based on the matching-hoodies photo, without the family member. | Matching hoodies forever |
+| M18 | `memes/m18-sweater.png` | Cha Cha in a red Christmas sweater with snowflakes (no text on it), sitting on a grey blanket, deadpan. | Grumpy in red |
 | M12 | `memes/m12-gm.png` | Cha Cha in a tiny bed on a cloud at sunrise, stretching with a yawn, halo on the nightstand next to a coffee cup. | gm |
 | M13 | `memes/m13-crooked-halo.png` | Extreme close-up of Cha Cha's face with the halo hanging off one ear, unbothered. | Halo slightly crooked. Still forever. |
 | M14 | `memes/m14-stare.png` | Cha Cha staring deadpan into the camera, flat lighting, white background (classic reaction-image framing). | (reaction template) |
@@ -108,10 +111,10 @@ All 1080×1080 unless noted. Leave the top 18% and bottom 18% relatively clean f
 
 ## 6. QA rules for every render (Codex checks before saving)
 
-1. Fawn pug, black mask, black ears, red collar, gold star tag, **one gold halo**, tilted. Reject anything else.
+1. All-black pug that is recognisably Cha Cha (compare to `brand/reference/chacha-face-crop.jpg`): black coat, small button ears, short muzzle, big brown eyes, pink braided collar, gold star tag, **one gold halo**, tilted. Reject fawn/tan/grey, reject a red collar, reject any frame where her face is lost in shadow.
 2. No text, letters or logos baked in. Captions and wordmark are added in post.
 3. No sad or clinical imagery (syringe, table, cage, grave). The story is sad; the character is not.
-4. Not a photo of a real dog. Never use the family's photos as reference.
+4. Not a photo. The real photos are likeness references only; they are never the output and never get memed. The site shows them separately, credited (see `site/assets/img/real/README.md`).
 5. Eyes symmetrical and glossy; paws count = 4; halo not grey.
 6. Correct size and filename; PNG for stills (transparent where specified), MP4 H.264 for video.
 7. Stickers: background keyed out cleanly, white outline added, under 512 KB (Telegram limit).

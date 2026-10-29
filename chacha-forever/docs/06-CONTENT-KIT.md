@@ -22,7 +22,7 @@ CA: {CA}
 
 ## Story thread (6 tweets, post at T+5min)
 
-1. `This is Cha Cha. 4 years old. Fawn pug. Coweta County, Georgia. Her family was told she had organ failure and paid Senoia Animal Hospital to euthanize her in March. They said goodbye. 🧵`
+1. `This is Cha Cha. 4 years old. All-black pug, pink braided leash. Coweta County, Georgia. Her family was told she had organ failure and paid Senoia Animal Hospital to euthanize her in March. They said goodbye. 🧵`
 2. `Months later her owner, Rebecca Belote, saw a photo on Facebook. Cha Cha. Alive. Living with a clinic employee. A former worker confirmed it. The employee's husband confirmed it and said she was healthy.`
 3. `The family asked the clinic what happened. According to the family, the clinic took Cha Cha back and euthanized her. "The fact that they put a healthy dog down. That's just sick."`
 4. `It wasn't the first time. Another family says the same clinic kept their cat Annie alive for 18 months after they paid to have her put down. The clinic says it "fell short in honoring the trust the family placed in us."`

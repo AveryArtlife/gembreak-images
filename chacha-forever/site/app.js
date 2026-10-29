@@ -5,6 +5,8 @@ const CONFIG = {
   PLEDGE_WALLET: '',             // public Pledge wallet (50% of creator fees)
   LAUNCH_WALLET: '',             // public launch wallet (1.5–2% creation buy, locked 30d)
   TREASURY_MULTISIG: '',         // Squads 2-of-3
+  SHOW_REAL_PHOTOS: false,       // hosted family photos (site/assets/img/real). Flip to true only per assets/img/real/README.md
+  SHOW_INSTAGRAM_EMBED: true,    // Complex's Instagram post, rendered by Instagram (shows the real photos without hosting them)
   LINKS: {
     x: 'https://x.com/chachaforever',
     telegram: 'https://t.me/chachaforever',
@@ -101,6 +103,14 @@ fetch('wall.json').then(r => r.json()).then(({ pets }) => {
 }).catch(() => {});
 const wallBtn = $('[data-wall-form]');
 if (wallBtn) { if (CONFIG.LINKS.wallForm) wallBtn.href = CONFIG.LINKS.wallForm; else { wallBtn.setAttribute('aria-disabled', 'true'); wallBtn.textContent = 'Submissions open at launch'; } }
+
+// --- the real Cha Cha: hosted photos behind a flag, Instagram embed by default ---
+if (CONFIG.SHOW_REAL_PHOTOS) $$('[data-real-photo]').forEach(f => f.hidden = false);
+const ig = $('[data-ig-embed]');
+if (ig && CONFIG.SHOW_INSTAGRAM_EMBED) {
+  ig.hidden = false;
+  const sc = document.createElement('script'); sc.async = true; sc.src = 'https://www.instagram.com/embed.js'; document.body.appendChild(sc);
+}
 
 // --- marquee duplication for seamless loop ---
 $$('.marquee-track').forEach(t => { t.innerHTML += t.innerHTML; });

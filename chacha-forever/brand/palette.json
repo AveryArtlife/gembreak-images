@@ -2,27 +2,101 @@
   "name": "Cha Cha Forever",
   "ticker": "CHA",
   "colors": {
-    "chaGold":     { "hex": "#F5B82E", "use": "Primary accent: halo, coin rim, CTAs, ticker text" },
-    "pugFawn":     { "hex": "#E9C98F", "use": "Pug fur, warm fills" },
-    "pugFawnDeep": { "hex": "#C9A061", "use": "Fur shading, outlines on light backgrounds" },
-    "maskBlack":   { "hex": "#1B1B1F", "use": "Pug mask/ears, wordmark on light backgrounds" },
-    "heavenBlue":  { "hex": "#9ED3FF", "use": "Sky/cloud backgrounds, 'forever' gradient top" },
-    "nightNavy":   { "hex": "#0B0F1A", "use": "Site background (dark)" },
-    "nightNavy2":  { "hex": "#131A2B", "use": "Cards, panels" },
-    "justiceRed":  { "hex": "#E63946", "use": "Sparingly: 'JUSTICE' stamps, alerts, urgency" },
-    "cloudWhite":  { "hex": "#F8F7F2", "use": "Text on dark, cloud shapes, light background" },
-    "mutedInk":    { "hex": "#9AA3B5", "use": "Secondary text on dark" }
+    "chaGold": {
+      "hex": "#F5B82E",
+      "use": "Primary accent: halo, coin rim, CTAs, ticker text"
+    },
+    "pugBlack": {
+      "hex": "#15151A",
+      "use": "Cha Cha's coat (she is an all-black pug)"
+    },
+    "charcoalSheen": {
+      "hex": "#4E4E58",
+      "use": "Fur highlights, wrinkles, ear edges so black fur reads on dark backgrounds"
+    },
+    "collarPink": {
+      "hex": "#F28CB1",
+      "use": "Her pink braided leash/collar; secondary accent"
+    },
+    "maskBlack": {
+      "hex": "#1B1B1F",
+      "use": "Pug mask/ears, wordmark on light backgrounds"
+    },
+    "heavenBlue": {
+      "hex": "#9ED3FF",
+      "use": "Sky/cloud backgrounds, 'forever' gradient top"
+    },
+    "nightNavy": {
+      "hex": "#0B0F1A",
+      "use": "Site background (dark)"
+    },
+    "nightNavy2": {
+      "hex": "#131A2B",
+      "use": "Cards, panels"
+    },
+    "justiceRed": {
+      "hex": "#E63946",
+      "use": "Sparingly: 'JUSTICE' stamps, alerts, urgency"
+    },
+    "cloudWhite": {
+      "hex": "#F8F7F2",
+      "use": "Text on dark, cloud shapes, light background"
+    },
+    "mutedInk": {
+      "hex": "#9AA3B5",
+      "use": "Secondary text on dark"
+    }
   },
   "gradients": {
     "forever": "linear-gradient(180deg, #9ED3FF 0%, #F8F7F2 100%)",
     "goldShine": "linear-gradient(135deg, #FFE08A 0%, #F5B82E 45%, #C98A0E 100%)",
-    "night": "radial-gradient(1200px 600px at 50% -10%, #1E2A4A 0%, #0B0F1A 60%)"
+    "night": "radial-gradient(1200px 600px at 50% -10%, #1E2A4A 0%, #0B0F1A 60%)",
+    "fur": "radial-gradient(circle at 40% 30%, #4E4E58 0%, #25252C 42%, #0B0B0F 100%)"
   },
   "typography": {
-    "display": { "family": "Fredoka", "weights": [600, 700], "source": "Google Fonts", "use": "Headlines, wordmark fallback, ticker" },
-    "body":    { "family": "Inter",   "weights": [400, 500, 600], "source": "Google Fonts", "use": "Body copy, UI" },
-    "mono":    { "family": "JetBrains Mono", "weights": [500], "source": "Google Fonts", "use": "Contract address, numbers" }
+    "display": {
+      "family": "Fredoka",
+      "weights": [
+        600,
+        700
+      ],
+      "source": "Google Fonts",
+      "use": "Headlines, wordmark fallback, ticker"
+    },
+    "body": {
+      "family": "Inter",
+      "weights": [
+        400,
+        500,
+        600
+      ],
+      "source": "Google Fonts",
+      "use": "Body copy, UI"
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "weights": [
+        500
+      ],
+      "source": "Google Fonts",
+      "use": "Contract address, numbers"
+    }
   },
-  "radius": { "card": "20px", "button": "999px", "coin": "50%" },
-  "motion": { "halo": "float 3s ease-in-out infinite", "coinSpin": "spin 6s linear infinite" }
+  "radius": {
+    "card": "20px",
+    "button": "999px",
+    "coin": "50%"
+  },
+  "motion": {
+    "halo": "float 3s ease-in-out infinite",
+    "coinSpin": "spin 6s linear infinite"
+  },
+  "character": {
+    "breed": "pug",
+    "coat": "all black, glossy",
+    "ears": "small velvet button ears, folded forward",
+    "collar": "pink braided rope (her leash) with silver clasp and gold star tag",
+    "halo": "gold, tilted ~12°",
+    "references": "brand/reference/*.jpg (family photos as published by press; likeness only, never publish from here)"
+  }
 }

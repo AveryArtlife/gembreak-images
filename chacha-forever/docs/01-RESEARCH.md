@@ -8,7 +8,7 @@
 
 | Fact | Detail | Source |
 |---|---|---|
-| Who | Cha Cha, a 4-year-old fawn pug owned by Rebecca Belote and her family (husband, 17-year-old son) of Coweta County, Georgia | WSB-TV (Oct 26, 2026) |
+| Who | Cha Cha, a 4-year-old all-black pug owned by Rebecca Belote and her family (husband, 17-year-old son) of Coweta County, Georgia | WSB-TV (Oct 26, 2026) |
 | What the family was told | In **March 2026** Senoia Animal Hospital said Cha Cha had organ failure and diabetic ketoacidosis and recommended euthanasia. The family paid for it and said goodbye. | WSB-TV, Parade, Yahoo/People |
 | The discovery | Months later Belote saw Cha Cha alive in a Facebook photo. A former clinic worker confirmed an employee had taken the dog home. The employee's husband confirmed it too, saying the dog was healthy. | WSB-TV, Parade |
 | What happened next | After the family pressed for answers, the clinic allegedly took Cha Cha back and euthanized her. "The fact that they put a healthy dog down. That's just sick." | WSB-TV, The Mary Sue |

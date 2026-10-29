@@ -4,7 +4,8 @@ You are Codex. Your job: turn `HIGGSFIELD-PROMPT-PACK.md` into files in this rep
 
 ## Inputs
 - Prompt pack: `prompts/HIGGSFIELD-PROMPT-PACK.md` (IDs S1–S4, P1–P4, B1–B2, M1–M16, K1–K16, V1–V4).
-- Character reference: `brand/exports/cha-mark-1024x1024.png` (attach to every generation).
+- Character reference (style): `brand/exports/cha-mark-1024x1024.png` (attach to every generation).
+- Likeness references (the real dog): `brand/reference/chacha-face-crop.jpg`, `brand/reference/chacha-leash.jpg`, `brand/reference/chacha-sweater.jpg` (attach to every generation; never output or redistribute them).
 - Coin reference (V4 only): `brand/exports/cha-coin-1024x1024.png`.
 - Palette: `brand/palette.json`.
 
@@ -20,7 +21,7 @@ You are Codex. Your job: turn `HIGGSFIELD-PROMPT-PACK.md` into files in this rep
 Create folders as needed. Keep a `brand/renders/MANIFEST.csv` with: `id,filename,seed,model,prompt_hash,qa_pass,notes`.
 
 ## Procedure
-1. **Pin the character.** Generate P1 four times with the reference image attached. Pick the one that best matches `docs/02-BRAND.md › The character` (fawn, black mask, one tilted gold halo, red collar, star tag). Record its seed. Reuse that seed and reference for every still.
+1. **Pin the character.** Generate P0 (likeness sheet) four times with both reference images attached. Put each next to `brand/reference/chacha-face-crop.jpg` and pick the one a stranger would say is the same dog: all-black coat, small button ears, short muzzle, big brown eyes, the look-up pose, pink braided collar, one tilted gold halo. Record its seed. Reuse that seed and both references for every still.
 2. **Batch order:** S1–S4 first (the site needs them), then P/B, then M, then K, then V.
 3. For each entry: `MASTER STYLE + entry prompt`, negative prompt from section 0, aspect ratio from the size column. Generate 2 variations, keep the best, delete the rest.
 4. **Post-processing**
@@ -33,7 +34,7 @@ Create folders as needed. Keep a `brand/renders/MANIFEST.csv` with: `id,filename
 8. Commit with message `Add Higgsfield renders: <ids>` and update `MANIFEST.csv`.
 
 ## Hard rules
-- Never use real photos of Cha Cha or the Belote family as references or outputs.
+- The real photos in `brand/reference/` are references only. Never output them, never meme them, never generate anything with the family's son (a minor) in it.
 - No text in generated images. No hospital or clinic names or logos anywhere.
 - No sad/clinical imagery of the character (see pack section 6).
 - Do not change filenames; the site and content kit depend on them.

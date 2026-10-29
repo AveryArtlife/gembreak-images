@@ -45,7 +45,7 @@ The tagline keeps the justice energy; the name keeps the brand alive. Headlines 
 
 **Don't**
 - Never claim affiliation with the Belote family or Senoia Animal Hospital.
-- Never use the family's real photos of Cha Cha. All art is original (see `prompts/`).
+- Never publish the family's photos without a credit line, never as memes, and never the photo with their son (a minor). Hosted copies stay behind `SHOW_REAL_PHOTOS` until the family has okayed it or the owner accepts the takedown risk; the Instagram embed is the default way to show them (`site/assets/img/real/README.md`).
 - Never post clinic employees' names, faces or addresses, or encourage anyone to. Point to the vet board complaint instead.
 - Never promise price, listings, or returns.
 - No sad-dog art. Cha Cha in our world is radiant, dancing, haloed. The sadness is in the story, not the character.
@@ -54,14 +54,20 @@ The tagline keeps the justice energy; the name keeps the brand alive. Headlines 
 
 ## The character: Cha Cha
 
-- Fawn pug, black mask and ears, big round eyes, tongue-out half the time.
+Drawn from her real photos (`brand/reference/`). She has to be recognisably the same dog.
+
+- **All-black pug.** Glossy jet-black coat with a charcoal sheen on the forehead and muzzle folds. Never fawn, never tan, never a black mask on a lighter body.
+- Small velvety button ears folded forward. Very short muzzle, deep forehead wrinkles, a slight underbite.
+- Big round dark-brown eyes with a sliver of white when she looks up. The look-up is her signature pose (the leash photo).
+- **Pink braided rope collar**, her actual leash, with a silver clasp and a round gold "$CHA" star tag.
 - **A gold halo**, always slightly tilted (she's a pug, it slipped).
-- One ear flopped forward. Head tilt 10°.
+- Outfits from her real photos, used sparingly: the cream hoodie (matching the family's), the red Christmas sweater.
 - She dances. Default pose: mid cha-cha, one paw out.
-- Accessories (sparingly): a tiny gavel, a gold "$CHA" tag on her collar, clouds.
+- Lighting rule for a black dog: strong rim light, mid-to-light backgrounds (heaven blue, cream, gold). On navy, a gold glow behind her. Never a black blob.
 - Never: tears, a vet table, a syringe, a cage, a gravestone.
 
----
+### Real photos next to the character
+The imagery audit (`docs/07-IMAGERY-AUDIT.md`) says the winning pattern for real-animal coins is a cartoon that reproduces the recognisable real image, with the real photos circulating alongside it. So: the **character** is the token image, the memes, the stickers and the merch; the **real photos** appear credited in story contexts (site, press, "this is her" posts). Rules are in `site/assets/img/real/README.md`.
 
 ## Visual identity
 
@@ -70,7 +76,7 @@ The tagline keeps the justice energy; the name keeps the brand alive. Headlines 
 |---|---|
 | `cha-mark.svg` | The pug-with-halo mark, transparent background. Stickers, favicon, watermark. |
 | `cha-coin.svg` | Mark inside a gold coin with "$CHA" rim text. Token image on pump.fun, DexScreener, CoinGecko. Export at 512×512 and 1024×1024. |
-| `cha-avatar.svg` | Mark on navy circle. X/TG/TikTok profile picture (400×400). |
+| `cha-avatar.svg` | Mark on a heaven-blue sky circle (black dog needs a light ground). X/TG/TikTok profile picture (400×400). |
 | `cha-wordmark.svg` | "CHA CHA" stacked with "FOREVER" ribbon. |
 | `cha-lockup.svg` | Horizontal lockup: coin + wordmark. Site header, press. |
 | `cha-banner.svg` | 1500×500 X header / 1920×1080 OG image base. |
@@ -79,7 +85,9 @@ The tagline keeps the justice energy; the name keeps the brand alive. Headlines 
 | Token | Hex | Role |
 |---|---|---|
 | Cha Gold | `#F5B82E` | Halo, coin rim, CTAs |
-| Pug Fawn | `#E9C98F` | Fur |
+| Pug Black | `#15151A` | Her coat |
+| Charcoal Sheen | `#4E4E58` | Fur highlights, wrinkles, ear edges |
+| Collar Pink | `#F28CB1` | Her braided leash/collar, secondary accent |
 | Mask Black | `#1B1B1F` | Mask, ears, wordmark on light |
 | Heaven Blue | `#9ED3FF` | Sky, "forever" gradient |
 | Night Navy | `#0B0F1A` | Site background |
