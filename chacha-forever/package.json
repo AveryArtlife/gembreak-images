@@ -1,0 +1,11 @@
+{
+  "name": "chacha-forever",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cha Cha Forever ($CHA) launch kit: docs, brand, site, prompts",
+  "scripts": {
+    "export": "node scripts/export.mjs",
+    "dev": "npx serve site"
+  }
+}
