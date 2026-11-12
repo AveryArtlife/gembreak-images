@@ -1,0 +1,7 @@
+{
+  "note": "The Forever Wall. Add one object per pet. Keep photos under 400KB, square, in assets/img/wall/. Cha Cha stays first.",
+  "pets": [
+    { "name": "Cha Cha", "kind": "Pug · Coweta County, GA", "years": "2022 – 2026", "img": "assets/img/wall/chacha.png", "note": "The one who started it. Forever." },
+    { "name": "Annie", "kind": "Cat · Senoia, GA", "years": "", "img": "", "note": "Kept 18 months after her family said goodbye at the same clinic." }
+  ]
+}

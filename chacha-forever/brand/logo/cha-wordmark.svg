@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Cha Cha Forever wordmark">
+  <defs>
+    <linearGradient id="halo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE994"/><stop offset="0.5" stop-color="#F5B82E"/><stop offset="1" stop-color="#C98A0E"/></linearGradient>
+  </defs>
+  <text x="600" y="215" text-anchor="middle" font-family="Fredoka, 'Arial Rounded MT Bold', 'Nunito', 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="210" fill="#F8F7F2" stroke="#0B0F1A" stroke-width="10" paint-order="stroke" letter-spacing="-4">CHA CHA</text>
+  <text x="600" y="330" text-anchor="middle" font-family="Fredoka, 'Arial Rounded MT Bold', 'Nunito', 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="78" fill="url(#halo)" stroke="#0B0F1A" stroke-width="8" paint-order="stroke" letter-spacing="26">FOREVER</text>
+  <g transform="rotate(-12 992 92)"><ellipse cx="992" cy="92" rx="52" ry="13" fill="none" stroke="url(#halo)" stroke-width="11"/></g>
+</svg>
