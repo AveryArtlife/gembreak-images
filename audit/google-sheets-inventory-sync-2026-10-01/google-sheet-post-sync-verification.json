@@ -1,0 +1,20 @@
+{
+  "spreadsheet_id": "1jio2i6Xpn5gMIqgreTuNOrJ76IGUbT7aDh7FMFqwRrY",
+  "sheet": "Master Inventory",
+  "verified_range": "H2:I1557",
+  "github_repository": "AveryArtlife/gembreak-images",
+  "github_branch": "codex/clean-watch-images",
+  "github_revision": "c7cb825fd49ddac8603fc04740296e2c78cfd99e",
+  "inventory_rows": 1555,
+  "unique_skus": 1555,
+  "populated_image_urls": 1555,
+  "exact_sku_filename_matches": 1555,
+  "blank_sku_or_image_url_rows": 0,
+  "image_url_mismatches": 0,
+  "identity_gate_failures": 0,
+  "non_watch_titles": 0,
+  "image_hard_gate_reviews": 0,
+  "image_acceptable_variations": 1,
+  "active_catalog_white_background_failures": 0,
+  "status": "verified"
+}
